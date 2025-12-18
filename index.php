@@ -5,10 +5,10 @@ $pokedex = json_decode($json_data, true);
 
 // 2. CONFIGURATION
 $lang = isset($_GET['lang']) && $_GET['lang'] === 'fr' ? 'fr' : 'en';
-$sort_order = isset($_GET['sort']) ? $_GET['sort'] : 'id'; // id ou name
+$sort_order = isset($_GET['sort']) ? $_GET['sort'] : 'id';
 $filter_type = isset($_GET['type']) ? $_GET['type'] : null;
 
-// TRADUCTIONS
+// TRADUCTIONS INTERFACE
 $tr = [
     'fr' => [
         'title' => 'Pokédex Complet',
@@ -20,8 +20,8 @@ $tr = [
         'switch_lang' => 'English Version', 'switch_link' => 'en',
         'hp' => 'PV', 'attack' => 'Attaque', 'defense' => 'Défense', 
         'special-attack' => 'Atq. Spé', 'special-defense' => 'Déf. Spé', 'speed' => 'Vitesse',
-        'sort_label' => 'Trier par :', 'sort_id' => 'Numéro', 'sort_name' => 'Nom (A-Z)',
-        'all_types' => 'Tous'
+        'sort_label' => 'Trier :', 'sort_id' => 'Numéro', 'sort_name' => 'Nom (A-Z)',
+        'type_label' => 'Type :', 'all_types' => 'Tous les types'
     ],
     'en' => [
         'title' => 'Cool Pokemon Games - Pokedex',
@@ -33,28 +33,45 @@ $tr = [
         'switch_lang' => 'Version Française', 'switch_link' => 'fr',
         'hp' => 'HP', 'attack' => 'Attack', 'defense' => 'Defense', 
         'special-attack' => 'Sp. Atk', 'special-defense' => 'Sp. Def', 'speed' => 'Speed',
-        'sort_label' => 'Sort by:', 'sort_id' => 'Number', 'sort_name' => 'Name (A-Z)',
-        'all_types' => 'All'
+        'sort_label' => 'Sort:', 'sort_id' => 'Number', 'sort_name' => 'Name (A-Z)',
+        'type_label' => 'Type:', 'all_types' => 'All Types'
     ]
 ];
 $t = $tr[$lang]; 
 
-// LISTE DES TYPES POUR LE MENU
-$all_types_slugs = ['normal', 'fire', 'water', 'grass', 'electric', 'ice', 'fighting', 'poison', 'ground', 'flying', 'psychic', 'bug', 'rock', 'ghost', 'dragon', 'steel', 'dark', 'fairy'];
+// TRADUCTION DES TYPES (Pour le menu déroulant)
+$type_names = [
+    'normal' => ['fr' => 'Normal', 'en' => 'Normal'],
+    'fire' => ['fr' => 'Feu', 'en' => 'Fire'],
+    'water' => ['fr' => 'Eau', 'en' => 'Water'],
+    'grass' => ['fr' => 'Plante', 'en' => 'Grass'],
+    'electric' => ['fr' => 'Électrik', 'en' => 'Electric'],
+    'ice' => ['fr' => 'Glace', 'en' => 'Ice'],
+    'fighting' => ['fr' => 'Combat', 'en' => 'Fighting'],
+    'poison' => ['fr' => 'Poison', 'en' => 'Poison'],
+    'ground' => ['fr' => 'Sol', 'en' => 'Ground'],
+    'flying' => ['fr' => 'Vol', 'en' => 'Flying'],
+    'psychic' => ['fr' => 'Psy', 'en' => 'Psychic'],
+    'bug' => ['fr' => 'Insecte', 'en' => 'Bug'],
+    'rock' => ['fr' => 'Roche', 'en' => 'Rock'],
+    'ghost' => ['fr' => 'Spectre', 'en' => 'Ghost'],
+    'dragon' => ['fr' => 'Dragon', 'en' => 'Dragon'],
+    'steel' => ['fr' => 'Acier', 'en' => 'Steel'],
+    'dark' => ['fr' => 'Ténèbres', 'en' => 'Dark'],
+    'fairy' => ['fr' => 'Fée', 'en' => 'Fairy']
+];
 
-// 3. LOGIQUE DE TRI
+// LOGIQUE DE TRI
 if ($sort_order === 'name') {
     usort($pokedex, function($a, $b) use ($lang) {
         return strcmp($a['noms'][$lang], $b['noms'][$lang]);
     });
 }
-// (Par défaut le JSON est déjà trié par ID, donc pas besoin de else)
 
-// 4. ROUTEUR
+// ROUTEUR
 $request = trim($_SERVER['REQUEST_URI'], '/');
 $request = strtok($request, '?');
 $request = urldecode($request);
-
 $pokemon_actuel = null;
 $famille_data = [];
 
@@ -69,8 +86,6 @@ if (!empty($request)) {
     if ($pokemon_actuel && !empty($pokemon_actuel['famille'])) {
         foreach ($pokemon_actuel['famille'] as $membre_nom) {
             foreach ($pokedex as $p_search) {
-                // On cherche dans le JSON d'origine (donc attention si trié, on parcours tout)
-                // Note : Pour optimiser on pourrait utiliser un tableau indexé par ID, mais pour 1000 items ça va vite.
                  if ($p_search['noms']['en'] == ucfirst($membre_nom)) { 
                     $famille_data[] = $p_search;
                     break; 
@@ -101,33 +116,33 @@ function getTypeColor($type_slug) {
     
     <style>
         body { font-family: 'Segoe UI', sans-serif; background: #f0f2f5; color: #333; margin: 0; padding: 20px; }
-        .container { max-width: 1100px; margin: 0 auto; } /* Un peu plus large pour le menu */
+        .container { max-width: 1100px; margin: 0 auto; }
         a { text-decoration: none; color: inherit; }
         .lang-switch { position: absolute; top: 20px; right: 20px; background: #333; color: white; padding: 5px 12px; border-radius: 20px; font-size: 0.85em; font-weight:bold; z-index: 100;}
         
-        /* HEADER & MENU TYPES */
-        .list-header { text-align: center; margin-bottom: 20px; }
-        
-        .types-nav { display: flex; gap: 10px; overflow-x: auto; padding: 10px 0; margin-bottom: 20px; white-space: nowrap; -webkit-overflow-scrolling: touch; scrollbar-width: none;}
-        .types-nav::-webkit-scrollbar { display: none; } /* Cache la scrollbar */
-        .type-nav-item { padding: 8px 16px; border-radius: 20px; font-weight: bold; font-size: 0.9em; color: white; opacity: 0.7; transition: 0.3s; flex-shrink: 0;}
-        .type-nav-item:hover, .type-nav-item.active { opacity: 1; transform: scale(1.05); box-shadow: 0 4px 10px rgba(0,0,0,0.2); }
-        
-        .controls-bar { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; flex-wrap: wrap; gap: 10px;}
-        .search-input { padding: 10px 15px; border-radius: 20px; border: 1px solid #ddd; width: 250px; }
-        .sort-select { padding: 10px; border-radius: 20px; border: 1px solid #ddd; background: white; cursor: pointer;}
+        /* BARRE DE CONTRÔLE UNIFIÉE */
+        .controls-bar { 
+            background: white; padding: 15px 25px; border-radius: 30px; box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+            display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 15px; margin-bottom: 30px;
+        }
+        .search-group { flex: 1; min-width: 250px; }
+        .search-input { width: 100%; padding: 10px 15px; border: 1px solid #eee; border-radius: 20px; font-size: 1em; outline: none; background: #f9f9f9; }
+        .search-input:focus { border-color: #ccc; background: white; }
+
+        .filters-group { display: flex; gap: 15px; align-items: center; }
+        .custom-select { padding: 10px 15px; border-radius: 20px; border: 1px solid #eee; background: #f9f9f9; cursor: pointer; font-size: 0.9em; outline: none; }
+        .custom-select:hover { background: #eee; }
 
         /* GRID */
         .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 20px; }
         .card { background: white; padding: 15px; border-radius: 16px; text-align: center; box-shadow: 0 2px 10px rgba(0,0,0,0.03); transition: transform 0.2s; border: 1px solid white; display: block; position: relative;}
         .card:hover { transform: translateY(-5px); box-shadow: 0 8px 20px rgba(0,0,0,0.08); }
         .card img { width: 100px; height: 100px; object-fit: contain; margin-bottom: 10px; }
-        .card-id { color: #ccc; font-weight: bold; font-size: 0.8em; position: absolute; top: 10px; right: 15px; } /* ID en haut à droite */
-        
+        .card-id { color: #ccc; font-weight: bold; font-size: 0.8em; position: absolute; top: 10px; right: 15px; }
         .type-pill { color: white; padding: 3px 8px; border-radius: 10px; font-size: 0.7em; margin: 2px; display: inline-block; font-weight: 600; }
         .card.hidden { display: none !important; }
 
-        /* DÉTAIL (Styles inchangés ou presque) */
+        /* DÉTAIL */
         .detail-card { background: white; border-radius: 24px; padding: 40px; box-shadow: 0 15px 40px rgba(0,0,0,0.08); max-width: 800px; margin: 40px auto; position: relative;}
         .detail-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 20px; }
         .detail-img { display: block; margin: 0 auto -20px auto; width: 300px; max-width: 100%; filter: drop-shadow(0 10px 15px rgba(0,0,0,0.2)); }
@@ -208,36 +223,29 @@ function getTypeColor($type_slug) {
         </div>
 
     <?php else: ?>
-        <div class="list-header">
+        <div class="list-header" style="text-align:center; margin-bottom:20px;">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/poke-ball.png" width="50" style="margin-bottom:10px;">
             <h1 style="margin:0; font-size:1.8em;"><?php echo $t['title']; ?></h1>
         </div>
 
-        <div class="types-nav">
-            <a href="/?lang=<?php echo $lang; ?>&sort=<?php echo $sort_order; ?>" 
-               class="type-nav-item" 
-               style="background-color: #333;">
-               <?php echo $t['all_types']; ?>
-            </a>
-            
-            <?php foreach($all_types_slugs as $slug): ?>
-                <a href="/?type=<?php echo $slug; ?>&lang=<?php echo $lang; ?>&sort=<?php echo $sort_order; ?>" 
-                   class="type-nav-item <?php echo ($filter_type == $slug) ? 'active' : ''; ?>" 
-                   style="background-color: <?php echo getTypeColor($slug); ?>;">
-                   <?php echo ucfirst($slug); ?>
-                </a>
-            <?php endforeach; ?>
-        </div>
-
         <div class="controls-bar">
-            <input type="text" id="searchInput" class="search-input" placeholder="<?php echo $t['search_placeholder']; ?>">
+            <div class="search-group">
+                <input type="text" id="searchInput" class="search-input" placeholder="<?php echo $t['search_placeholder']; ?>">
+            </div>
             
-            <form method="GET" action="/">
+            <form method="GET" action="/" class="filters-group">
                 <input type="hidden" name="lang" value="<?php echo $lang; ?>">
-                <?php if($filter_type): ?><input type="hidden" name="type" value="<?php echo $filter_type; ?>"><?php endif; ?>
                 
-                <span style="font-size:0.9em; font-weight:bold; margin-right:5px;"><?php echo $t['sort_label']; ?></span>
-                <select name="sort" class="sort-select" onchange="this.form.submit()">
+                <select name="type" class="custom-select" onchange="this.form.submit()">
+                    <option value=""><?php echo $t['all_types']; ?></option>
+                    <?php foreach($type_names as $slug => $names): ?>
+                        <option value="<?php echo $slug; ?>" <?php echo $filter_type == $slug ? 'selected' : ''; ?>>
+                            <?php echo $names[$lang]; ?>
+                        </option>
+                    <?php endforeach; ?>
+                </select>
+
+                <select name="sort" class="custom-select" onchange="this.form.submit()">
                     <option value="id" <?php echo $sort_order == 'id' ? 'selected' : ''; ?>><?php echo $t['sort_id']; ?></option>
                     <option value="name" <?php echo $sort_order == 'name' ? 'selected' : ''; ?>><?php echo $t['sort_name']; ?></option>
                 </select>
@@ -264,7 +272,7 @@ function getTypeColor($type_slug) {
                     
                     <div>
                         <?php foreach($pokemon['types'] as $type_obj): ?>
-                             <object><a href="/?type=<?php echo $type_obj['slug']; ?>&lang=<?php echo $lang; ?>&sort=<?php echo $sort_order; ?>" class="type-pill" style="background-color: <?php echo getTypeColor($type_obj['slug']); ?>">
+                            <object><a href="/?type=<?php echo $type_obj['slug']; ?>&lang=<?php echo $lang; ?>&sort=<?php echo $sort_order; ?>" class="type-pill" style="background-color: <?php echo getTypeColor($type_obj['slug']); ?>">
                                 <?php echo $type_obj[$lang]; ?>
                             </a></object>
                         <?php endforeach; ?>
