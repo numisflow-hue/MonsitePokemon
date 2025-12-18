@@ -1,43 +1,49 @@
 <?php
 // 1. CHARGEMENT DES DONNÉES
-// On récupère le contenu du fichier JSON
 $json_data = file_get_contents('pokedex.json');
-// On le transforme en tableau PHP utilisable
 $pokedex = json_decode($json_data, true);
 
-// 2. LE ROUTEUR (Le cerveau du site)
-// On regarde si l'URL contient "?id=..."
+// 2. LE ROUTEUR INTELLIGENT (URL REWRITING)
+// On récupère l'adresse demandée (ex: "/pikachu") et on enlève les "/"
+$request = trim($_SERVER['REQUEST_URI'], '/');
+
+// On nettoie l'URL (au cas où il y a des paramètres bizarres)
+$request = strtok($request, '?');
+
 $pokemon_actuel = null;
-if (isset($_GET['id'])) {
-    // On cherche le Pokémon correspondant à l'ID demandé
+
+// Si l'URL n'est pas vide, on cherche le Pokémon correspondant par son NOM
+if (!empty($request)) {
     foreach ($pokedex as $p) {
-        if ($p['id'] == $_GET['id']) {
+        // On compare le nom (en minuscule) avec l'URL (en minuscule)
+        // ex: on compare "pikachu" avec "pikachu"
+        if (strtolower($p['nom']) == strtolower($request)) {
             $pokemon_actuel = $p;
             break;
         }
     }
 }
 
-// 3. AFFICHAGE (Le HTML)
+// 3. AFFICHAGE (HTML)
 ?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <base href="/"> 
+    
     <title><?php echo $pokemon_actuel ? $pokemon_actuel['nom'] . " - Fiche Pokédex" : "Mon Super Pokédex"; ?></title>
     
     <style>
         body { font-family: sans-serif; background-color: #f4f4f4; padding: 20px; text-align: center; }
         .container { max-width: 800px; margin: 0 auto; }
         
-        /* Style de la grille (Accueil) */
         .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 15px; }
         .card { background: white; padding: 15px; border-radius: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); text-decoration: none; color: black; transition: transform 0.2s; }
         .card:hover { transform: translateY(-5px); }
         .card img { max-width: 100px; }
         
-        /* Style de la fiche détail */
         .detail-card { background: white; padding: 30px; border-radius: 15px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); display: inline-block; }
         .detail-img { max-width: 300px; }
         .stats-table { margin: 20px auto; width: 100%; max-width: 400px; text-align: left; }
@@ -72,16 +78,16 @@ if (isset($_GET['id'])) {
                 <?php endforeach; ?>
             </table>
 
-            <a href="index.php" class="btn-retour">← Retour au Pokédex</a>
+            <a href="/" class="btn-retour">← Retour au Pokédex</a>
         </div>
 
     <?php else: ?>
-        <h1>Bienvenue sur le Pokédex</h1>
-        <p>Choisis un Pokémon pour voir ses stats !</p>
+        <h1>Bienvenue sur le Pokédex SEO</h1>
+        <p>Choisis un Pokémon (URLs propres !) :</p>
         
         <div class="grid">
             <?php foreach ($pokedex as $pokemon): ?>
-                <a href="?id=<?php echo $pokemon['id']; ?>" class="card">
+                <a href="<?php echo strtolower($pokemon['nom']); ?>" class="card">
                     <img src="<?php echo $pokemon['thumbnail']; ?>" alt="<?php echo $pokemon['nom']; ?>">
                     <h3><?php echo $pokemon['nom']; ?></h3>
                     <?php foreach($pokemon['types'] as $type): ?>
