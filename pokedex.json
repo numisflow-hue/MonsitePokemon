@@ -7,9 +7,13 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
         "types": [
-            "grass",
-            "poison"
+            "Plante",
+            "Poison"
         ],
+        "talents": [
+            "Overgrow"
+        ],
+        "evolue_de": null,
         "stats": {
             "PV": 45,
             "Attaque": 49,
@@ -29,9 +33,13 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/2.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png",
         "types": [
-            "grass",
-            "poison"
+            "Plante",
+            "Poison"
         ],
+        "talents": [
+            "Overgrow"
+        ],
+        "evolue_de": "bulbasaur",
         "stats": {
             "PV": 60,
             "Attaque": 62,
@@ -51,9 +59,13 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/3.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png",
         "types": [
-            "grass",
-            "poison"
+            "Plante",
+            "Poison"
         ],
+        "talents": [
+            "Overgrow"
+        ],
+        "evolue_de": "ivysaur",
         "stats": {
             "PV": 80,
             "Attaque": 82,
@@ -73,8 +85,12 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/4.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png",
         "types": [
-            "fire"
+            "Feu"
         ],
+        "talents": [
+            "Blaze"
+        ],
+        "evolue_de": null,
         "stats": {
             "PV": 39,
             "Attaque": 52,
@@ -94,8 +110,12 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/5.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png",
         "types": [
-            "fire"
+            "Feu"
         ],
+        "talents": [
+            "Blaze"
+        ],
+        "evolue_de": "charmander",
         "stats": {
             "PV": 58,
             "Attaque": 64,
@@ -115,9 +135,13 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png",
         "types": [
-            "fire",
-            "flying"
+            "Feu",
+            "Vol"
         ],
+        "talents": [
+            "Blaze"
+        ],
+        "evolue_de": "charmeleon",
         "stats": {
             "PV": 78,
             "Attaque": 84,
@@ -137,8 +161,12 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/7.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png",
         "types": [
-            "water"
+            "Eau"
         ],
+        "talents": [
+            "Torrent"
+        ],
+        "evolue_de": null,
         "stats": {
             "PV": 44,
             "Attaque": 48,
@@ -158,8 +186,12 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/8.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/8.png",
         "types": [
-            "water"
+            "Eau"
         ],
+        "talents": [
+            "Torrent"
+        ],
+        "evolue_de": "squirtle",
         "stats": {
             "PV": 59,
             "Attaque": 63,
@@ -179,8 +211,12 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/9.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png",
         "types": [
-            "water"
+            "Eau"
         ],
+        "talents": [
+            "Torrent"
+        ],
+        "evolue_de": "wartortle",
         "stats": {
             "PV": 79,
             "Attaque": 83,
@@ -200,8 +236,12 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10.png",
         "types": [
-            "bug"
+            "Insecte"
         ],
+        "talents": [
+            "Shield dust"
+        ],
+        "evolue_de": null,
         "stats": {
             "PV": 45,
             "Attaque": 30,
@@ -221,8 +261,12 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/11.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/11.png",
         "types": [
-            "bug"
+            "Insecte"
         ],
+        "talents": [
+            "Shed skin"
+        ],
+        "evolue_de": "caterpie",
         "stats": {
             "PV": 50,
             "Attaque": 20,
@@ -242,9 +286,13 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/12.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/12.png",
         "types": [
-            "bug",
-            "flying"
+            "Insecte",
+            "Vol"
         ],
+        "talents": [
+            "Compound eyes"
+        ],
+        "evolue_de": "metapod",
         "stats": {
             "PV": 60,
             "Attaque": 45,
@@ -264,9 +312,13 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/13.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/13.png",
         "types": [
-            "bug",
-            "poison"
+            "Insecte",
+            "Poison"
         ],
+        "talents": [
+            "Shield dust"
+        ],
+        "evolue_de": null,
         "stats": {
             "PV": 40,
             "Attaque": 35,
@@ -286,9 +338,13 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/14.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/14.png",
         "types": [
-            "bug",
-            "poison"
+            "Insecte",
+            "Poison"
         ],
+        "talents": [
+            "Shed skin"
+        ],
+        "evolue_de": "weedle",
         "stats": {
             "PV": 45,
             "Attaque": 25,
@@ -308,9 +364,13 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/15.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/15.png",
         "types": [
-            "bug",
-            "poison"
+            "Insecte",
+            "Poison"
         ],
+        "talents": [
+            "Swarm"
+        ],
+        "evolue_de": "kakuna",
         "stats": {
             "PV": 65,
             "Attaque": 90,
@@ -330,9 +390,14 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/16.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/16.png",
         "types": [
-            "normal",
-            "flying"
+            "Normal",
+            "Vol"
         ],
+        "talents": [
+            "Keen eye",
+            "Tangled feet"
+        ],
+        "evolue_de": null,
         "stats": {
             "PV": 40,
             "Attaque": 45,
@@ -352,9 +417,14 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/17.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/17.png",
         "types": [
-            "normal",
-            "flying"
+            "Normal",
+            "Vol"
         ],
+        "talents": [
+            "Keen eye",
+            "Tangled feet"
+        ],
+        "evolue_de": "pidgey",
         "stats": {
             "PV": 63,
             "Attaque": 60,
@@ -374,9 +444,14 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/18.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/18.png",
         "types": [
-            "normal",
-            "flying"
+            "Normal",
+            "Vol"
         ],
+        "talents": [
+            "Keen eye",
+            "Tangled feet"
+        ],
+        "evolue_de": "pidgeotto",
         "stats": {
             "PV": 83,
             "Attaque": 80,
@@ -396,8 +471,13 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/19.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/19.png",
         "types": [
-            "normal"
+            "Normal"
         ],
+        "talents": [
+            "Run away",
+            "Guts"
+        ],
+        "evolue_de": null,
         "stats": {
             "PV": 30,
             "Attaque": 56,
@@ -417,8 +497,13 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/20.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/20.png",
         "types": [
-            "normal"
+            "Normal"
         ],
+        "talents": [
+            "Run away",
+            "Guts"
+        ],
+        "evolue_de": "rattata",
         "stats": {
             "PV": 55,
             "Attaque": 81,
@@ -438,9 +523,13 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/21.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/21.png",
         "types": [
-            "normal",
-            "flying"
+            "Normal",
+            "Vol"
         ],
+        "talents": [
+            "Keen eye"
+        ],
+        "evolue_de": null,
         "stats": {
             "PV": 40,
             "Attaque": 60,
@@ -460,9 +549,13 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/22.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/22.png",
         "types": [
-            "normal",
-            "flying"
+            "Normal",
+            "Vol"
         ],
+        "talents": [
+            "Keen eye"
+        ],
+        "evolue_de": "spearow",
         "stats": {
             "PV": 65,
             "Attaque": 90,
@@ -482,8 +575,13 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/23.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/23.png",
         "types": [
-            "poison"
+            "Poison"
         ],
+        "talents": [
+            "Intimidate",
+            "Shed skin"
+        ],
+        "evolue_de": null,
         "stats": {
             "PV": 35,
             "Attaque": 60,
@@ -503,8 +601,13 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/24.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/24.png",
         "types": [
-            "poison"
+            "Poison"
         ],
+        "talents": [
+            "Intimidate",
+            "Shed skin"
+        ],
+        "evolue_de": "ekans",
         "stats": {
             "PV": 60,
             "Attaque": 95,
@@ -524,8 +627,12 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png",
         "types": [
-            "electric"
+            "\u00c9lectrik"
         ],
+        "talents": [
+            "Static"
+        ],
+        "evolue_de": "pichu",
         "stats": {
             "PV": 35,
             "Attaque": 55,
@@ -545,8 +652,12 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/26.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/26.png",
         "types": [
-            "electric"
+            "\u00c9lectrik"
         ],
+        "talents": [
+            "Static"
+        ],
+        "evolue_de": "pikachu",
         "stats": {
             "PV": 60,
             "Attaque": 90,
@@ -566,8 +677,12 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/27.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/27.png",
         "types": [
-            "ground"
+            "Sol"
         ],
+        "talents": [
+            "Sand veil"
+        ],
+        "evolue_de": null,
         "stats": {
             "PV": 50,
             "Attaque": 75,
@@ -587,8 +702,12 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/28.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/28.png",
         "types": [
-            "ground"
+            "Sol"
         ],
+        "talents": [
+            "Sand veil"
+        ],
+        "evolue_de": "sandshrew",
         "stats": {
             "PV": 75,
             "Attaque": 100,
@@ -608,8 +727,13 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/29.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/29.png",
         "types": [
-            "poison"
+            "Poison"
         ],
+        "talents": [
+            "Poison point",
+            "Rivalry"
+        ],
+        "evolue_de": null,
         "stats": {
             "PV": 55,
             "Attaque": 47,
@@ -629,8 +753,13 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/30.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/30.png",
         "types": [
-            "poison"
+            "Poison"
         ],
+        "talents": [
+            "Poison point",
+            "Rivalry"
+        ],
+        "evolue_de": "nidoran-f",
         "stats": {
             "PV": 70,
             "Attaque": 62,
@@ -650,9 +779,14 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/31.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/31.png",
         "types": [
-            "poison",
-            "ground"
+            "Poison",
+            "Sol"
         ],
+        "talents": [
+            "Poison point",
+            "Rivalry"
+        ],
+        "evolue_de": "nidorina",
         "stats": {
             "PV": 90,
             "Attaque": 92,
@@ -672,8 +806,13 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/32.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/32.png",
         "types": [
-            "poison"
+            "Poison"
         ],
+        "talents": [
+            "Poison point",
+            "Rivalry"
+        ],
+        "evolue_de": null,
         "stats": {
             "PV": 46,
             "Attaque": 57,
@@ -693,8 +832,13 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/33.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/33.png",
         "types": [
-            "poison"
+            "Poison"
         ],
+        "talents": [
+            "Poison point",
+            "Rivalry"
+        ],
+        "evolue_de": "nidoran-m",
         "stats": {
             "PV": 61,
             "Attaque": 72,
@@ -714,9 +858,14 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/34.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/34.png",
         "types": [
-            "poison",
-            "ground"
+            "Poison",
+            "Sol"
         ],
+        "talents": [
+            "Poison point",
+            "Rivalry"
+        ],
+        "evolue_de": "nidorino",
         "stats": {
             "PV": 81,
             "Attaque": 102,
@@ -736,8 +885,13 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/35.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/35.png",
         "types": [
-            "fairy"
+            "F\u00e9e"
         ],
+        "talents": [
+            "Cute charm",
+            "Magic guard"
+        ],
+        "evolue_de": "cleffa",
         "stats": {
             "PV": 70,
             "Attaque": 45,
@@ -757,8 +911,13 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/36.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/36.png",
         "types": [
-            "fairy"
+            "F\u00e9e"
         ],
+        "talents": [
+            "Cute charm",
+            "Magic guard"
+        ],
+        "evolue_de": "clefairy",
         "stats": {
             "PV": 95,
             "Attaque": 70,
@@ -778,8 +937,12 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/37.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/37.png",
         "types": [
-            "fire"
+            "Feu"
         ],
+        "talents": [
+            "Flash fire"
+        ],
+        "evolue_de": null,
         "stats": {
             "PV": 38,
             "Attaque": 41,
@@ -799,8 +962,12 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/38.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/38.png",
         "types": [
-            "fire"
+            "Feu"
         ],
+        "talents": [
+            "Flash fire"
+        ],
+        "evolue_de": "vulpix",
         "stats": {
             "PV": 73,
             "Attaque": 76,
@@ -820,9 +987,14 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/39.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/39.png",
         "types": [
-            "normal",
-            "fairy"
+            "Normal",
+            "F\u00e9e"
         ],
+        "talents": [
+            "Cute charm",
+            "Competitive"
+        ],
+        "evolue_de": "igglybuff",
         "stats": {
             "PV": 115,
             "Attaque": 45,
@@ -842,9 +1014,14 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/40.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/40.png",
         "types": [
-            "normal",
-            "fairy"
+            "Normal",
+            "F\u00e9e"
         ],
+        "talents": [
+            "Cute charm",
+            "Competitive"
+        ],
+        "evolue_de": "jigglypuff",
         "stats": {
             "PV": 140,
             "Attaque": 70,
@@ -864,9 +1041,13 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/41.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/41.png",
         "types": [
-            "poison",
-            "flying"
+            "Poison",
+            "Vol"
         ],
+        "talents": [
+            "Inner focus"
+        ],
+        "evolue_de": null,
         "stats": {
             "PV": 40,
             "Attaque": 45,
@@ -886,9 +1067,13 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/42.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/42.png",
         "types": [
-            "poison",
-            "flying"
+            "Poison",
+            "Vol"
         ],
+        "talents": [
+            "Inner focus"
+        ],
+        "evolue_de": "zubat",
         "stats": {
             "PV": 75,
             "Attaque": 80,
@@ -908,9 +1093,13 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/43.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/43.png",
         "types": [
-            "grass",
-            "poison"
+            "Plante",
+            "Poison"
         ],
+        "talents": [
+            "Chlorophyll"
+        ],
+        "evolue_de": null,
         "stats": {
             "PV": 45,
             "Attaque": 50,
@@ -930,9 +1119,13 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/44.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/44.png",
         "types": [
-            "grass",
-            "poison"
+            "Plante",
+            "Poison"
         ],
+        "talents": [
+            "Chlorophyll"
+        ],
+        "evolue_de": "oddish",
         "stats": {
             "PV": 60,
             "Attaque": 65,
@@ -952,9 +1145,13 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/45.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/45.png",
         "types": [
-            "grass",
-            "poison"
+            "Plante",
+            "Poison"
         ],
+        "talents": [
+            "Chlorophyll"
+        ],
+        "evolue_de": "gloom",
         "stats": {
             "PV": 75,
             "Attaque": 80,
@@ -974,9 +1171,14 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/46.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/46.png",
         "types": [
-            "bug",
-            "grass"
+            "Insecte",
+            "Plante"
         ],
+        "talents": [
+            "Effect spore",
+            "Dry skin"
+        ],
+        "evolue_de": null,
         "stats": {
             "PV": 35,
             "Attaque": 70,
@@ -996,9 +1198,14 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/47.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/47.png",
         "types": [
-            "bug",
-            "grass"
+            "Insecte",
+            "Plante"
         ],
+        "talents": [
+            "Effect spore",
+            "Dry skin"
+        ],
+        "evolue_de": "paras",
         "stats": {
             "PV": 60,
             "Attaque": 95,
@@ -1018,9 +1225,14 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/48.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/48.png",
         "types": [
-            "bug",
-            "poison"
+            "Insecte",
+            "Poison"
         ],
+        "talents": [
+            "Compound eyes",
+            "Tinted lens"
+        ],
+        "evolue_de": null,
         "stats": {
             "PV": 60,
             "Attaque": 55,
@@ -1040,9 +1252,14 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/49.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/49.png",
         "types": [
-            "bug",
-            "poison"
+            "Insecte",
+            "Poison"
         ],
+        "talents": [
+            "Shield dust",
+            "Tinted lens"
+        ],
+        "evolue_de": "venonat",
         "stats": {
             "PV": 70,
             "Attaque": 65,
@@ -1062,8 +1279,13 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/50.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/50.png",
         "types": [
-            "ground"
+            "Sol"
         ],
+        "talents": [
+            "Sand veil",
+            "Arena trap"
+        ],
+        "evolue_de": null,
         "stats": {
             "PV": 10,
             "Attaque": 55,
@@ -1083,8 +1305,13 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/51.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/51.png",
         "types": [
-            "ground"
+            "Sol"
         ],
+        "talents": [
+            "Sand veil",
+            "Arena trap"
+        ],
+        "evolue_de": "diglett",
         "stats": {
             "PV": 35,
             "Attaque": 100,
@@ -1104,8 +1331,13 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/52.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/52.png",
         "types": [
-            "normal"
+            "Normal"
         ],
+        "talents": [
+            "Pickup",
+            "Technician"
+        ],
+        "evolue_de": null,
         "stats": {
             "PV": 40,
             "Attaque": 45,
@@ -1125,8 +1357,13 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/53.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/53.png",
         "types": [
-            "normal"
+            "Normal"
         ],
+        "talents": [
+            "Limber",
+            "Technician"
+        ],
+        "evolue_de": "meowth",
         "stats": {
             "PV": 65,
             "Attaque": 70,
@@ -1146,8 +1383,13 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/54.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/54.png",
         "types": [
-            "water"
+            "Eau"
         ],
+        "talents": [
+            "Damp",
+            "Cloud nine"
+        ],
+        "evolue_de": null,
         "stats": {
             "PV": 50,
             "Attaque": 52,
@@ -1167,8 +1409,13 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/55.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/55.png",
         "types": [
-            "water"
+            "Eau"
         ],
+        "talents": [
+            "Damp",
+            "Cloud nine"
+        ],
+        "evolue_de": "psyduck",
         "stats": {
             "PV": 80,
             "Attaque": 82,
@@ -1188,8 +1435,13 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/56.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/56.png",
         "types": [
-            "fighting"
+            "Combat"
         ],
+        "talents": [
+            "Vital spirit",
+            "Anger point"
+        ],
+        "evolue_de": null,
         "stats": {
             "PV": 40,
             "Attaque": 80,
@@ -1209,8 +1461,13 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/57.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/57.png",
         "types": [
-            "fighting"
+            "Combat"
         ],
+        "talents": [
+            "Vital spirit",
+            "Anger point"
+        ],
+        "evolue_de": "mankey",
         "stats": {
             "PV": 65,
             "Attaque": 105,
@@ -1230,8 +1487,13 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/58.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/58.png",
         "types": [
-            "fire"
+            "Feu"
         ],
+        "talents": [
+            "Intimidate",
+            "Flash fire"
+        ],
+        "evolue_de": null,
         "stats": {
             "PV": 55,
             "Attaque": 70,
@@ -1251,8 +1513,13 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/59.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/59.png",
         "types": [
-            "fire"
+            "Feu"
         ],
+        "talents": [
+            "Intimidate",
+            "Flash fire"
+        ],
+        "evolue_de": "growlithe",
         "stats": {
             "PV": 90,
             "Attaque": 110,
@@ -1272,8 +1539,13 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/60.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/60.png",
         "types": [
-            "water"
+            "Eau"
         ],
+        "talents": [
+            "Water absorb",
+            "Damp"
+        ],
+        "evolue_de": null,
         "stats": {
             "PV": 40,
             "Attaque": 50,
@@ -1293,8 +1565,13 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/61.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/61.png",
         "types": [
-            "water"
+            "Eau"
         ],
+        "talents": [
+            "Water absorb",
+            "Damp"
+        ],
+        "evolue_de": "poliwag",
         "stats": {
             "PV": 65,
             "Attaque": 65,
@@ -1314,9 +1591,14 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/62.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/62.png",
         "types": [
-            "water",
-            "fighting"
+            "Eau",
+            "Combat"
         ],
+        "talents": [
+            "Water absorb",
+            "Damp"
+        ],
+        "evolue_de": "poliwhirl",
         "stats": {
             "PV": 90,
             "Attaque": 95,
@@ -1336,8 +1618,13 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/63.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/63.png",
         "types": [
-            "psychic"
+            "Psy"
         ],
+        "talents": [
+            "Synchronize",
+            "Inner focus"
+        ],
+        "evolue_de": null,
         "stats": {
             "PV": 25,
             "Attaque": 20,
@@ -1357,8 +1644,13 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/64.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/64.png",
         "types": [
-            "psychic"
+            "Psy"
         ],
+        "talents": [
+            "Synchronize",
+            "Inner focus"
+        ],
+        "evolue_de": "abra",
         "stats": {
             "PV": 40,
             "Attaque": 35,
@@ -1378,8 +1670,13 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/65.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/65.png",
         "types": [
-            "psychic"
+            "Psy"
         ],
+        "talents": [
+            "Synchronize",
+            "Inner focus"
+        ],
+        "evolue_de": "kadabra",
         "stats": {
             "PV": 55,
             "Attaque": 50,
@@ -1399,8 +1696,13 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/66.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/66.png",
         "types": [
-            "fighting"
+            "Combat"
         ],
+        "talents": [
+            "Guts",
+            "No guard"
+        ],
+        "evolue_de": null,
         "stats": {
             "PV": 70,
             "Attaque": 80,
@@ -1420,8 +1722,13 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/67.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/67.png",
         "types": [
-            "fighting"
+            "Combat"
         ],
+        "talents": [
+            "Guts",
+            "No guard"
+        ],
+        "evolue_de": "machop",
         "stats": {
             "PV": 80,
             "Attaque": 100,
@@ -1441,8 +1748,13 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/68.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/68.png",
         "types": [
-            "fighting"
+            "Combat"
         ],
+        "talents": [
+            "Guts",
+            "No guard"
+        ],
+        "evolue_de": "machoke",
         "stats": {
             "PV": 90,
             "Attaque": 130,
@@ -1462,9 +1774,13 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/69.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/69.png",
         "types": [
-            "grass",
-            "poison"
+            "Plante",
+            "Poison"
         ],
+        "talents": [
+            "Chlorophyll"
+        ],
+        "evolue_de": null,
         "stats": {
             "PV": 50,
             "Attaque": 75,
@@ -1484,9 +1800,13 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/70.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/70.png",
         "types": [
-            "grass",
-            "poison"
+            "Plante",
+            "Poison"
         ],
+        "talents": [
+            "Chlorophyll"
+        ],
+        "evolue_de": "bellsprout",
         "stats": {
             "PV": 65,
             "Attaque": 90,
@@ -1506,9 +1826,13 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/71.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/71.png",
         "types": [
-            "grass",
-            "poison"
+            "Plante",
+            "Poison"
         ],
+        "talents": [
+            "Chlorophyll"
+        ],
+        "evolue_de": "weepinbell",
         "stats": {
             "PV": 80,
             "Attaque": 105,
@@ -1528,9 +1852,14 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/72.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/72.png",
         "types": [
-            "water",
-            "poison"
+            "Eau",
+            "Poison"
         ],
+        "talents": [
+            "Clear body",
+            "Liquid ooze"
+        ],
+        "evolue_de": null,
         "stats": {
             "PV": 40,
             "Attaque": 40,
@@ -1550,9 +1879,14 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/73.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/73.png",
         "types": [
-            "water",
-            "poison"
+            "Eau",
+            "Poison"
         ],
+        "talents": [
+            "Clear body",
+            "Liquid ooze"
+        ],
+        "evolue_de": "tentacool",
         "stats": {
             "PV": 80,
             "Attaque": 70,
@@ -1572,9 +1906,14 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/74.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/74.png",
         "types": [
-            "rock",
-            "ground"
+            "Roche",
+            "Sol"
         ],
+        "talents": [
+            "Rock head",
+            "Sturdy"
+        ],
+        "evolue_de": null,
         "stats": {
             "PV": 40,
             "Attaque": 80,
@@ -1594,9 +1933,14 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/75.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/75.png",
         "types": [
-            "rock",
-            "ground"
+            "Roche",
+            "Sol"
         ],
+        "talents": [
+            "Rock head",
+            "Sturdy"
+        ],
+        "evolue_de": "geodude",
         "stats": {
             "PV": 55,
             "Attaque": 95,
@@ -1616,9 +1960,14 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/76.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/76.png",
         "types": [
-            "rock",
-            "ground"
+            "Roche",
+            "Sol"
         ],
+        "talents": [
+            "Rock head",
+            "Sturdy"
+        ],
+        "evolue_de": "graveler",
         "stats": {
             "PV": 80,
             "Attaque": 120,
@@ -1638,8 +1987,13 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/77.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/77.png",
         "types": [
-            "fire"
+            "Feu"
         ],
+        "talents": [
+            "Run away",
+            "Flash fire"
+        ],
+        "evolue_de": null,
         "stats": {
             "PV": 50,
             "Attaque": 85,
@@ -1659,8 +2013,13 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/78.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/78.png",
         "types": [
-            "fire"
+            "Feu"
         ],
+        "talents": [
+            "Run away",
+            "Flash fire"
+        ],
+        "evolue_de": "ponyta",
         "stats": {
             "PV": 65,
             "Attaque": 100,
@@ -1680,9 +2039,14 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/79.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/79.png",
         "types": [
-            "water",
-            "psychic"
+            "Eau",
+            "Psy"
         ],
+        "talents": [
+            "Oblivious",
+            "Own tempo"
+        ],
+        "evolue_de": null,
         "stats": {
             "PV": 90,
             "Attaque": 65,
@@ -1702,9 +2066,14 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/80.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/80.png",
         "types": [
-            "water",
-            "psychic"
+            "Eau",
+            "Psy"
         ],
+        "talents": [
+            "Oblivious",
+            "Own tempo"
+        ],
+        "evolue_de": "slowpoke",
         "stats": {
             "PV": 95,
             "Attaque": 75,
@@ -1724,9 +2093,14 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/81.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/81.png",
         "types": [
-            "electric",
-            "steel"
+            "\u00c9lectrik",
+            "Acier"
         ],
+        "talents": [
+            "Magnet pull",
+            "Sturdy"
+        ],
+        "evolue_de": null,
         "stats": {
             "PV": 25,
             "Attaque": 35,
@@ -1746,9 +2120,14 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/82.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/82.png",
         "types": [
-            "electric",
-            "steel"
+            "\u00c9lectrik",
+            "Acier"
         ],
+        "talents": [
+            "Magnet pull",
+            "Sturdy"
+        ],
+        "evolue_de": "magnemite",
         "stats": {
             "PV": 50,
             "Attaque": 60,
@@ -1768,9 +2147,14 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/83.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/83.png",
         "types": [
-            "normal",
-            "flying"
+            "Normal",
+            "Vol"
         ],
+        "talents": [
+            "Keen eye",
+            "Inner focus"
+        ],
+        "evolue_de": null,
         "stats": {
             "PV": 52,
             "Attaque": 90,
@@ -1790,9 +2174,14 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/84.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/84.png",
         "types": [
-            "normal",
-            "flying"
+            "Normal",
+            "Vol"
         ],
+        "talents": [
+            "Run away",
+            "Early bird"
+        ],
+        "evolue_de": null,
         "stats": {
             "PV": 35,
             "Attaque": 85,
@@ -1812,9 +2201,14 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/85.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/85.png",
         "types": [
-            "normal",
-            "flying"
+            "Normal",
+            "Vol"
         ],
+        "talents": [
+            "Run away",
+            "Early bird"
+        ],
+        "evolue_de": "doduo",
         "stats": {
             "PV": 60,
             "Attaque": 110,
@@ -1834,8 +2228,13 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/86.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/86.png",
         "types": [
-            "water"
+            "Eau"
         ],
+        "talents": [
+            "Thick fat",
+            "Hydration"
+        ],
+        "evolue_de": null,
         "stats": {
             "PV": 65,
             "Attaque": 45,
@@ -1855,9 +2254,14 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/87.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/87.png",
         "types": [
-            "water",
-            "ice"
+            "Eau",
+            "Glace"
         ],
+        "talents": [
+            "Thick fat",
+            "Hydration"
+        ],
+        "evolue_de": "seel",
         "stats": {
             "PV": 90,
             "Attaque": 70,
@@ -1877,8 +2281,13 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/88.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/88.png",
         "types": [
-            "poison"
+            "Poison"
         ],
+        "talents": [
+            "Stench",
+            "Sticky hold"
+        ],
+        "evolue_de": null,
         "stats": {
             "PV": 80,
             "Attaque": 80,
@@ -1898,8 +2307,13 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/89.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/89.png",
         "types": [
-            "poison"
+            "Poison"
         ],
+        "talents": [
+            "Stench",
+            "Sticky hold"
+        ],
+        "evolue_de": "grimer",
         "stats": {
             "PV": 105,
             "Attaque": 105,
@@ -1919,8 +2333,13 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/90.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/90.png",
         "types": [
-            "water"
+            "Eau"
         ],
+        "talents": [
+            "Shell armor",
+            "Skill link"
+        ],
+        "evolue_de": null,
         "stats": {
             "PV": 30,
             "Attaque": 65,
@@ -1940,9 +2359,14 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/91.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/91.png",
         "types": [
-            "water",
-            "ice"
+            "Eau",
+            "Glace"
         ],
+        "talents": [
+            "Shell armor",
+            "Skill link"
+        ],
+        "evolue_de": "shellder",
         "stats": {
             "PV": 50,
             "Attaque": 95,
@@ -1962,9 +2386,13 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/92.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/92.png",
         "types": [
-            "ghost",
-            "poison"
+            "Spectre",
+            "Poison"
         ],
+        "talents": [
+            "Levitate"
+        ],
+        "evolue_de": null,
         "stats": {
             "PV": 30,
             "Attaque": 35,
@@ -1984,9 +2412,13 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/93.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/93.png",
         "types": [
-            "ghost",
-            "poison"
+            "Spectre",
+            "Poison"
         ],
+        "talents": [
+            "Levitate"
+        ],
+        "evolue_de": "gastly",
         "stats": {
             "PV": 45,
             "Attaque": 50,
@@ -2006,9 +2438,13 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/94.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/94.png",
         "types": [
-            "ghost",
-            "poison"
+            "Spectre",
+            "Poison"
         ],
+        "talents": [
+            "Cursed body"
+        ],
+        "evolue_de": "haunter",
         "stats": {
             "PV": 60,
             "Attaque": 65,
@@ -2028,9 +2464,14 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/95.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/95.png",
         "types": [
-            "rock",
-            "ground"
+            "Roche",
+            "Sol"
         ],
+        "talents": [
+            "Rock head",
+            "Sturdy"
+        ],
+        "evolue_de": null,
         "stats": {
             "PV": 35,
             "Attaque": 45,
@@ -2050,8 +2491,13 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/96.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/96.png",
         "types": [
-            "psychic"
+            "Psy"
         ],
+        "talents": [
+            "Insomnia",
+            "Forewarn"
+        ],
+        "evolue_de": null,
         "stats": {
             "PV": 60,
             "Attaque": 48,
@@ -2071,8 +2517,13 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/97.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/97.png",
         "types": [
-            "psychic"
+            "Psy"
         ],
+        "talents": [
+            "Insomnia",
+            "Forewarn"
+        ],
+        "evolue_de": "drowzee",
         "stats": {
             "PV": 85,
             "Attaque": 73,
@@ -2092,8 +2543,13 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/98.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/98.png",
         "types": [
-            "water"
+            "Eau"
         ],
+        "talents": [
+            "Hyper cutter",
+            "Shell armor"
+        ],
+        "evolue_de": null,
         "stats": {
             "PV": 30,
             "Attaque": 105,
@@ -2113,8 +2569,13 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/99.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/99.png",
         "types": [
-            "water"
+            "Eau"
         ],
+        "talents": [
+            "Hyper cutter",
+            "Shell armor"
+        ],
+        "evolue_de": "krabby",
         "stats": {
             "PV": 55,
             "Attaque": 130,
@@ -2134,8 +2595,13 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/100.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/100.png",
         "types": [
-            "electric"
+            "\u00c9lectrik"
         ],
+        "talents": [
+            "Soundproof",
+            "Static"
+        ],
+        "evolue_de": null,
         "stats": {
             "PV": 40,
             "Attaque": 30,
@@ -2155,8 +2621,13 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/101.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/101.png",
         "types": [
-            "electric"
+            "\u00c9lectrik"
         ],
+        "talents": [
+            "Soundproof",
+            "Static"
+        ],
+        "evolue_de": "voltorb",
         "stats": {
             "PV": 60,
             "Attaque": 50,
@@ -2176,9 +2647,13 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/102.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/102.png",
         "types": [
-            "grass",
-            "psychic"
+            "Plante",
+            "Psy"
         ],
+        "talents": [
+            "Chlorophyll"
+        ],
+        "evolue_de": null,
         "stats": {
             "PV": 60,
             "Attaque": 40,
@@ -2198,9 +2673,13 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/103.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/103.png",
         "types": [
-            "grass",
-            "psychic"
+            "Plante",
+            "Psy"
         ],
+        "talents": [
+            "Chlorophyll"
+        ],
+        "evolue_de": "exeggcute",
         "stats": {
             "PV": 95,
             "Attaque": 95,
@@ -2220,8 +2699,13 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/104.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/104.png",
         "types": [
-            "ground"
+            "Sol"
         ],
+        "talents": [
+            "Rock head",
+            "Lightning rod"
+        ],
+        "evolue_de": null,
         "stats": {
             "PV": 50,
             "Attaque": 50,
@@ -2241,8 +2725,13 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/105.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/105.png",
         "types": [
-            "ground"
+            "Sol"
         ],
+        "talents": [
+            "Rock head",
+            "Lightning rod"
+        ],
+        "evolue_de": "cubone",
         "stats": {
             "PV": 60,
             "Attaque": 80,
@@ -2262,8 +2751,13 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/106.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/106.png",
         "types": [
-            "fighting"
+            "Combat"
         ],
+        "talents": [
+            "Limber",
+            "Reckless"
+        ],
+        "evolue_de": "tyrogue",
         "stats": {
             "PV": 50,
             "Attaque": 120,
@@ -2283,8 +2777,13 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/107.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/107.png",
         "types": [
-            "fighting"
+            "Combat"
         ],
+        "talents": [
+            "Keen eye",
+            "Iron fist"
+        ],
+        "evolue_de": "tyrogue",
         "stats": {
             "PV": 50,
             "Attaque": 105,
@@ -2304,8 +2803,13 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/108.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/108.png",
         "types": [
-            "normal"
+            "Normal"
         ],
+        "talents": [
+            "Own tempo",
+            "Oblivious"
+        ],
+        "evolue_de": null,
         "stats": {
             "PV": 90,
             "Attaque": 55,
@@ -2325,8 +2829,13 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/109.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/109.png",
         "types": [
-            "poison"
+            "Poison"
         ],
+        "talents": [
+            "Levitate",
+            "Neutralizing gas"
+        ],
+        "evolue_de": null,
         "stats": {
             "PV": 40,
             "Attaque": 65,
@@ -2346,8 +2855,13 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/110.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/110.png",
         "types": [
-            "poison"
+            "Poison"
         ],
+        "talents": [
+            "Levitate",
+            "Neutralizing gas"
+        ],
+        "evolue_de": "koffing",
         "stats": {
             "PV": 65,
             "Attaque": 90,
@@ -2367,9 +2881,14 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/111.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/111.png",
         "types": [
-            "ground",
-            "rock"
+            "Sol",
+            "Roche"
         ],
+        "talents": [
+            "Lightning rod",
+            "Rock head"
+        ],
+        "evolue_de": null,
         "stats": {
             "PV": 80,
             "Attaque": 85,
@@ -2389,9 +2908,14 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/112.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/112.png",
         "types": [
-            "ground",
-            "rock"
+            "Sol",
+            "Roche"
         ],
+        "talents": [
+            "Lightning rod",
+            "Rock head"
+        ],
+        "evolue_de": "rhyhorn",
         "stats": {
             "PV": 105,
             "Attaque": 130,
@@ -2411,8 +2935,13 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/113.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/113.png",
         "types": [
-            "normal"
+            "Normal"
         ],
+        "talents": [
+            "Natural cure",
+            "Serene grace"
+        ],
+        "evolue_de": "happiny",
         "stats": {
             "PV": 250,
             "Attaque": 5,
@@ -2432,8 +2961,13 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/114.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/114.png",
         "types": [
-            "grass"
+            "Plante"
         ],
+        "talents": [
+            "Chlorophyll",
+            "Leaf guard"
+        ],
+        "evolue_de": null,
         "stats": {
             "PV": 65,
             "Attaque": 55,
@@ -2453,8 +2987,13 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/115.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/115.png",
         "types": [
-            "normal"
+            "Normal"
         ],
+        "talents": [
+            "Early bird",
+            "Scrappy"
+        ],
+        "evolue_de": null,
         "stats": {
             "PV": 105,
             "Attaque": 95,
@@ -2474,8 +3013,13 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/116.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/116.png",
         "types": [
-            "water"
+            "Eau"
         ],
+        "talents": [
+            "Swift swim",
+            "Sniper"
+        ],
+        "evolue_de": null,
         "stats": {
             "PV": 30,
             "Attaque": 40,
@@ -2495,8 +3039,13 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/117.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/117.png",
         "types": [
-            "water"
+            "Eau"
         ],
+        "talents": [
+            "Poison point",
+            "Sniper"
+        ],
+        "evolue_de": "horsea",
         "stats": {
             "PV": 55,
             "Attaque": 65,
@@ -2516,8 +3065,13 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/118.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/118.png",
         "types": [
-            "water"
+            "Eau"
         ],
+        "talents": [
+            "Swift swim",
+            "Water veil"
+        ],
+        "evolue_de": null,
         "stats": {
             "PV": 45,
             "Attaque": 67,
@@ -2537,8 +3091,13 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/119.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/119.png",
         "types": [
-            "water"
+            "Eau"
         ],
+        "talents": [
+            "Swift swim",
+            "Water veil"
+        ],
+        "evolue_de": "goldeen",
         "stats": {
             "PV": 80,
             "Attaque": 92,
@@ -2558,8 +3117,13 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/120.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/120.png",
         "types": [
-            "water"
+            "Eau"
         ],
+        "talents": [
+            "Illuminate",
+            "Natural cure"
+        ],
+        "evolue_de": null,
         "stats": {
             "PV": 30,
             "Attaque": 45,
@@ -2579,9 +3143,14 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/121.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/121.png",
         "types": [
-            "water",
-            "psychic"
+            "Eau",
+            "Psy"
         ],
+        "talents": [
+            "Illuminate",
+            "Natural cure"
+        ],
+        "evolue_de": "staryu",
         "stats": {
             "PV": 60,
             "Attaque": 75,
@@ -2601,9 +3170,14 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/122.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/122.png",
         "types": [
-            "psychic",
-            "fairy"
+            "Psy",
+            "F\u00e9e"
         ],
+        "talents": [
+            "Soundproof",
+            "Filter"
+        ],
+        "evolue_de": "mime-jr",
         "stats": {
             "PV": 40,
             "Attaque": 45,
@@ -2623,9 +3197,14 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/123.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/123.png",
         "types": [
-            "bug",
-            "flying"
+            "Insecte",
+            "Vol"
         ],
+        "talents": [
+            "Swarm",
+            "Technician"
+        ],
+        "evolue_de": null,
         "stats": {
             "PV": 70,
             "Attaque": 110,
@@ -2645,9 +3224,14 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/124.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/124.png",
         "types": [
-            "ice",
-            "psychic"
+            "Glace",
+            "Psy"
         ],
+        "talents": [
+            "Oblivious",
+            "Forewarn"
+        ],
+        "evolue_de": "smoochum",
         "stats": {
             "PV": 65,
             "Attaque": 50,
@@ -2667,8 +3251,12 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/125.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/125.png",
         "types": [
-            "electric"
+            "\u00c9lectrik"
         ],
+        "talents": [
+            "Static"
+        ],
+        "evolue_de": "elekid",
         "stats": {
             "PV": 65,
             "Attaque": 83,
@@ -2688,8 +3276,12 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/126.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/126.png",
         "types": [
-            "fire"
+            "Feu"
         ],
+        "talents": [
+            "Flame body"
+        ],
+        "evolue_de": "magby",
         "stats": {
             "PV": 65,
             "Attaque": 95,
@@ -2709,8 +3301,13 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/127.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/127.png",
         "types": [
-            "bug"
+            "Insecte"
         ],
+        "talents": [
+            "Hyper cutter",
+            "Mold breaker"
+        ],
+        "evolue_de": null,
         "stats": {
             "PV": 65,
             "Attaque": 125,
@@ -2730,8 +3327,13 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/128.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/128.png",
         "types": [
-            "normal"
+            "Normal"
         ],
+        "talents": [
+            "Intimidate",
+            "Anger point"
+        ],
+        "evolue_de": null,
         "stats": {
             "PV": 75,
             "Attaque": 100,
@@ -2751,8 +3353,12 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/129.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/129.png",
         "types": [
-            "water"
+            "Eau"
         ],
+        "talents": [
+            "Swift swim"
+        ],
+        "evolue_de": null,
         "stats": {
             "PV": 20,
             "Attaque": 10,
@@ -2772,9 +3378,13 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/130.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/130.png",
         "types": [
-            "water",
-            "flying"
+            "Eau",
+            "Vol"
         ],
+        "talents": [
+            "Intimidate"
+        ],
+        "evolue_de": "magikarp",
         "stats": {
             "PV": 95,
             "Attaque": 125,
@@ -2794,9 +3404,14 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/131.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/131.png",
         "types": [
-            "water",
-            "ice"
+            "Eau",
+            "Glace"
         ],
+        "talents": [
+            "Water absorb",
+            "Shell armor"
+        ],
+        "evolue_de": null,
         "stats": {
             "PV": 130,
             "Attaque": 85,
@@ -2816,8 +3431,12 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/132.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/132.png",
         "types": [
-            "normal"
+            "Normal"
         ],
+        "talents": [
+            "Limber"
+        ],
+        "evolue_de": null,
         "stats": {
             "PV": 48,
             "Attaque": 48,
@@ -2837,8 +3456,13 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/133.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/133.png",
         "types": [
-            "normal"
+            "Normal"
         ],
+        "talents": [
+            "Run away",
+            "Adaptability"
+        ],
+        "evolue_de": null,
         "stats": {
             "PV": 55,
             "Attaque": 55,
@@ -2858,8 +3482,12 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/134.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/134.png",
         "types": [
-            "water"
+            "Eau"
         ],
+        "talents": [
+            "Water absorb"
+        ],
+        "evolue_de": "eevee",
         "stats": {
             "PV": 130,
             "Attaque": 65,
@@ -2879,8 +3507,12 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/135.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/135.png",
         "types": [
-            "electric"
+            "\u00c9lectrik"
         ],
+        "talents": [
+            "Volt absorb"
+        ],
+        "evolue_de": "eevee",
         "stats": {
             "PV": 65,
             "Attaque": 65,
@@ -2900,8 +3532,12 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/136.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/136.png",
         "types": [
-            "fire"
+            "Feu"
         ],
+        "talents": [
+            "Flash fire"
+        ],
+        "evolue_de": "eevee",
         "stats": {
             "PV": 65,
             "Attaque": 130,
@@ -2921,8 +3557,13 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/137.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/137.png",
         "types": [
-            "normal"
+            "Normal"
         ],
+        "talents": [
+            "Trace",
+            "Download"
+        ],
+        "evolue_de": null,
         "stats": {
             "PV": 65,
             "Attaque": 60,
@@ -2942,9 +3583,14 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/138.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/138.png",
         "types": [
-            "rock",
-            "water"
+            "Roche",
+            "Eau"
         ],
+        "talents": [
+            "Swift swim",
+            "Shell armor"
+        ],
+        "evolue_de": null,
         "stats": {
             "PV": 35,
             "Attaque": 40,
@@ -2964,9 +3610,14 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/139.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/139.png",
         "types": [
-            "rock",
-            "water"
+            "Roche",
+            "Eau"
         ],
+        "talents": [
+            "Swift swim",
+            "Shell armor"
+        ],
+        "evolue_de": "omanyte",
         "stats": {
             "PV": 70,
             "Attaque": 60,
@@ -2986,9 +3637,14 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/140.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/140.png",
         "types": [
-            "rock",
-            "water"
+            "Roche",
+            "Eau"
         ],
+        "talents": [
+            "Swift swim",
+            "Battle armor"
+        ],
+        "evolue_de": null,
         "stats": {
             "PV": 30,
             "Attaque": 80,
@@ -3008,9 +3664,14 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/141.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/141.png",
         "types": [
-            "rock",
-            "water"
+            "Roche",
+            "Eau"
         ],
+        "talents": [
+            "Swift swim",
+            "Battle armor"
+        ],
+        "evolue_de": "kabuto",
         "stats": {
             "PV": 60,
             "Attaque": 115,
@@ -3030,9 +3691,14 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/142.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/142.png",
         "types": [
-            "rock",
-            "flying"
+            "Roche",
+            "Vol"
         ],
+        "talents": [
+            "Rock head",
+            "Pressure"
+        ],
+        "evolue_de": null,
         "stats": {
             "PV": 80,
             "Attaque": 105,
@@ -3052,8 +3718,13 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/143.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/143.png",
         "types": [
-            "normal"
+            "Normal"
         ],
+        "talents": [
+            "Immunity",
+            "Thick fat"
+        ],
+        "evolue_de": "munchlax",
         "stats": {
             "PV": 160,
             "Attaque": 110,
@@ -3073,9 +3744,13 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/144.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/144.png",
         "types": [
-            "ice",
-            "flying"
+            "Glace",
+            "Vol"
         ],
+        "talents": [
+            "Pressure"
+        ],
+        "evolue_de": null,
         "stats": {
             "PV": 90,
             "Attaque": 85,
@@ -3095,9 +3770,13 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/145.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/145.png",
         "types": [
-            "electric",
-            "flying"
+            "\u00c9lectrik",
+            "Vol"
         ],
+        "talents": [
+            "Pressure"
+        ],
+        "evolue_de": null,
         "stats": {
             "PV": 90,
             "Attaque": 90,
@@ -3117,9 +3796,13 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/146.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/146.png",
         "types": [
-            "fire",
-            "flying"
+            "Feu",
+            "Vol"
         ],
+        "talents": [
+            "Pressure"
+        ],
+        "evolue_de": null,
         "stats": {
             "PV": 90,
             "Attaque": 100,
@@ -3139,8 +3822,12 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/147.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/147.png",
         "types": [
-            "dragon"
+            "Dragon"
         ],
+        "talents": [
+            "Shed skin"
+        ],
+        "evolue_de": null,
         "stats": {
             "PV": 41,
             "Attaque": 64,
@@ -3160,8 +3847,12 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/148.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/148.png",
         "types": [
-            "dragon"
+            "Dragon"
         ],
+        "talents": [
+            "Shed skin"
+        ],
+        "evolue_de": "dratini",
         "stats": {
             "PV": 61,
             "Attaque": 84,
@@ -3181,9 +3872,13 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/149.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/149.png",
         "types": [
-            "dragon",
-            "flying"
+            "Dragon",
+            "Vol"
         ],
+        "talents": [
+            "Inner focus"
+        ],
+        "evolue_de": "dragonair",
         "stats": {
             "PV": 91,
             "Attaque": 134,
@@ -3203,8 +3898,12 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/150.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/150.png",
         "types": [
-            "psychic"
+            "Psy"
         ],
+        "talents": [
+            "Pressure"
+        ],
+        "evolue_de": null,
         "stats": {
             "PV": 106,
             "Attaque": 110,
@@ -3224,8 +3923,12 @@
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/151.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/151.png",
         "types": [
-            "psychic"
+            "Psy"
         ],
+        "talents": [
+            "Synchronize"
+        ],
+        "evolue_de": null,
         "stats": {
             "PV": 100,
             "Attaque": 100,
