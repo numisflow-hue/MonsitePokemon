@@ -10,18 +10,24 @@
             "en": "While it is young, it uses the nutrients that are stored in the seed on its back in order to grow."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png",
         "types": [
             {
                 "fr": "Plante",
-                "en": "Grass"
+                "en": "Grass",
+                "slug": "grass"
             },
             {
                 "fr": "Poison",
-                "en": "Poison"
+                "en": "Poison",
+                "slug": "poison"
             }
         ],
-        "evolue_de": null,
+        "famille": [
+            "bulbasaur",
+            "ivysaur",
+            "venusaur"
+        ],
         "stats": {
             "hp": 45,
             "attack": 49,
@@ -44,18 +50,24 @@
             "en": "Exposure to sunlight adds to its strength. Sunlight also makes the bud on its back grow larger."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/2.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/2.png",
         "types": [
             {
                 "fr": "Plante",
-                "en": "Grass"
+                "en": "Grass",
+                "slug": "grass"
             },
             {
                 "fr": "Poison",
-                "en": "Poison"
+                "en": "Poison",
+                "slug": "poison"
             }
         ],
-        "evolue_de": "bulbasaur",
+        "famille": [
+            "bulbasaur",
+            "ivysaur",
+            "venusaur"
+        ],
         "stats": {
             "hp": 60,
             "attack": 62,
@@ -78,18 +90,24 @@
             "en": "A bewitching aroma wafts from its flower. The fragrance becalms those engaged in a battle."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/3.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/3.png",
         "types": [
             {
                 "fr": "Plante",
-                "en": "Grass"
+                "en": "Grass",
+                "slug": "grass"
             },
             {
                 "fr": "Poison",
-                "en": "Poison"
+                "en": "Poison",
+                "slug": "poison"
             }
         ],
-        "evolue_de": "ivysaur",
+        "famille": [
+            "bulbasaur",
+            "ivysaur",
+            "venusaur"
+        ],
         "stats": {
             "hp": 80,
             "attack": 82,
@@ -112,14 +130,19 @@
             "en": "From the time it is born, a flame burns at the tip of its tail. Its life would end if the flame were to go out."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/4.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/4.png",
         "types": [
             {
                 "fr": "Feu",
-                "en": "Fire"
+                "en": "Fire",
+                "slug": "fire"
             }
         ],
-        "evolue_de": null,
+        "famille": [
+            "charmander",
+            "charmeleon",
+            "charizard"
+        ],
         "stats": {
             "hp": 39,
             "attack": 52,
@@ -142,14 +165,19 @@
             "en": "If it becomes agitated during battle, it spouts intense flames, incinerating its surroundings."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/5.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/5.png",
         "types": [
             {
                 "fr": "Feu",
-                "en": "Fire"
+                "en": "Fire",
+                "slug": "fire"
             }
         ],
-        "evolue_de": "charmander",
+        "famille": [
+            "charmander",
+            "charmeleon",
+            "charizard"
+        ],
         "stats": {
             "hp": 58,
             "attack": 64,
@@ -172,18 +200,24 @@
             "en": "Its wings can carry this Pok\u00e9mon close to an altitude of 4,600 feet. It blows out fire at very high temperatures."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png",
         "types": [
             {
                 "fr": "Feu",
-                "en": "Fire"
+                "en": "Fire",
+                "slug": "fire"
             },
             {
                 "fr": "Vol",
-                "en": "Flying"
+                "en": "Flying",
+                "slug": "flying"
             }
         ],
-        "evolue_de": "charmeleon",
+        "famille": [
+            "charmander",
+            "charmeleon",
+            "charizard"
+        ],
         "stats": {
             "hp": 78,
             "attack": 84,
@@ -206,14 +240,19 @@
             "en": "When it feels threatened, it draws its limbs inside its shell and sprays water from its mouth."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/7.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/7.png",
         "types": [
             {
                 "fr": "Eau",
-                "en": "Water"
+                "en": "Water",
+                "slug": "water"
             }
         ],
-        "evolue_de": null,
+        "famille": [
+            "squirtle",
+            "wartortle",
+            "blastoise"
+        ],
         "stats": {
             "hp": 44,
             "attack": 48,
@@ -236,14 +275,19 @@
             "en": "It cleverly controls its furry ears and tail to maintain its balance while swimming."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/8.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/8.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/8.png",
         "types": [
             {
                 "fr": "Eau",
-                "en": "Water"
+                "en": "Water",
+                "slug": "water"
             }
         ],
-        "evolue_de": "squirtle",
+        "famille": [
+            "squirtle",
+            "wartortle",
+            "blastoise"
+        ],
         "stats": {
             "hp": 59,
             "attack": 63,
@@ -266,14 +310,19 @@
             "en": "The rocket cannons on its shell fire jets of water capable of punching holes through thick steel."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/9.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/9.png",
         "types": [
             {
                 "fr": "Eau",
-                "en": "Water"
+                "en": "Water",
+                "slug": "water"
             }
         ],
-        "evolue_de": "wartortle",
+        "famille": [
+            "squirtle",
+            "wartortle",
+            "blastoise"
+        ],
         "stats": {
             "hp": 79,
             "attack": 83,
@@ -296,14 +345,19 @@
             "en": "Its short feet are tipped with suction pads that enable it to tirelessly climb slopes and walls."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10.png",
         "types": [
             {
                 "fr": "Insecte",
-                "en": "Bug"
+                "en": "Bug",
+                "slug": "bug"
             }
         ],
-        "evolue_de": null,
+        "famille": [
+            "caterpie",
+            "metapod",
+            "butterfree"
+        ],
         "stats": {
             "hp": 45,
             "attack": 30,
@@ -326,14 +380,19 @@
             "en": "Even though it is encased in a sturdy shell, the body inside is tender. It can\u2019t withstand a harsh attack."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/11.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/11.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/11.png",
         "types": [
             {
                 "fr": "Insecte",
-                "en": "Bug"
+                "en": "Bug",
+                "slug": "bug"
             }
         ],
-        "evolue_de": "caterpie",
+        "famille": [
+            "caterpie",
+            "metapod",
+            "butterfree"
+        ],
         "stats": {
             "hp": 50,
             "attack": 20,
@@ -356,18 +415,24 @@
             "en": "It collects honey every day. It rubs honey onto the hairs on its legs to carry it back to its nest."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/12.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/12.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/12.png",
         "types": [
             {
                 "fr": "Insecte",
-                "en": "Bug"
+                "en": "Bug",
+                "slug": "bug"
             },
             {
                 "fr": "Vol",
-                "en": "Flying"
+                "en": "Flying",
+                "slug": "flying"
             }
         ],
-        "evolue_de": "metapod",
+        "famille": [
+            "caterpie",
+            "metapod",
+            "butterfree"
+        ],
         "stats": {
             "hp": 60,
             "attack": 45,
@@ -390,18 +455,24 @@
             "en": "Beware of the sharp stinger on its head. It hides in grass and bushes where it eats leaves."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/13.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/13.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/13.png",
         "types": [
             {
                 "fr": "Insecte",
-                "en": "Bug"
+                "en": "Bug",
+                "slug": "bug"
             },
             {
                 "fr": "Poison",
-                "en": "Poison"
+                "en": "Poison",
+                "slug": "poison"
             }
         ],
-        "evolue_de": null,
+        "famille": [
+            "weedle",
+            "kakuna",
+            "beedrill"
+        ],
         "stats": {
             "hp": 40,
             "attack": 35,
@@ -424,18 +495,24 @@
             "en": "Able to move only slightly. When endangered, it may stick out its stinger and poison its enemy."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/14.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/14.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/14.png",
         "types": [
             {
                 "fr": "Insecte",
-                "en": "Bug"
+                "en": "Bug",
+                "slug": "bug"
             },
             {
                 "fr": "Poison",
-                "en": "Poison"
+                "en": "Poison",
+                "slug": "poison"
             }
         ],
-        "evolue_de": "weedle",
+        "famille": [
+            "weedle",
+            "kakuna",
+            "beedrill"
+        ],
         "stats": {
             "hp": 45,
             "attack": 25,
@@ -458,18 +535,24 @@
             "en": "It has three poisonous stingers on its forelegs and its tail. They are used to jab its enemy repeatedly."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/15.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/15.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/15.png",
         "types": [
             {
                 "fr": "Insecte",
-                "en": "Bug"
+                "en": "Bug",
+                "slug": "bug"
             },
             {
                 "fr": "Poison",
-                "en": "Poison"
+                "en": "Poison",
+                "slug": "poison"
             }
         ],
-        "evolue_de": "kakuna",
+        "famille": [
+            "weedle",
+            "kakuna",
+            "beedrill"
+        ],
         "stats": {
             "hp": 65,
             "attack": 90,
@@ -492,18 +575,24 @@
             "en": "Very docile. If attacked, it will often kick up sand to protect itself rather than fight back."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/16.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/16.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/16.png",
         "types": [
             {
                 "fr": "Normal",
-                "en": "Normal"
+                "en": "Normal",
+                "slug": "normal"
             },
             {
                 "fr": "Vol",
-                "en": "Flying"
+                "en": "Flying",
+                "slug": "flying"
             }
         ],
-        "evolue_de": null,
+        "famille": [
+            "pidgey",
+            "pidgeotto",
+            "pidgeot"
+        ],
         "stats": {
             "hp": 40,
             "attack": 45,
@@ -526,18 +615,24 @@
             "en": "This Pok\u00e9mon is full of vitality. It constantly flies around its large territory in search of prey."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/17.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/17.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/17.png",
         "types": [
             {
                 "fr": "Normal",
-                "en": "Normal"
+                "en": "Normal",
+                "slug": "normal"
             },
             {
                 "fr": "Vol",
-                "en": "Flying"
+                "en": "Flying",
+                "slug": "flying"
             }
         ],
-        "evolue_de": "pidgey",
+        "famille": [
+            "pidgey",
+            "pidgeotto",
+            "pidgeot"
+        ],
         "stats": {
             "hp": 63,
             "attack": 60,
@@ -560,18 +655,24 @@
             "en": "This Pok\u00e9mon flies at Mach 2 speed, seeking prey. Its large talons are feared as wicked weapons."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/18.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/18.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/18.png",
         "types": [
             {
                 "fr": "Normal",
-                "en": "Normal"
+                "en": "Normal",
+                "slug": "normal"
             },
             {
                 "fr": "Vol",
-                "en": "Flying"
+                "en": "Flying",
+                "slug": "flying"
             }
         ],
-        "evolue_de": "pidgeotto",
+        "famille": [
+            "pidgey",
+            "pidgeotto",
+            "pidgeot"
+        ],
         "stats": {
             "hp": 83,
             "attack": 80,
@@ -594,14 +695,18 @@
             "en": "Will chew on anything with its fangs. If you see one, you can be certain that 40 more live in the area."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/19.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/19.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/19.png",
         "types": [
             {
                 "fr": "Normal",
-                "en": "Normal"
+                "en": "Normal",
+                "slug": "normal"
             }
         ],
-        "evolue_de": null,
+        "famille": [
+            "rattata",
+            "raticate"
+        ],
         "stats": {
             "hp": 30,
             "attack": 56,
@@ -624,14 +729,18 @@
             "en": "Its hind feet are webbed. They act as flippers, so it can swim in rivers and hunt for prey."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/20.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/20.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/20.png",
         "types": [
             {
                 "fr": "Normal",
-                "en": "Normal"
+                "en": "Normal",
+                "slug": "normal"
             }
         ],
-        "evolue_de": "rattata",
+        "famille": [
+            "rattata",
+            "raticate"
+        ],
         "stats": {
             "hp": 55,
             "attack": 81,
@@ -654,18 +763,23 @@
             "en": "Inept at flying high. However, it can fly around very fast to protect its territory."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/21.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/21.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/21.png",
         "types": [
             {
                 "fr": "Normal",
-                "en": "Normal"
+                "en": "Normal",
+                "slug": "normal"
             },
             {
                 "fr": "Vol",
-                "en": "Flying"
+                "en": "Flying",
+                "slug": "flying"
             }
         ],
-        "evolue_de": null,
+        "famille": [
+            "spearow",
+            "fearow"
+        ],
         "stats": {
             "hp": 40,
             "attack": 60,
@@ -688,18 +802,23 @@
             "en": "A Pok\u00e9mon that dates back many years. If it senses danger, it flies high and away, instantly."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/22.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/22.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/22.png",
         "types": [
             {
                 "fr": "Normal",
-                "en": "Normal"
+                "en": "Normal",
+                "slug": "normal"
             },
             {
                 "fr": "Vol",
-                "en": "Flying"
+                "en": "Flying",
+                "slug": "flying"
             }
         ],
-        "evolue_de": "spearow",
+        "famille": [
+            "spearow",
+            "fearow"
+        ],
         "stats": {
             "hp": 65,
             "attack": 90,
@@ -722,14 +841,18 @@
             "en": "The older it gets, the longer it grows. At night, it wraps its long body around tree branches to rest."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/23.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/23.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/23.png",
         "types": [
             {
                 "fr": "Poison",
-                "en": "Poison"
+                "en": "Poison",
+                "slug": "poison"
             }
         ],
-        "evolue_de": null,
+        "famille": [
+            "ekans",
+            "arbok"
+        ],
         "stats": {
             "hp": 35,
             "attack": 60,
@@ -752,14 +875,18 @@
             "en": "The frightening patterns on its belly have been studied. Six variations have been confirmed."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/24.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/24.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/24.png",
         "types": [
             {
                 "fr": "Poison",
-                "en": "Poison"
+                "en": "Poison",
+                "slug": "poison"
             }
         ],
-        "evolue_de": "ekans",
+        "famille": [
+            "ekans",
+            "arbok"
+        ],
         "stats": {
             "hp": 60,
             "attack": 95,
@@ -782,14 +909,19 @@
             "en": "Possesses cheek sacs in which it stores electricity. This clever forest-dweller roasts tough berries with an electric shock before consuming them."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png",
         "types": [
             {
                 "fr": "\u00c9lectrik",
-                "en": "Electric"
+                "en": "Electric",
+                "slug": "electric"
             }
         ],
-        "evolue_de": "pichu",
+        "famille": [
+            "pichu",
+            "pikachu",
+            "raichu"
+        ],
         "stats": {
             "hp": 35,
             "attack": 55,
@@ -812,14 +944,19 @@
             "en": "It can discharge bursts of electricity exceeding 100,000 volts\u2014 a single strike with that amount of power would incapacitate one of the Copperajah of my homeland."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/26.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/26.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/26.png",
         "types": [
             {
                 "fr": "\u00c9lectrik",
-                "en": "Electric"
+                "en": "Electric",
+                "slug": "electric"
             }
         ],
-        "evolue_de": "pikachu",
+        "famille": [
+            "pichu",
+            "pikachu",
+            "raichu"
+        ],
         "stats": {
             "hp": 60,
             "attack": 90,
@@ -842,14 +979,18 @@
             "en": "It burrows into the ground to create its nest. If hard stones impede its tunneling, it uses its sharp claws to shatter them and then carries on digging."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/27.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/27.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/27.png",
         "types": [
             {
                 "fr": "Sol",
-                "en": "Ground"
+                "en": "Ground",
+                "slug": "ground"
             }
         ],
-        "evolue_de": null,
+        "famille": [
+            "sandshrew",
+            "sandslash"
+        ],
         "stats": {
             "hp": 50,
             "attack": 75,
@@ -872,14 +1013,18 @@
             "en": "It climbs trees by hooking on with its sharp claws. Sandslash shares the berries it gathers, dropping them down to Sandshrew waiting below the tree."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/28.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/28.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/28.png",
         "types": [
             {
                 "fr": "Sol",
-                "en": "Ground"
+                "en": "Ground",
+                "slug": "ground"
             }
         ],
-        "evolue_de": "sandshrew",
+        "famille": [
+            "sandshrew",
+            "sandslash"
+        ],
         "stats": {
             "hp": 75,
             "attack": 100,
@@ -902,14 +1047,19 @@
             "en": "It uses its hard incisor teeth to crush and eat berries. The tip of a female Nidoran\u2019s horn is a bit more rounded than the tip of a male\u2019s horn."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/29.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/29.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/29.png",
         "types": [
             {
                 "fr": "Poison",
-                "en": "Poison"
+                "en": "Poison",
+                "slug": "poison"
             }
         ],
-        "evolue_de": null,
+        "famille": [
+            "nidoran-f",
+            "nidorina",
+            "nidoqueen"
+        ],
         "stats": {
             "hp": 55,
             "attack": 47,
@@ -932,14 +1082,19 @@
             "en": "If the group is threatened, these Pok\u00e9mon will band together to assault enemies with a chorus of ultrasonic waves."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/30.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/30.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/30.png",
         "types": [
             {
                 "fr": "Poison",
-                "en": "Poison"
+                "en": "Poison",
+                "slug": "poison"
             }
         ],
-        "evolue_de": "nidoran-f",
+        "famille": [
+            "nidoran-f",
+            "nidorina",
+            "nidoqueen"
+        ],
         "stats": {
             "hp": 70,
             "attack": 62,
@@ -962,18 +1117,24 @@
             "en": "It pacifies offspring by placing them in the gaps between the spines on its back. The spines will never secrete poison while young are present."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/31.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/31.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/31.png",
         "types": [
             {
                 "fr": "Poison",
-                "en": "Poison"
+                "en": "Poison",
+                "slug": "poison"
             },
             {
                 "fr": "Sol",
-                "en": "Ground"
+                "en": "Ground",
+                "slug": "ground"
             }
         ],
-        "evolue_de": "nidorina",
+        "famille": [
+            "nidoran-f",
+            "nidorina",
+            "nidoqueen"
+        ],
         "stats": {
             "hp": 90,
             "attack": 92,
@@ -996,14 +1157,19 @@
             "en": "Small but brave, this Pok\u00e9mon will hold its ground and even risk its life in battle to protect the female it\u2019s friendly with."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/32.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/32.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/32.png",
         "types": [
             {
                 "fr": "Poison",
-                "en": "Poison"
+                "en": "Poison",
+                "slug": "poison"
             }
         ],
-        "evolue_de": null,
+        "famille": [
+            "nidoran-m",
+            "nidorino",
+            "nidoking"
+        ],
         "stats": {
             "hp": 46,
             "attack": 57,
@@ -1026,14 +1192,19 @@
             "en": "It\u2019s nervous and quick to act aggressively. The potency of its poison increases along with the level of adrenaline present in its body."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/33.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/33.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/33.png",
         "types": [
             {
                 "fr": "Poison",
-                "en": "Poison"
+                "en": "Poison",
+                "slug": "poison"
             }
         ],
-        "evolue_de": "nidoran-m",
+        "famille": [
+            "nidoran-m",
+            "nidorino",
+            "nidoking"
+        ],
         "stats": {
             "hp": 61,
             "attack": 72,
@@ -1056,18 +1227,24 @@
             "en": "Nidoking prides itself on its strength. It\u2019s forceful and spirited in battle, making use of its thick tail and diamond-crushing horn."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/34.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/34.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/34.png",
         "types": [
             {
                 "fr": "Poison",
-                "en": "Poison"
+                "en": "Poison",
+                "slug": "poison"
             },
             {
                 "fr": "Sol",
-                "en": "Ground"
+                "en": "Ground",
+                "slug": "ground"
             }
         ],
-        "evolue_de": "nidorino",
+        "famille": [
+            "nidoran-m",
+            "nidorino",
+            "nidoking"
+        ],
         "stats": {
             "hp": 81,
             "attack": 102,
@@ -1090,14 +1267,19 @@
             "en": "It can be found in quiet mountain areas on a full moon's night. Its dancing and its tiny, faintly glowing wings confer upon it a lovely fairylike quality."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/35.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/35.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/35.png",
         "types": [
             {
                 "fr": "F\u00e9e",
-                "en": "Fairy"
+                "en": "Fairy",
+                "slug": "fairy"
             }
         ],
-        "evolue_de": "cleffa",
+        "famille": [
+            "cleffa",
+            "clefairy",
+            "clefable"
+        ],
         "stats": {
             "hp": 70,
             "attack": 45,
@@ -1120,14 +1302,19 @@
             "en": "Legend says that on clear, quiet nights, it listens for the voices of its kin living on the moon. I, too, often think of my homeland, so far away."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/36.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/36.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/36.png",
         "types": [
             {
                 "fr": "F\u00e9e",
-                "en": "Fairy"
+                "en": "Fairy",
+                "slug": "fairy"
             }
         ],
-        "evolue_de": "clefairy",
+        "famille": [
+            "cleffa",
+            "clefairy",
+            "clefable"
+        ],
         "stats": {
             "hp": 95,
             "attack": 70,
@@ -1150,14 +1337,18 @@
             "en": "In its belly burns a fire, which Vulpix spits out in the form of fireballs. When young, this Pok\u00e9mon has but one white tail. As the Pok\u00e9mon matures, this single tail splits into six."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/37.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/37.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/37.png",
         "types": [
             {
                 "fr": "Feu",
-                "en": "Fire"
+                "en": "Fire",
+                "slug": "fire"
             }
         ],
-        "evolue_de": null,
+        "famille": [
+            "vulpix",
+            "ninetales"
+        ],
         "stats": {
             "hp": 38,
             "attack": 41,
@@ -1180,14 +1371,18 @@
             "en": "The coat of gleaming golden fur is quite magnificent. This species is said to store sacred power in its nine long tails and to live for a millennium."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/38.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/38.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/38.png",
         "types": [
             {
                 "fr": "Feu",
-                "en": "Fire"
+                "en": "Fire",
+                "slug": "fire"
             }
         ],
-        "evolue_de": "vulpix",
+        "famille": [
+            "vulpix",
+            "ninetales"
+        ],
         "stats": {
             "hp": 73,
             "attack": 76,
@@ -1210,18 +1405,24 @@
             "en": "By freely changing the wavelength of its voice, Jigglypuff sings a mysterious melody sure to make any listener sleepy."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/39.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/39.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/39.png",
         "types": [
             {
                 "fr": "Normal",
-                "en": "Normal"
+                "en": "Normal",
+                "slug": "normal"
             },
             {
                 "fr": "F\u00e9e",
-                "en": "Fairy"
+                "en": "Fairy",
+                "slug": "fairy"
             }
         ],
-        "evolue_de": "igglybuff",
+        "famille": [
+            "igglybuff",
+            "jigglypuff",
+            "wigglytuff"
+        ],
         "stats": {
             "hp": 115,
             "attack": 45,
@@ -1244,18 +1445,24 @@
             "en": "It\u2019s proud of its fur, which is fine and delicate. In particular, the curl on its forehead has a texture that\u2019s perfectly heavenly."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/40.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/40.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/40.png",
         "types": [
             {
                 "fr": "Normal",
-                "en": "Normal"
+                "en": "Normal",
+                "slug": "normal"
             },
             {
                 "fr": "F\u00e9e",
-                "en": "Fairy"
+                "en": "Fairy",
+                "slug": "fairy"
             }
         ],
-        "evolue_de": "jigglypuff",
+        "famille": [
+            "igglybuff",
+            "jigglypuff",
+            "wigglytuff"
+        ],
         "stats": {
             "hp": 140,
             "attack": 70,
@@ -1278,18 +1485,24 @@
             "en": "Makes its home in gloomy caves. Atrophied eyes have left this Pok\u00e9mon blind, so it scans its surroundings via sound waves that it emits from its mouth as it flies."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/41.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/41.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/41.png",
         "types": [
             {
                 "fr": "Poison",
-                "en": "Poison"
+                "en": "Poison",
+                "slug": "poison"
             },
             {
                 "fr": "Vol",
-                "en": "Flying"
+                "en": "Flying",
+                "slug": "flying"
             }
         ],
-        "evolue_de": null,
+        "famille": [
+            "zubat",
+            "golbat",
+            "crobat"
+        ],
         "stats": {
             "hp": 40,
             "attack": 45,
@@ -1312,18 +1525,24 @@
             "en": "It sinks its sharp fangs into other creatures and slurps up their blood. A closer look at the fangs reveals that they are hollow and akin to straws."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/42.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/42.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/42.png",
         "types": [
             {
                 "fr": "Poison",
-                "en": "Poison"
+                "en": "Poison",
+                "slug": "poison"
             },
             {
                 "fr": "Vol",
-                "en": "Flying"
+                "en": "Flying",
+                "slug": "flying"
             }
         ],
-        "evolue_de": "zubat",
+        "famille": [
+            "zubat",
+            "golbat",
+            "crobat"
+        ],
         "stats": {
             "hp": 75,
             "attack": 80,
@@ -1346,18 +1565,24 @@
             "en": "During the day, it stays in the cold underground to avoid the sun. It grows by bathing in moonlight."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/43.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/43.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/43.png",
         "types": [
             {
                 "fr": "Plante",
-                "en": "Grass"
+                "en": "Grass",
+                "slug": "grass"
             },
             {
                 "fr": "Poison",
-                "en": "Poison"
+                "en": "Poison",
+                "slug": "poison"
             }
         ],
-        "evolue_de": null,
+        "famille": [
+            "oddish",
+            "gloom",
+            "vileplume"
+        ],
         "stats": {
             "hp": 45,
             "attack": 50,
@@ -1380,18 +1605,24 @@
             "en": "What appears to be drool is actually sweet honey. It is very sticky and clings stubbornly if touched."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/44.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/44.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/44.png",
         "types": [
             {
                 "fr": "Plante",
-                "en": "Grass"
+                "en": "Grass",
+                "slug": "grass"
             },
             {
                 "fr": "Poison",
-                "en": "Poison"
+                "en": "Poison",
+                "slug": "poison"
             }
         ],
-        "evolue_de": "oddish",
+        "famille": [
+            "oddish",
+            "gloom",
+            "vileplume"
+        ],
         "stats": {
             "hp": 60,
             "attack": 65,
@@ -1414,18 +1645,24 @@
             "en": "The larger its petals, the more toxic pollen it contains. Its big head is heavy and hard to hold up."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/45.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/45.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/45.png",
         "types": [
             {
                 "fr": "Plante",
-                "en": "Grass"
+                "en": "Grass",
+                "slug": "grass"
             },
             {
                 "fr": "Poison",
-                "en": "Poison"
+                "en": "Poison",
+                "slug": "poison"
             }
         ],
-        "evolue_de": "gloom",
+        "famille": [
+            "oddish",
+            "gloom",
+            "vileplume"
+        ],
         "stats": {
             "hp": 75,
             "attack": 80,
@@ -1448,18 +1685,23 @@
             "en": "Sometimes seen at the foot of trees in humid forests. The mushrooms on its back\u2014called tochukaso\u2014are not present on infant specimens and instead emerge as Paras matures."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/46.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/46.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/46.png",
         "types": [
             {
                 "fr": "Insecte",
-                "en": "Bug"
+                "en": "Bug",
+                "slug": "bug"
             },
             {
                 "fr": "Plante",
-                "en": "Grass"
+                "en": "Grass",
+                "slug": "grass"
             }
         ],
-        "evolue_de": null,
+        "famille": [
+            "paras",
+            "parasect"
+        ],
         "stats": {
             "hp": 35,
             "attack": 70,
@@ -1482,18 +1724,23 @@
             "en": "Mushroom-lacking specimens of this Pok\u00e9mon lie unmoving in the forest, lending credence to the hypothesis that the large mushroom is in control of Parasect's actions."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/47.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/47.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/47.png",
         "types": [
             {
                 "fr": "Insecte",
-                "en": "Bug"
+                "en": "Bug",
+                "slug": "bug"
             },
             {
                 "fr": "Plante",
-                "en": "Grass"
+                "en": "Grass",
+                "slug": "grass"
             }
         ],
-        "evolue_de": "paras",
+        "famille": [
+            "paras",
+            "parasect"
+        ],
         "stats": {
             "hp": 60,
             "attack": 95,
@@ -1516,18 +1763,23 @@
             "en": "Its large eyes act as radar. In a bright place, you can see that they are clusters of many tiny eyes."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/48.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/48.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/48.png",
         "types": [
             {
                 "fr": "Insecte",
-                "en": "Bug"
+                "en": "Bug",
+                "slug": "bug"
             },
             {
                 "fr": "Poison",
-                "en": "Poison"
+                "en": "Poison",
+                "slug": "poison"
             }
         ],
-        "evolue_de": null,
+        "famille": [
+            "venonat",
+            "venomoth"
+        ],
         "stats": {
             "hp": 60,
             "attack": 55,
@@ -1550,18 +1802,23 @@
             "en": "The powdery scales on its wings are hard to remove from skin. They also contain poison that leaks out on contact."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/49.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/49.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/49.png",
         "types": [
             {
                 "fr": "Insecte",
-                "en": "Bug"
+                "en": "Bug",
+                "slug": "bug"
             },
             {
                 "fr": "Poison",
-                "en": "Poison"
+                "en": "Poison",
+                "slug": "poison"
             }
         ],
-        "evolue_de": "venonat",
+        "famille": [
+            "venonat",
+            "venomoth"
+        ],
         "stats": {
             "hp": 70,
             "attack": 65,
@@ -1584,14 +1841,18 @@
             "en": "It burrows through the ground at a shallow depth. It leaves raised earth in its wake, making it easy to spot."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/50.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/50.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/50.png",
         "types": [
             {
                 "fr": "Sol",
-                "en": "Ground"
+                "en": "Ground",
+                "slug": "ground"
             }
         ],
-        "evolue_de": null,
+        "famille": [
+            "diglett",
+            "dugtrio"
+        ],
         "stats": {
             "hp": 10,
             "attack": 55,
@@ -1614,14 +1875,18 @@
             "en": "These Diglett triplets dig over 60 miles below sea level. No one knows what it\u2019s like underground."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/51.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/51.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/51.png",
         "types": [
             {
                 "fr": "Sol",
-                "en": "Ground"
+                "en": "Ground",
+                "slug": "ground"
             }
         ],
-        "evolue_de": "diglett",
+        "famille": [
+            "diglett",
+            "dugtrio"
+        ],
         "stats": {
             "hp": 35,
             "attack": 100,
@@ -1644,14 +1909,18 @@
             "en": "It loves to collect shiny things. If it\u2019s in a good mood, it might even let its Trainer have a look at its hoard of treasures."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/52.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/52.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/52.png",
         "types": [
             {
                 "fr": "Normal",
-                "en": "Normal"
+                "en": "Normal",
+                "slug": "normal"
             }
         ],
-        "evolue_de": null,
+        "famille": [
+            "meowth",
+            "persian"
+        ],
         "stats": {
             "hp": 40,
             "attack": 45,
@@ -1674,14 +1943,18 @@
             "en": "Its elegant and refined behavior clashes with that of the barbaric Perrserker. The relationship between the two is one of mutual disdain."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/53.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/53.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/53.png",
         "types": [
             {
                 "fr": "Normal",
-                "en": "Normal"
+                "en": "Normal",
+                "slug": "normal"
             }
         ],
-        "evolue_de": "meowth",
+        "famille": [
+            "meowth",
+            "persian"
+        ],
         "stats": {
             "hp": 65,
             "attack": 70,
@@ -1704,14 +1977,18 @@
             "en": "Suffers perpetual headaches. If the agony grows too great, Psyduck's latent power erupts, contrary to Psyduck's intent. Ergo, I am exploring ways to ease the pain."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/54.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/54.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/54.png",
         "types": [
             {
                 "fr": "Eau",
-                "en": "Water"
+                "en": "Water",
+                "slug": "water"
             }
         ],
-        "evolue_de": null,
+        "famille": [
+            "psyduck",
+            "golduck"
+        ],
         "stats": {
             "hp": 50,
             "attack": 52,
@@ -1734,14 +2011,18 @@
             "en": "Its body is strong, and it has webbing on its hands and feet. Golduck can swim easily through rough seas, clawing its way through the high waves."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/55.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/55.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/55.png",
         "types": [
             {
                 "fr": "Eau",
-                "en": "Water"
+                "en": "Water",
+                "slug": "water"
             }
         ],
-        "evolue_de": "psyduck",
+        "famille": [
+            "psyduck",
+            "golduck"
+        ],
         "stats": {
             "hp": 80,
             "attack": 82,
@@ -1764,14 +2045,19 @@
             "en": "An agile Pok\u00e9mon that lives in trees. It angers easily and will not hesitate to attack anything."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/56.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/56.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/56.png",
         "types": [
             {
                 "fr": "Combat",
-                "en": "Fighting"
+                "en": "Fighting",
+                "slug": "fighting"
             }
         ],
-        "evolue_de": null,
+        "famille": [
+            "mankey",
+            "primeape",
+            "annihilape"
+        ],
         "stats": {
             "hp": 40,
             "attack": 80,
@@ -1794,14 +2080,19 @@
             "en": "It stops being angry only when nobody else is around. To view this moment is very difficult."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/57.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/57.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/57.png",
         "types": [
             {
                 "fr": "Combat",
-                "en": "Fighting"
+                "en": "Fighting",
+                "slug": "fighting"
             }
         ],
-        "evolue_de": "mankey",
+        "famille": [
+            "mankey",
+            "primeape",
+            "annihilape"
+        ],
         "stats": {
             "hp": 65,
             "attack": 105,
@@ -1824,14 +2115,18 @@
             "en": "They patrol their territory in pairs. I believe the igneous rock components in the fur of this species are the result of volcanic activity in its habitat."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/58.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/58.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/58.png",
         "types": [
             {
                 "fr": "Feu",
-                "en": "Fire"
+                "en": "Fire",
+                "slug": "fire"
             }
         ],
-        "evolue_de": null,
+        "famille": [
+            "growlithe",
+            "arcanine"
+        ],
         "stats": {
             "hp": 55,
             "attack": 70,
@@ -1854,14 +2149,18 @@
             "en": "Snaps at its foes with fangs cloaked in blazing flame. Despite its bulk, it deftly feints every which way, leading opponents on a deceptively merry chase as it all but dances around them."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/59.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/59.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/59.png",
         "types": [
             {
                 "fr": "Feu",
-                "en": "Fire"
+                "en": "Fire",
+                "slug": "fire"
             }
         ],
-        "evolue_de": "growlithe",
+        "famille": [
+            "growlithe",
+            "arcanine"
+        ],
         "stats": {
             "hp": 90,
             "attack": 110,
@@ -1884,14 +2183,19 @@
             "en": "In rivers with fast-flowing water, this Pok\u00e9mon will cling to a rock by using its thick lips, which act like a suction cup."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/60.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/60.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/60.png",
         "types": [
             {
                 "fr": "Eau",
-                "en": "Water"
+                "en": "Water",
+                "slug": "water"
             }
         ],
-        "evolue_de": null,
+        "famille": [
+            "poliwag",
+            "poliwhirl",
+            "poliwrath"
+        ],
         "stats": {
             "hp": 40,
             "attack": 50,
@@ -1914,14 +2218,19 @@
             "en": "This Pok\u00e9mon\u2019s sweat is a slimy mucus. When captured, Poliwhirl can slither from its enemies\u2019 grasp and escape."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/61.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/61.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/61.png",
         "types": [
             {
                 "fr": "Eau",
-                "en": "Water"
+                "en": "Water",
+                "slug": "water"
             }
         ],
-        "evolue_de": "poliwag",
+        "famille": [
+            "poliwag",
+            "poliwhirl",
+            "poliwrath"
+        ],
         "stats": {
             "hp": 65,
             "attack": 65,
@@ -1944,18 +2253,24 @@
             "en": "Poliwrath is skilled at both swimming and martial arts. It uses its well-trained arms to dish out powerful punches."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/62.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/62.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/62.png",
         "types": [
             {
                 "fr": "Eau",
-                "en": "Water"
+                "en": "Water",
+                "slug": "water"
             },
             {
                 "fr": "Combat",
-                "en": "Fighting"
+                "en": "Fighting",
+                "slug": "fighting"
             }
         ],
-        "evolue_de": "poliwhirl",
+        "famille": [
+            "poliwag",
+            "poliwhirl",
+            "poliwrath"
+        ],
         "stats": {
             "hp": 90,
             "attack": 95,
@@ -1978,14 +2293,19 @@
             "en": "Spends 18 hours of the day sleeping. Even while asleep, Abra can control its psychic powers\u2014should danger approach, the Pok\u00e9mon will simply teleport away."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/63.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/63.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/63.png",
         "types": [
             {
                 "fr": "Psy",
-                "en": "Psychic"
+                "en": "Psychic",
+                "slug": "psychic"
             }
         ],
-        "evolue_de": null,
+        "famille": [
+            "abra",
+            "kadabra",
+            "alakazam"
+        ],
         "stats": {
             "hp": 25,
             "attack": 20,
@@ -2008,14 +2328,19 @@
             "en": "There are rumors that a child with mystical powers became a Kadabra; however, this remains unverified. I suspect that the spoon Kadabra holds enhances its brain waves."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/64.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/64.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/64.png",
         "types": [
             {
                 "fr": "Psy",
-                "en": "Psychic"
+                "en": "Psychic",
+                "slug": "psychic"
             }
         ],
-        "evolue_de": "abra",
+        "famille": [
+            "abra",
+            "kadabra",
+            "alakazam"
+        ],
         "stats": {
             "hp": 40,
             "attack": 35,
@@ -2038,14 +2363,19 @@
             "en": "The longer Alakazam lives, the larger and heavier its head becomes. Our tests have shown that the strength of its psychic powers correlates positively to the weight of its head."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/65.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/65.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/65.png",
         "types": [
             {
                 "fr": "Psy",
-                "en": "Psychic"
+                "en": "Psychic",
+                "slug": "psychic"
             }
         ],
-        "evolue_de": "kadabra",
+        "famille": [
+            "abra",
+            "kadabra",
+            "alakazam"
+        ],
         "stats": {
             "hp": 55,
             "attack": 50,
@@ -2068,14 +2398,19 @@
             "en": "Though as small as a child, it has strength enough to easily throw a well-built adult. Striving to become ever stronger, Machop trains by carrying a Graveler on its shoulders."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/66.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/66.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/66.png",
         "types": [
             {
                 "fr": "Combat",
-                "en": "Fighting"
+                "en": "Fighting",
+                "slug": "fighting"
             }
         ],
-        "evolue_de": null,
+        "famille": [
+            "machop",
+            "machoke",
+            "machamp"
+        ],
         "stats": {
             "hp": 70,
             "attack": 80,
@@ -2098,14 +2433,19 @@
             "en": "A sturdy creature boasting a robust physique and boundless stamina. Loves training above all else and voluntarily assists with tasks such as construction and clearing land."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/67.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/67.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/67.png",
         "types": [
             {
                 "fr": "Combat",
-                "en": "Fighting"
+                "en": "Fighting",
+                "slug": "fighting"
             }
         ],
-        "evolue_de": "machop",
+        "famille": [
+            "machop",
+            "machoke",
+            "machamp"
+        ],
         "stats": {
             "hp": 80,
             "attack": 100,
@@ -2128,14 +2468,19 @@
             "en": "In close combat, its four arms afford it offensive and defensive supremacy. In but a blink, this valiant Pok\u00e9mon can overwhelm its foes with more than 1,000 blows from its fists."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/68.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/68.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/68.png",
         "types": [
             {
                 "fr": "Combat",
-                "en": "Fighting"
+                "en": "Fighting",
+                "slug": "fighting"
             }
         ],
-        "evolue_de": "machoke",
+        "famille": [
+            "machop",
+            "machoke",
+            "machamp"
+        ],
         "stats": {
             "hp": 90,
             "attack": 130,
@@ -2158,18 +2503,24 @@
             "en": "Prefers hot and humid places. It ensnares tiny bugs with its vines and devours them."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/69.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/69.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/69.png",
         "types": [
             {
                 "fr": "Plante",
-                "en": "Grass"
+                "en": "Grass",
+                "slug": "grass"
             },
             {
                 "fr": "Poison",
-                "en": "Poison"
+                "en": "Poison",
+                "slug": "poison"
             }
         ],
-        "evolue_de": null,
+        "famille": [
+            "bellsprout",
+            "weepinbell",
+            "victreebel"
+        ],
         "stats": {
             "hp": 50,
             "attack": 75,
@@ -2192,18 +2543,24 @@
             "en": "When hungry, it swallows anything that moves. Its hapless prey is dissolved by strong acids."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/70.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/70.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/70.png",
         "types": [
             {
                 "fr": "Plante",
-                "en": "Grass"
+                "en": "Grass",
+                "slug": "grass"
             },
             {
                 "fr": "Poison",
-                "en": "Poison"
+                "en": "Poison",
+                "slug": "poison"
             }
         ],
-        "evolue_de": "bellsprout",
+        "famille": [
+            "bellsprout",
+            "weepinbell",
+            "victreebel"
+        ],
         "stats": {
             "hp": 65,
             "attack": 90,
@@ -2226,18 +2583,24 @@
             "en": "Lures prey with the sweet aroma of honey. Swallowed whole, the prey is dissolved in a day, bones and all."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/71.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/71.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/71.png",
         "types": [
             {
                 "fr": "Plante",
-                "en": "Grass"
+                "en": "Grass",
+                "slug": "grass"
             },
             {
                 "fr": "Poison",
-                "en": "Poison"
+                "en": "Poison",
+                "slug": "poison"
             }
         ],
-        "evolue_de": "weepinbell",
+        "famille": [
+            "bellsprout",
+            "weepinbell",
+            "victreebel"
+        ],
         "stats": {
             "hp": 80,
             "attack": 105,
@@ -2260,18 +2623,23 @@
             "en": "They fire beams from the glassy, magenta orbs that resemble eyes atop their heads, and they drift in shallow seas. During low tide, they can sometimes be found on beaches, desiccated."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/72.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/72.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/72.png",
         "types": [
             {
                 "fr": "Eau",
-                "en": "Water"
+                "en": "Water",
+                "slug": "water"
             },
             {
                 "fr": "Poison",
-                "en": "Poison"
+                "en": "Poison",
+                "slug": "poison"
             }
         ],
-        "evolue_de": null,
+        "famille": [
+            "tentacool",
+            "tentacruel"
+        ],
         "stats": {
             "hp": 40,
             "attack": 40,
@@ -2294,18 +2662,23 @@
             "en": "It has 80 tentacles, each with a venomous tip. These tentacles are also extendible, lengthening when Tentacruel attempts to catch prey. Use caution."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/73.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/73.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/73.png",
         "types": [
             {
                 "fr": "Eau",
-                "en": "Water"
+                "en": "Water",
+                "slug": "water"
             },
             {
                 "fr": "Poison",
-                "en": "Poison"
+                "en": "Poison",
+                "slug": "poison"
             }
         ],
-        "evolue_de": "tentacool",
+        "famille": [
+            "tentacool",
+            "tentacruel"
+        ],
         "stats": {
             "hp": 80,
             "attack": 70,
@@ -2328,18 +2701,24 @@
             "en": "Makes its home in mountainous regions, using its arms to climb along harsh mountain roads. Can be troublesome\u2014carelessly kicking one will cause it to fly into a rage and chase after you."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/74.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/74.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/74.png",
         "types": [
             {
                 "fr": "Roche",
-                "en": "Rock"
+                "en": "Rock",
+                "slug": "rock"
             },
             {
                 "fr": "Sol",
-                "en": "Ground"
+                "en": "Ground",
+                "slug": "ground"
             }
         ],
-        "evolue_de": null,
+        "famille": [
+            "geodude",
+            "graveler",
+            "golem"
+        ],
         "stats": {
             "hp": 40,
             "attack": 80,
@@ -2362,18 +2741,24 @@
             "en": "Dwells in holes dug into sheer walls of stone. It enjoys rolling down slopes as though it were a boulder during a rockfall, so keep an eye upward while traversing mountain roads."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/75.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/75.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/75.png",
         "types": [
             {
                 "fr": "Roche",
-                "en": "Rock"
+                "en": "Rock",
+                "slug": "rock"
             },
             {
                 "fr": "Sol",
-                "en": "Ground"
+                "en": "Ground",
+                "slug": "ground"
             }
         ],
-        "evolue_de": "geodude",
+        "famille": [
+            "geodude",
+            "graveler",
+            "golem"
+        ],
         "stats": {
             "hp": 55,
             "attack": 95,
@@ -2396,18 +2781,24 @@
             "en": "The rocklike shell is shed each year. The cast-off shell then crumbles, reverting to a mass of soil, which can be spread across fields to promote crop growth."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/76.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/76.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/76.png",
         "types": [
             {
                 "fr": "Roche",
-                "en": "Rock"
+                "en": "Rock",
+                "slug": "rock"
             },
             {
                 "fr": "Sol",
-                "en": "Ground"
+                "en": "Ground",
+                "slug": "ground"
             }
         ],
-        "evolue_de": "graveler",
+        "famille": [
+            "geodude",
+            "graveler",
+            "golem"
+        ],
         "stats": {
             "hp": 80,
             "attack": 120,
@@ -2430,14 +2821,18 @@
             "en": "These Pok\u00e9mon live in herds out in the grassland. Newborn foals lack their fiery manes, which will develop about an hour after birth."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/77.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/77.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/77.png",
         "types": [
             {
                 "fr": "Feu",
-                "en": "Fire"
+                "en": "Fire",
+                "slug": "fire"
             }
         ],
-        "evolue_de": null,
+        "famille": [
+            "ponyta",
+            "rapidash"
+        ],
         "stats": {
             "hp": 50,
             "attack": 85,
@@ -2460,14 +2855,18 @@
             "en": "Fiery mane aglow, Rapidash darts like an arrow across the land. This prodigiously swift creature can traverse the vast region of Hisui in a day and a half."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/78.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/78.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/78.png",
         "types": [
             {
                 "fr": "Feu",
-                "en": "Fire"
+                "en": "Fire",
+                "slug": "fire"
             }
         ],
-        "evolue_de": "ponyta",
+        "famille": [
+            "ponyta",
+            "rapidash"
+        ],
         "stats": {
             "hp": 65,
             "attack": 100,
@@ -2490,18 +2889,23 @@
             "en": "When this Pok\u00e9mon\u2019s tail is soaked in water, sweetness seeps from it. Slowpoke uses this trait to lure in and fish up other Pok\u00e9mon."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/79.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/79.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/79.png",
         "types": [
             {
                 "fr": "Eau",
-                "en": "Water"
+                "en": "Water",
+                "slug": "water"
             },
             {
                 "fr": "Psy",
-                "en": "Psychic"
+                "en": "Psychic",
+                "slug": "psychic"
             }
         ],
-        "evolue_de": null,
+        "famille": [
+            "slowpoke",
+            "slowbro"
+        ],
         "stats": {
             "hp": 90,
             "attack": 65,
@@ -2524,18 +2928,23 @@
             "en": "Being bitten by a Shellder shocked this Pok\u00e9mon into standing on two legs. If the Shellder lets go, it seems Slowbro will turn back into a Slowpoke."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/80.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/80.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/80.png",
         "types": [
             {
                 "fr": "Eau",
-                "en": "Water"
+                "en": "Water",
+                "slug": "water"
             },
             {
                 "fr": "Psy",
-                "en": "Psychic"
+                "en": "Psychic",
+                "slug": "psychic"
             }
         ],
-        "evolue_de": "slowpoke",
+        "famille": [
+            "slowpoke",
+            "slowbro"
+        ],
         "stats": {
             "hp": 95,
             "attack": 75,
@@ -2558,18 +2967,24 @@
             "en": "A bizarre Pok\u00e9mon with but a single eye embedded in an iron sphere. I suspect this creature levitates due to the magnetism it emits from its arms, which resemble horseshoe-shaped magnets."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/81.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/81.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/81.png",
         "types": [
             {
                 "fr": "\u00c9lectrik",
-                "en": "Electric"
+                "en": "Electric",
+                "slug": "electric"
             },
             {
                 "fr": "Acier",
-                "en": "Steel"
+                "en": "Steel",
+                "slug": "steel"
             }
         ],
-        "evolue_de": null,
+        "famille": [
+            "magnemite",
+            "magneton",
+            "magnezone"
+        ],
         "stats": {
             "hp": 25,
             "attack": 35,
@@ -2592,18 +3007,24 @@
             "en": "Three Magnemite gathered to evolve into this Pok\u00e9mon. The source of much vexation on my part, as its powerful magnetism destroys my research equipment."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/82.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/82.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/82.png",
         "types": [
             {
                 "fr": "\u00c9lectrik",
-                "en": "Electric"
+                "en": "Electric",
+                "slug": "electric"
             },
             {
                 "fr": "Acier",
-                "en": "Steel"
+                "en": "Steel",
+                "slug": "steel"
             }
         ],
-        "evolue_de": "magnemite",
+        "famille": [
+            "magnemite",
+            "magneton",
+            "magnezone"
+        ],
         "stats": {
             "hp": 50,
             "attack": 60,
@@ -2626,18 +3047,23 @@
             "en": "They use a plant stalk as a weapon, but not all of them use it in the same way. Several distinct styles of stalk fighting have been observed."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/83.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/83.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/83.png",
         "types": [
             {
                 "fr": "Normal",
-                "en": "Normal"
+                "en": "Normal",
+                "slug": "normal"
             },
             {
                 "fr": "Vol",
-                "en": "Flying"
+                "en": "Flying",
+                "slug": "flying"
             }
         ],
-        "evolue_de": null,
+        "famille": [
+            "farfetchd",
+            "sirfetchd"
+        ],
         "stats": {
             "hp": 52,
             "attack": 90,
@@ -2660,18 +3086,23 @@
             "en": "Its short wings make flying difficult. Instead, this Pok\u00e9mon runs at high speed on developed legs."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/84.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/84.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/84.png",
         "types": [
             {
                 "fr": "Normal",
-                "en": "Normal"
+                "en": "Normal",
+                "slug": "normal"
             },
             {
                 "fr": "Vol",
-                "en": "Flying"
+                "en": "Flying",
+                "slug": "flying"
             }
         ],
-        "evolue_de": null,
+        "famille": [
+            "doduo",
+            "dodrio"
+        ],
         "stats": {
             "hp": 35,
             "attack": 85,
@@ -2694,18 +3125,23 @@
             "en": "One of Doduo\u2019s two heads splits to form a unique species. It runs close to 40 mph in prairies."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/85.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/85.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/85.png",
         "types": [
             {
                 "fr": "Normal",
-                "en": "Normal"
+                "en": "Normal",
+                "slug": "normal"
             },
             {
                 "fr": "Vol",
-                "en": "Flying"
+                "en": "Flying",
+                "slug": "flying"
             }
         ],
-        "evolue_de": "doduo",
+        "famille": [
+            "doduo",
+            "dodrio"
+        ],
         "stats": {
             "hp": 60,
             "attack": 110,
@@ -2728,14 +3164,18 @@
             "en": "Loves freezing-cold conditions. Relishes swimming in a frigid climate of around 14 degrees Fahrenheit."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/86.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/86.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/86.png",
         "types": [
             {
                 "fr": "Eau",
-                "en": "Water"
+                "en": "Water",
+                "slug": "water"
             }
         ],
-        "evolue_de": null,
+        "famille": [
+            "seel",
+            "dewgong"
+        ],
         "stats": {
             "hp": 65,
             "attack": 45,
@@ -2758,18 +3198,23 @@
             "en": "Its entire body is a snowy white. Unharmed by even intense cold, it swims powerfully in icy waters."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/87.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/87.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/87.png",
         "types": [
             {
                 "fr": "Eau",
-                "en": "Water"
+                "en": "Water",
+                "slug": "water"
             },
             {
                 "fr": "Glace",
-                "en": "Ice"
+                "en": "Ice",
+                "slug": "ice"
             }
         ],
-        "evolue_de": "seel",
+        "famille": [
+            "seel",
+            "dewgong"
+        ],
         "stats": {
             "hp": 90,
             "attack": 70,
@@ -2792,14 +3237,18 @@
             "en": "Made of congealed sludge. It smells too putrid to touch. Even weeds won\u2019t grow in its path."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/88.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/88.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/88.png",
         "types": [
             {
                 "fr": "Poison",
-                "en": "Poison"
+                "en": "Poison",
+                "slug": "poison"
             }
         ],
-        "evolue_de": null,
+        "famille": [
+            "grimer",
+            "muk"
+        ],
         "stats": {
             "hp": 80,
             "attack": 80,
@@ -2822,14 +3271,18 @@
             "en": "Smells so awful, it can cause fainting. Through degeneration of its nose, it lost its sense of smell."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/89.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/89.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/89.png",
         "types": [
             {
                 "fr": "Poison",
-                "en": "Poison"
+                "en": "Poison",
+                "slug": "poison"
             }
         ],
-        "evolue_de": "grimer",
+        "famille": [
+            "grimer",
+            "muk"
+        ],
         "stats": {
             "hp": 105,
             "attack": 105,
@@ -2852,14 +3305,18 @@
             "en": "Its hard shell repels any kind of attack. It is vulnerable only when its shell is open."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/90.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/90.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/90.png",
         "types": [
             {
                 "fr": "Eau",
-                "en": "Water"
+                "en": "Water",
+                "slug": "water"
             }
         ],
-        "evolue_de": null,
+        "famille": [
+            "shellder",
+            "cloyster"
+        ],
         "stats": {
             "hp": 30,
             "attack": 65,
@@ -2882,18 +3339,23 @@
             "en": "Once it slams its shell shut, it is impossible to open, even by those with superior strength."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/91.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/91.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/91.png",
         "types": [
             {
                 "fr": "Eau",
-                "en": "Water"
+                "en": "Water",
+                "slug": "water"
             },
             {
                 "fr": "Glace",
-                "en": "Ice"
+                "en": "Ice",
+                "slug": "ice"
             }
         ],
-        "evolue_de": "shellder",
+        "famille": [
+            "shellder",
+            "cloyster"
+        ],
         "stats": {
             "hp": 50,
             "attack": 95,
@@ -2916,18 +3378,24 @@
             "en": "Gaseous and completely impalpable. Also highly dangerous\u2014 inhaling part of its poisonous body will cause one to faint instantly."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/92.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/92.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/92.png",
         "types": [
             {
                 "fr": "Spectre",
-                "en": "Ghost"
+                "en": "Ghost",
+                "slug": "ghost"
             },
             {
                 "fr": "Poison",
-                "en": "Poison"
+                "en": "Poison",
+                "slug": "poison"
             }
         ],
-        "evolue_de": null,
+        "famille": [
+            "gastly",
+            "haunter",
+            "gengar"
+        ],
         "stats": {
             "hp": 30,
             "attack": 35,
@@ -2950,18 +3418,24 @@
             "en": "This frightful, malevolent spirit can glide through walls, appearing wherever it likes. According to rumor, victims of a Haunter's lick will wither to death day by day."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/93.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/93.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/93.png",
         "types": [
             {
                 "fr": "Spectre",
-                "en": "Ghost"
+                "en": "Ghost",
+                "slug": "ghost"
             },
             {
                 "fr": "Poison",
-                "en": "Poison"
+                "en": "Poison",
+                "slug": "poison"
             }
         ],
-        "evolue_de": "gastly",
+        "famille": [
+            "gastly",
+            "haunter",
+            "gengar"
+        ],
         "stats": {
             "hp": 45,
             "attack": 50,
@@ -2984,18 +3458,24 @@
             "en": "Possesses potential victims' shadows in an effort to steal away the victims' lives. If your shadow begins to laugh, you must take hold of a protective charm posthaste!"
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/94.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/94.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/94.png",
         "types": [
             {
                 "fr": "Spectre",
-                "en": "Ghost"
+                "en": "Ghost",
+                "slug": "ghost"
             },
             {
                 "fr": "Poison",
-                "en": "Poison"
+                "en": "Poison",
+                "slug": "poison"
             }
         ],
-        "evolue_de": "haunter",
+        "famille": [
+            "gastly",
+            "haunter",
+            "gengar"
+        ],
         "stats": {
             "hp": 60,
             "attack": 65,
@@ -3018,18 +3498,23 @@
             "en": "This chain of immense stones resembles a giant serpent. Tremors shake the earth above as it burrows deep beneath the ground, feeding on boulders as it goes."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/95.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/95.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/95.png",
         "types": [
             {
                 "fr": "Roche",
-                "en": "Rock"
+                "en": "Rock",
+                "slug": "rock"
             },
             {
                 "fr": "Sol",
-                "en": "Ground"
+                "en": "Ground",
+                "slug": "ground"
             }
         ],
-        "evolue_de": null,
+        "famille": [
+            "onix",
+            "steelix"
+        ],
         "stats": {
             "hp": 35,
             "attack": 45,
@@ -3052,14 +3537,18 @@
             "en": "If you sleep by it all the time, it will sometimes show you dreams it had eaten in the past."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/96.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/96.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/96.png",
         "types": [
             {
                 "fr": "Psy",
-                "en": "Psychic"
+                "en": "Psychic",
+                "slug": "psychic"
             }
         ],
-        "evolue_de": null,
+        "famille": [
+            "drowzee",
+            "hypno"
+        ],
         "stats": {
             "hp": 60,
             "attack": 48,
@@ -3082,14 +3571,18 @@
             "en": "Avoid eye contact if you come across one. It will try to put you to sleep by using its pendulum."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/97.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/97.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/97.png",
         "types": [
             {
                 "fr": "Psy",
-                "en": "Psychic"
+                "en": "Psychic",
+                "slug": "psychic"
             }
         ],
-        "evolue_de": "drowzee",
+        "famille": [
+            "drowzee",
+            "hypno"
+        ],
         "stats": {
             "hp": 85,
             "attack": 73,
@@ -3112,14 +3605,18 @@
             "en": "If it senses danger approaching, it cloaks itself with bubbles from its mouth so it will look bigger."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/98.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/98.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/98.png",
         "types": [
             {
                 "fr": "Eau",
-                "en": "Water"
+                "en": "Water",
+                "slug": "water"
             }
         ],
-        "evolue_de": null,
+        "famille": [
+            "krabby",
+            "kingler"
+        ],
         "stats": {
             "hp": 30,
             "attack": 105,
@@ -3142,14 +3639,18 @@
             "en": "Its oversized claw is very powerful, but when it\u2019s not in battle, the claw just gets in the way."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/99.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/99.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/99.png",
         "types": [
             {
                 "fr": "Eau",
-                "en": "Water"
+                "en": "Water",
+                "slug": "water"
             }
         ],
-        "evolue_de": "krabby",
+        "famille": [
+            "krabby",
+            "kingler"
+        ],
         "stats": {
             "hp": 55,
             "attack": 130,
@@ -3172,14 +3673,18 @@
             "en": "An enigmatic Pok\u00e9mon that happens to bear a resemblance to a Pok\u00e9 Ball. When excited, it discharges the electric current it has stored in its belly, then lets out a great, uproarious laugh."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/100.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/100.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/100.png",
         "types": [
             {
                 "fr": "\u00c9lectrik",
-                "en": "Electric"
+                "en": "Electric",
+                "slug": "electric"
             }
         ],
-        "evolue_de": null,
+        "famille": [
+            "voltorb",
+            "electrode"
+        ],
         "stats": {
             "hp": 40,
             "attack": 30,
@@ -3202,14 +3707,18 @@
             "en": "The tissue on the surface of its body is curiously similar in composition to an Apricorn. When irritated, this Pok\u00e9mon lets loose an electric current equal to 20 lightning bolts."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/101.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/101.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/101.png",
         "types": [
             {
                 "fr": "\u00c9lectrik",
-                "en": "Electric"
+                "en": "Electric",
+                "slug": "electric"
             }
         ],
-        "evolue_de": "voltorb",
+        "famille": [
+            "voltorb",
+            "electrode"
+        ],
         "stats": {
             "hp": 60,
             "attack": 50,
@@ -3232,18 +3741,23 @@
             "en": "These Pok\u00e9mon get nervous when they\u2019re not in a group of six. The minute even one member of the group goes missing, Exeggcute become cowardly."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/102.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/102.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/102.png",
         "types": [
             {
                 "fr": "Plante",
-                "en": "Grass"
+                "en": "Grass",
+                "slug": "grass"
             },
             {
                 "fr": "Psy",
-                "en": "Psychic"
+                "en": "Psychic",
+                "slug": "psychic"
             }
         ],
-        "evolue_de": null,
+        "famille": [
+            "exeggcute",
+            "exeggutor"
+        ],
         "stats": {
             "hp": 60,
             "attack": 40,
@@ -3266,18 +3780,23 @@
             "en": "When they work together, Exeggutor\u2019s three heads can put out powerful psychic energy. Cloudy days make this Pok\u00e9mon sluggish."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/103.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/103.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/103.png",
         "types": [
             {
                 "fr": "Plante",
-                "en": "Grass"
+                "en": "Grass",
+                "slug": "grass"
             },
             {
                 "fr": "Psy",
-                "en": "Psychic"
+                "en": "Psychic",
+                "slug": "psychic"
             }
         ],
-        "evolue_de": "exeggcute",
+        "famille": [
+            "exeggcute",
+            "exeggutor"
+        ],
         "stats": {
             "hp": 95,
             "attack": 95,
@@ -3300,14 +3819,18 @@
             "en": "This Pok\u00e9mon wears the skull of its deceased mother. Sometimes Cubone\u2019s dreams make it cry, but each tear Cubone sheds makes it stronger."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/104.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/104.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/104.png",
         "types": [
             {
                 "fr": "Sol",
-                "en": "Ground"
+                "en": "Ground",
+                "slug": "ground"
             }
         ],
-        "evolue_de": null,
+        "famille": [
+            "cubone",
+            "marowak"
+        ],
         "stats": {
             "hp": 50,
             "attack": 50,
@@ -3330,14 +3853,18 @@
             "en": "When this Pok\u00e9mon evolved, the skull of its mother fused to it. Marowak\u2019s temperament also turned vicious at the same time."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/105.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/105.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/105.png",
         "types": [
             {
                 "fr": "Sol",
-                "en": "Ground"
+                "en": "Ground",
+                "slug": "ground"
             }
         ],
-        "evolue_de": "cubone",
+        "famille": [
+            "cubone",
+            "marowak"
+        ],
         "stats": {
             "hp": 60,
             "attack": 80,
@@ -3360,14 +3887,18 @@
             "en": "The legs freely contract and stretch. The stretchy legs allow it to hit a distant foe with a rising kick."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/106.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/106.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/106.png",
         "types": [
             {
                 "fr": "Combat",
-                "en": "Fighting"
+                "en": "Fighting",
+                "slug": "fighting"
             }
         ],
-        "evolue_de": "tyrogue",
+        "famille": [
+            "tyrogue",
+            "hitmonlee"
+        ],
         "stats": {
             "hp": 50,
             "attack": 120,
@@ -3390,14 +3921,18 @@
             "en": "Its punches slice the air. However, it seems to need a short break after fighting for three minutes."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/107.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/107.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/107.png",
         "types": [
             {
                 "fr": "Combat",
-                "en": "Fighting"
+                "en": "Fighting",
+                "slug": "fighting"
             }
         ],
-        "evolue_de": "tyrogue",
+        "famille": [
+            "tyrogue",
+            "hitmonlee"
+        ],
         "stats": {
             "hp": 50,
             "attack": 105,
@@ -3420,14 +3955,18 @@
             "en": "Wields its long tongue deftly, as though it were an arm. The Pok\u00e9mon's viscous saliva, once it has been collected and boiled down, yields a strong and highly useful adhesive."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/108.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/108.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/108.png",
         "types": [
             {
                 "fr": "Normal",
-                "en": "Normal"
+                "en": "Normal",
+                "slug": "normal"
             }
         ],
-        "evolue_de": null,
+        "famille": [
+            "lickitung",
+            "lickilicky"
+        ],
         "stats": {
             "hp": 90,
             "attack": 55,
@@ -3450,14 +3989,18 @@
             "en": "It adores polluted air. Some claim that Koffing used to be more plentiful in the Galar region than they are now."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/109.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/109.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/109.png",
         "types": [
             {
                 "fr": "Poison",
-                "en": "Poison"
+                "en": "Poison",
+                "slug": "poison"
             }
         ],
-        "evolue_de": null,
+        "famille": [
+            "koffing",
+            "weezing"
+        ],
         "stats": {
             "hp": 40,
             "attack": 65,
@@ -3480,14 +4023,18 @@
             "en": "It can\u2019t suck in air quite as well as a Galarian Weezing, but the toxins it creates are more potent than those of its counterpart."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/110.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/110.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/110.png",
         "types": [
             {
                 "fr": "Poison",
-                "en": "Poison"
+                "en": "Poison",
+                "slug": "poison"
             }
         ],
-        "evolue_de": "koffing",
+        "famille": [
+            "koffing",
+            "weezing"
+        ],
         "stats": {
             "hp": 65,
             "attack": 90,
@@ -3510,18 +4057,24 @@
             "en": "Ludicrously strong\u2014when it butts heads with a mountain, it is the mountain that shatters. But its short legs struggle with turns, and it is incapable of stopping unless it collides with something."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/111.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/111.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/111.png",
         "types": [
             {
                 "fr": "Sol",
-                "en": "Ground"
+                "en": "Ground",
+                "slug": "ground"
             },
             {
                 "fr": "Roche",
-                "en": "Rock"
+                "en": "Rock",
+                "slug": "rock"
             }
         ],
-        "evolue_de": null,
+        "famille": [
+            "rhyhorn",
+            "rhydon",
+            "rhyperior"
+        ],
         "stats": {
             "hp": 80,
             "attack": 85,
@@ -3544,18 +4097,24 @@
             "en": "Rapidly rotates its horn to bore through bedrock. It swaggers around volcanic regions, protected from the lava's heat by its tough, armorlike hide."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/112.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/112.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/112.png",
         "types": [
             {
                 "fr": "Sol",
-                "en": "Ground"
+                "en": "Ground",
+                "slug": "ground"
             },
             {
                 "fr": "Roche",
-                "en": "Rock"
+                "en": "Rock",
+                "slug": "rock"
             }
         ],
-        "evolue_de": "rhyhorn",
+        "famille": [
+            "rhyhorn",
+            "rhydon",
+            "rhyperior"
+        ],
         "stats": {
             "hp": 105,
             "attack": 130,
@@ -3578,14 +4137,19 @@
             "en": "This purehearted Pok\u00e9mon shares its eggs with the injured."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/113.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/113.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/113.png",
         "types": [
             {
                 "fr": "Normal",
-                "en": "Normal"
+                "en": "Normal",
+                "slug": "normal"
             }
         ],
-        "evolue_de": "happiny",
+        "famille": [
+            "happiny",
+            "chansey",
+            "blissey"
+        ],
         "stats": {
             "hp": 250,
             "attack": 5,
@@ -3608,14 +4172,18 @@
             "en": "It is cloaked entirely in blue vines, preventing any glimpse of its true identity. The vines impart a refreshing sensation when chewed\u2014they're useful as a spice."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/114.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/114.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/114.png",
         "types": [
             {
                 "fr": "Plante",
-                "en": "Grass"
+                "en": "Grass",
+                "slug": "grass"
             }
         ],
-        "evolue_de": null,
+        "famille": [
+            "tangela",
+            "tangrowth"
+        ],
         "stats": {
             "hp": 65,
             "attack": 55,
@@ -3638,14 +4206,17 @@
             "en": "There are records of a lost human child being raised by a childless Kangaskhan."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/115.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/115.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/115.png",
         "types": [
             {
                 "fr": "Normal",
-                "en": "Normal"
+                "en": "Normal",
+                "slug": "normal"
             }
         ],
-        "evolue_de": null,
+        "famille": [
+            "kangaskhan"
+        ],
         "stats": {
             "hp": 105,
             "attack": 95,
@@ -3668,14 +4239,19 @@
             "en": "They swim with dance-like motions and cause whirlpools to form. Horsea compete to see which of them can generate the biggest whirlpool."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/116.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/116.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/116.png",
         "types": [
             {
                 "fr": "Eau",
-                "en": "Water"
+                "en": "Water",
+                "slug": "water"
             }
         ],
-        "evolue_de": null,
+        "famille": [
+            "horsea",
+            "seadra",
+            "kingdra"
+        ],
         "stats": {
             "hp": 30,
             "attack": 40,
@@ -3698,14 +4274,19 @@
             "en": "Seadra\u2019s mouth is slender, but its suction power is strong. In an instant, Seadra can suck in food that\u2019s larger than the opening of its mouth."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/117.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/117.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/117.png",
         "types": [
             {
                 "fr": "Eau",
-                "en": "Water"
+                "en": "Water",
+                "slug": "water"
             }
         ],
-        "evolue_de": "horsea",
+        "famille": [
+            "horsea",
+            "seadra",
+            "kingdra"
+        ],
         "stats": {
             "hp": 55,
             "attack": 65,
@@ -3728,14 +4309,18 @@
             "en": "Its dorsal and pectoral fins are strongly developed like muscles. It can swim at a speed of five knots."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/118.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/118.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/118.png",
         "types": [
             {
                 "fr": "Eau",
-                "en": "Water"
+                "en": "Water",
+                "slug": "water"
             }
         ],
-        "evolue_de": null,
+        "famille": [
+            "goldeen",
+            "seaking"
+        ],
         "stats": {
             "hp": 45,
             "attack": 67,
@@ -3758,14 +4343,18 @@
             "en": "Using its horn, it bores holes in riverbed boulders, making nests to prevent its eggs from washing away."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/119.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/119.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/119.png",
         "types": [
             {
                 "fr": "Eau",
-                "en": "Water"
+                "en": "Water",
+                "slug": "water"
             }
         ],
-        "evolue_de": "goldeen",
+        "famille": [
+            "goldeen",
+            "seaking"
+        ],
         "stats": {
             "hp": 80,
             "attack": 92,
@@ -3788,14 +4377,18 @@
             "en": "Fish Pok\u00e9mon nibble at it, but Staryu isn\u2019t bothered. Its body regenerates quickly, even if part of it is completely torn off."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/120.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/120.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/120.png",
         "types": [
             {
                 "fr": "Eau",
-                "en": "Water"
+                "en": "Water",
+                "slug": "water"
             }
         ],
-        "evolue_de": null,
+        "famille": [
+            "staryu",
+            "starmie"
+        ],
         "stats": {
             "hp": 30,
             "attack": 45,
@@ -3818,18 +4411,23 @@
             "en": "Starmie swims by spinning its body at high speed. As this Pok\u00e9mon cruises through the ocean, it absorbs tiny plankton."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/121.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/121.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/121.png",
         "types": [
             {
                 "fr": "Eau",
-                "en": "Water"
+                "en": "Water",
+                "slug": "water"
             },
             {
                 "fr": "Psy",
-                "en": "Psychic"
+                "en": "Psychic",
+                "slug": "psychic"
             }
         ],
-        "evolue_de": "staryu",
+        "famille": [
+            "staryu",
+            "starmie"
+        ],
         "stats": {
             "hp": 60,
             "attack": 75,
@@ -3852,18 +4450,24 @@
             "en": "The behavior of this clown-like Pok\u00e9mon reminds one of pantomime. It creates invisible walls using a force emitted from its fingertips."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/122.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/122.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/122.png",
         "types": [
             {
                 "fr": "Psy",
-                "en": "Psychic"
+                "en": "Psychic",
+                "slug": "psychic"
             },
             {
                 "fr": "F\u00e9e",
-                "en": "Fairy"
+                "en": "Fairy",
+                "slug": "fairy"
             }
         ],
-        "evolue_de": "mime-jr",
+        "famille": [
+            "mime-jr",
+            "mr-mime",
+            "mr-rime"
+        ],
         "stats": {
             "hp": 40,
             "attack": 45,
@@ -3886,18 +4490,23 @@
             "en": "The large, wickedly sharp scythes on its forearms are truly fearsome weapons. Prey's attempts to flee are unfailingly thwarted by this Pok\u00e9mon's nimble motions."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/123.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/123.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/123.png",
         "types": [
             {
                 "fr": "Insecte",
-                "en": "Bug"
+                "en": "Bug",
+                "slug": "bug"
             },
             {
                 "fr": "Vol",
-                "en": "Flying"
+                "en": "Flying",
+                "slug": "flying"
             }
         ],
-        "evolue_de": null,
+        "famille": [
+            "scyther",
+            "scizor"
+        ],
         "stats": {
             "hp": 70,
             "attack": 110,
@@ -3920,18 +4529,23 @@
             "en": "The Jynx of Galar often have beautiful and delicate voices. Some of these Pok\u00e9mon have even gathered a fan base."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/124.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/124.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/124.png",
         "types": [
             {
                 "fr": "Glace",
-                "en": "Ice"
+                "en": "Ice",
+                "slug": "ice"
             },
             {
                 "fr": "Psy",
-                "en": "Psychic"
+                "en": "Psychic",
+                "slug": "psychic"
             }
         ],
-        "evolue_de": "smoochum",
+        "famille": [
+            "smoochum",
+            "jynx"
+        ],
         "stats": {
             "hp": 65,
             "attack": 50,
@@ -3954,14 +4568,19 @@
             "en": "Feeds on electrical energy. During sudden showers beneath looming thunderclouds, one can observe Electabuzz scaling tall trees, where the Pok\u00e9mon will then wait for lightning to strike."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/125.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/125.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/125.png",
         "types": [
             {
                 "fr": "\u00c9lectrik",
-                "en": "Electric"
+                "en": "Electric",
+                "slug": "electric"
             }
         ],
-        "evolue_de": "elekid",
+        "famille": [
+            "elekid",
+            "electabuzz",
+            "electivire"
+        ],
         "stats": {
             "hp": 65,
             "attack": 83,
@@ -3984,14 +4603,19 @@
             "en": "Legend has it that this Pok\u00e9mon was born from the crater of a volcano. When wounded, it bathes in lava to heal its body, much as one would soak in a hot spring."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/126.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/126.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/126.png",
         "types": [
             {
                 "fr": "Feu",
-                "en": "Fire"
+                "en": "Fire",
+                "slug": "fire"
             }
         ],
-        "evolue_de": "magby",
+        "famille": [
+            "magby",
+            "magmar",
+            "magmortar"
+        ],
         "stats": {
             "hp": 65,
             "attack": 95,
@@ -4014,14 +4638,17 @@
             "en": "This Pok\u00e9mon clamps its pincers down on its prey and then either splits the prey in half or flings it away."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/127.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/127.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/127.png",
         "types": [
             {
                 "fr": "Insecte",
-                "en": "Bug"
+                "en": "Bug",
+                "slug": "bug"
             }
         ],
-        "evolue_de": null,
+        "famille": [
+            "pinsir"
+        ],
         "stats": {
             "hp": 65,
             "attack": 125,
@@ -4044,14 +4671,17 @@
             "en": "The Tauros of the Galar region are volatile in nature, and they won\u2019t allow people to ride on their backs."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/128.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/128.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/128.png",
         "types": [
             {
                 "fr": "Normal",
-                "en": "Normal"
+                "en": "Normal",
+                "slug": "normal"
             }
         ],
-        "evolue_de": null,
+        "famille": [
+            "tauros"
+        ],
         "stats": {
             "hp": 75,
             "attack": 100,
@@ -4074,14 +4704,18 @@
             "en": "A feeble, pitiful imbecile of a Pok\u00e9mon that is nonetheless very hardy. Unperturbed by turbid water, it can be found living in all sorts of places."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/129.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/129.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/129.png",
         "types": [
             {
                 "fr": "Eau",
-                "en": "Water"
+                "en": "Water",
+                "slug": "water"
             }
         ],
-        "evolue_de": null,
+        "famille": [
+            "magikarp",
+            "gyarados"
+        ],
         "stats": {
             "hp": 20,
             "attack": 10,
@@ -4104,18 +4738,23 @@
             "en": "I suspect this Pok\u00e9mon to be the true identity of a dragon written of in ancient texts, which claimed that it razed an entire village with white-hot beams from its maw."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/130.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/130.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/130.png",
         "types": [
             {
                 "fr": "Eau",
-                "en": "Water"
+                "en": "Water",
+                "slug": "water"
             },
             {
                 "fr": "Vol",
-                "en": "Flying"
+                "en": "Flying",
+                "slug": "flying"
             }
         ],
-        "evolue_de": "magikarp",
+        "famille": [
+            "magikarp",
+            "gyarados"
+        ],
         "stats": {
             "hp": 95,
             "attack": 125,
@@ -4138,18 +4777,22 @@
             "en": "Crossing icy seas is no issue for this cold-resistant Pok\u00e9mon. Its smooth skin is a little cool to the touch."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/131.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/131.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/131.png",
         "types": [
             {
                 "fr": "Eau",
-                "en": "Water"
+                "en": "Water",
+                "slug": "water"
             },
             {
                 "fr": "Glace",
-                "en": "Ice"
+                "en": "Ice",
+                "slug": "ice"
             }
         ],
-        "evolue_de": null,
+        "famille": [
+            "lapras"
+        ],
         "stats": {
             "hp": 130,
             "attack": 85,
@@ -4172,14 +4815,17 @@
             "en": "When it encounters another Ditto, it will move faster than normal to duplicate that opponent exactly."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/132.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/132.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/132.png",
         "types": [
             {
                 "fr": "Normal",
-                "en": "Normal"
+                "en": "Normal",
+                "slug": "normal"
             }
         ],
-        "evolue_de": null,
+        "famille": [
+            "ditto"
+        ],
         "stats": {
             "hp": 48,
             "attack": 48,
@@ -4202,14 +4848,18 @@
             "en": "Harbors the potential to evolve into manifold forms. Within Eevee lies the key to the mysteries of Pok\u00e9mon evolution\u2014I'm certain of it."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/133.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/133.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/133.png",
         "types": [
             {
                 "fr": "Normal",
-                "en": "Normal"
+                "en": "Normal",
+                "slug": "normal"
             }
         ],
-        "evolue_de": null,
+        "famille": [
+            "eevee",
+            "vaporeon"
+        ],
         "stats": {
             "hp": 55,
             "attack": 55,
@@ -4232,14 +4882,18 @@
             "en": "Tests show that its cells closely resemble water molecules, which perhaps explains its ability to conceal its form while submerged. I believe the origins of mermaid folklore lie with this Pok\u00e9mon."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/134.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/134.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/134.png",
         "types": [
             {
                 "fr": "Eau",
-                "en": "Water"
+                "en": "Water",
+                "slug": "water"
             }
         ],
-        "evolue_de": "eevee",
+        "famille": [
+            "eevee",
+            "vaporeon"
+        ],
         "stats": {
             "hp": 130,
             "attack": 65,
@@ -4262,14 +4916,18 @@
             "en": "Bristles its fur into sharp, needlelike points when enraged. One can hear electricity crackle in its breath when it exhales."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/135.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/135.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/135.png",
         "types": [
             {
                 "fr": "\u00c9lectrik",
-                "en": "Electric"
+                "en": "Electric",
+                "slug": "electric"
             }
         ],
-        "evolue_de": "eevee",
+        "famille": [
+            "eevee",
+            "vaporeon"
+        ],
         "stats": {
             "hp": 65,
             "attack": 65,
@@ -4292,14 +4950,18 @@
             "en": "Flames burn within a saclike organ inside this Pok\u00e9mon. When Flareon inhales, these flames grow in intensity, reaching a mighty 3,000 degrees Fahrenheit."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/136.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/136.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/136.png",
         "types": [
             {
                 "fr": "Feu",
-                "en": "Fire"
+                "en": "Fire",
+                "slug": "fire"
             }
         ],
-        "evolue_de": "eevee",
+        "famille": [
+            "eevee",
+            "vaporeon"
+        ],
         "stats": {
             "hp": 65,
             "attack": 130,
@@ -4322,14 +4984,19 @@
             "en": "It has no discernible heartbeat and does not seem to draw breath, and yet it appears to function without issue. I cannot even begin to explain this utterly bizarre anomaly."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/137.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/137.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/137.png",
         "types": [
             {
                 "fr": "Normal",
-                "en": "Normal"
+                "en": "Normal",
+                "slug": "normal"
             }
         ],
-        "evolue_de": null,
+        "famille": [
+            "porygon",
+            "porygon2",
+            "porygon-z"
+        ],
         "stats": {
             "hp": 65,
             "attack": 60,
@@ -4352,18 +5019,23 @@
             "en": "This Pok\u00e9mon is a member of an ancient, extinct species. Omanyte paddles through water with its 10 tentacles, looking like it\u2019s just drifting along."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/138.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/138.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/138.png",
         "types": [
             {
                 "fr": "Roche",
-                "en": "Rock"
+                "en": "Rock",
+                "slug": "rock"
             },
             {
                 "fr": "Eau",
-                "en": "Water"
+                "en": "Water",
+                "slug": "water"
             }
         ],
-        "evolue_de": null,
+        "famille": [
+            "omanyte",
+            "omastar"
+        ],
         "stats": {
             "hp": 35,
             "attack": 40,
@@ -4386,18 +5058,23 @@
             "en": "Omastar\u2019s sharp fangs could crush rock, but the Pok\u00e9mon can attack only the prey that come within reach of its tentacles."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/139.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/139.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/139.png",
         "types": [
             {
                 "fr": "Roche",
-                "en": "Rock"
+                "en": "Rock",
+                "slug": "rock"
             },
             {
                 "fr": "Eau",
-                "en": "Water"
+                "en": "Water",
+                "slug": "water"
             }
         ],
-        "evolue_de": "omanyte",
+        "famille": [
+            "omanyte",
+            "omastar"
+        ],
         "stats": {
             "hp": 70,
             "attack": 60,
@@ -4420,18 +5097,23 @@
             "en": "While some say this species has gone extinct, Kabuto sightings are apparently fairly common in some places."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/140.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/140.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/140.png",
         "types": [
             {
                 "fr": "Roche",
-                "en": "Rock"
+                "en": "Rock",
+                "slug": "rock"
             },
             {
                 "fr": "Eau",
-                "en": "Water"
+                "en": "Water",
+                "slug": "water"
             }
         ],
-        "evolue_de": null,
+        "famille": [
+            "kabuto",
+            "kabutops"
+        ],
         "stats": {
             "hp": 30,
             "attack": 80,
@@ -4454,18 +5136,23 @@
             "en": "The cause behind the extinction of this species is unknown. Kabutops were aggressive Pok\u00e9mon that inhabited warm seas."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/141.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/141.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/141.png",
         "types": [
             {
                 "fr": "Roche",
-                "en": "Rock"
+                "en": "Rock",
+                "slug": "rock"
             },
             {
                 "fr": "Eau",
-                "en": "Water"
+                "en": "Water",
+                "slug": "water"
             }
         ],
-        "evolue_de": "kabuto",
+        "famille": [
+            "kabuto",
+            "kabutops"
+        ],
         "stats": {
             "hp": 60,
             "attack": 115,
@@ -4488,18 +5175,22 @@
             "en": "Aerodactyl\u2019s sawlike fangs can shred skin to tatters\u2014even the skin of Steel-type Pok\u00e9mon."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/142.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/142.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/142.png",
         "types": [
             {
                 "fr": "Roche",
-                "en": "Rock"
+                "en": "Rock",
+                "slug": "rock"
             },
             {
                 "fr": "Vol",
-                "en": "Flying"
+                "en": "Flying",
+                "slug": "flying"
             }
         ],
-        "evolue_de": null,
+        "famille": [
+            "aerodactyl"
+        ],
         "stats": {
             "hp": 80,
             "attack": 105,
@@ -4522,14 +5213,18 @@
             "en": "This glutton appears in villages without warning and devours the entirety of their rice granaries\u2014such occurrences have long been counted among the gravest of disasters."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/143.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/143.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/143.png",
         "types": [
             {
                 "fr": "Normal",
-                "en": "Normal"
+                "en": "Normal",
+                "slug": "normal"
             }
         ],
-        "evolue_de": "munchlax",
+        "famille": [
+            "munchlax",
+            "snorlax"
+        ],
         "stats": {
             "hp": 160,
             "attack": 110,
@@ -4552,18 +5247,22 @@
             "en": "This Pok\u00e9mon can control ice at will. Articuno is said to live in snowy mountains riddled with permafrost."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/144.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/144.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/144.png",
         "types": [
             {
                 "fr": "Glace",
-                "en": "Ice"
+                "en": "Ice",
+                "slug": "ice"
             },
             {
                 "fr": "Vol",
-                "en": "Flying"
+                "en": "Flying",
+                "slug": "flying"
             }
         ],
-        "evolue_de": null,
+        "famille": [
+            "articuno"
+        ],
         "stats": {
             "hp": 90,
             "attack": 85,
@@ -4586,18 +5285,22 @@
             "en": "Zapdos is a legendary bird Pok\u00e9mon. It\u2019s said that when Zapdos rubs its feathers together, lightning will fall immediately after."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/145.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/145.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/145.png",
         "types": [
             {
                 "fr": "\u00c9lectrik",
-                "en": "Electric"
+                "en": "Electric",
+                "slug": "electric"
             },
             {
                 "fr": "Vol",
-                "en": "Flying"
+                "en": "Flying",
+                "slug": "flying"
             }
         ],
-        "evolue_de": null,
+        "famille": [
+            "zapdos"
+        ],
         "stats": {
             "hp": 90,
             "attack": 90,
@@ -4620,18 +5323,22 @@
             "en": "There are stories of this Pok\u00e9mon using its radiant, flame-cloaked wings to light up paths for those lost in the mountains."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/146.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/146.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/146.png",
         "types": [
             {
                 "fr": "Feu",
-                "en": "Fire"
+                "en": "Fire",
+                "slug": "fire"
             },
             {
                 "fr": "Vol",
-                "en": "Flying"
+                "en": "Flying",
+                "slug": "flying"
             }
         ],
-        "evolue_de": null,
+        "famille": [
+            "moltres"
+        ],
         "stats": {
             "hp": 90,
             "attack": 100,
@@ -4654,14 +5361,19 @@
             "en": "This Pok\u00e9mon was long considered to be no more than a myth. The small lump on a Dratini\u2019s forehead is actually a horn that\u2019s still coming in."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/147.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/147.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/147.png",
         "types": [
             {
                 "fr": "Dragon",
-                "en": "Dragon"
+                "en": "Dragon",
+                "slug": "dragon"
             }
         ],
-        "evolue_de": null,
+        "famille": [
+            "dratini",
+            "dragonair",
+            "dragonite"
+        ],
         "stats": {
             "hp": 41,
             "attack": 64,
@@ -4684,14 +5396,19 @@
             "en": "This Pok\u00e9mon gathers power in the orbs on its tail and controls the weather. When enshrouded by an aura, Dragonair has a mystical appearance."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/148.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/148.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/148.png",
         "types": [
             {
                 "fr": "Dragon",
-                "en": "Dragon"
+                "en": "Dragon",
+                "slug": "dragon"
             }
         ],
-        "evolue_de": "dratini",
+        "famille": [
+            "dratini",
+            "dragonair",
+            "dragonite"
+        ],
         "stats": {
             "hp": 61,
             "attack": 84,
@@ -4714,18 +5431,24 @@
             "en": "This Pok\u00e9mon is known as the Sea Incarnate. Figureheads that resemble Dragonite decorate the bows of many ships."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/149.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/149.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/149.png",
         "types": [
             {
                 "fr": "Dragon",
-                "en": "Dragon"
+                "en": "Dragon",
+                "slug": "dragon"
             },
             {
                 "fr": "Vol",
-                "en": "Flying"
+                "en": "Flying",
+                "slug": "flying"
             }
         ],
-        "evolue_de": "dragonair",
+        "famille": [
+            "dratini",
+            "dragonair",
+            "dragonite"
+        ],
         "stats": {
             "hp": 91,
             "attack": 134,
@@ -4748,14 +5471,17 @@
             "en": "Its DNA is almost the same as Mew\u2019s. However, its size and disposition are vastly different."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/150.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/150.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/150.png",
         "types": [
             {
                 "fr": "Psy",
-                "en": "Psychic"
+                "en": "Psychic",
+                "slug": "psychic"
             }
         ],
-        "evolue_de": null,
+        "famille": [
+            "mewtwo"
+        ],
         "stats": {
             "hp": 106,
             "attack": 110,
@@ -4778,14 +5504,17 @@
             "en": "When viewed through a microscope, this Pok\u00e9mon\u2019s short, fine, delicate hair can be seen."
         },
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/151.png",
-        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/151.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/151.png",
         "types": [
             {
                 "fr": "Psy",
-                "en": "Psychic"
+                "en": "Psychic",
+                "slug": "psychic"
             }
         ],
-        "evolue_de": null,
+        "famille": [
+            "mew"
+        ],
         "stats": {
             "hp": 100,
             "attack": 100,
