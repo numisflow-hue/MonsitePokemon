@@ -12,31 +12,29 @@ $filter_type = isset($_GET['type']) ? $_GET['type'] : null;
 $tr = [
     'fr' => [
         'title' => 'Pokédex',
-        'subtitle' => 'Encyclopédie Complète',
-        'search_placeholder' => 'Rechercher un Pokémon...',
+        'search_placeholder' => 'Rechercher...',
         'stats' => 'Statistiques',
         'weight' => 'Poids', 'height' => 'Taille',
-        'back' => 'Retour à la liste',
+        'back' => 'Retour',
         'family' => 'Famille d\'évolution',
-        'switch_lang' => 'English', 'switch_link' => 'en',
+        'switch_lang' => 'EN', 'switch_link' => 'en', // Version courte pour le header
         'hp' => 'PV', 'attack' => 'Attaque', 'defense' => 'Défense', 
         'special-attack' => 'Atq. Spé', 'special-defense' => 'Déf. Spé', 'speed' => 'Vitesse',
-        'sort_label' => 'Trier :', 'sort_id' => 'Numéro', 'sort_name' => 'Nom (A-Z)',
-        'type_label' => 'Type :', 'all_types' => 'Tous les types'
+        'sort_label' => 'Trier', 'sort_id' => '#', 'sort_name' => 'A-Z',
+        'type_label' => 'Type', 'all_types' => 'Tous'
     ],
     'en' => [
         'title' => 'Pokedex',
-        'subtitle' => 'The Complete Encyclopedia',
-        'search_placeholder' => 'Search a Pokemon...',
+        'search_placeholder' => 'Search...',
         'stats' => 'Base Stats',
         'weight' => 'Weight', 'height' => 'Height',
-        'back' => 'Back to list',
+        'back' => 'Back',
         'family' => 'Evolution Chain',
-        'switch_lang' => 'Français', 'switch_link' => 'fr',
+        'switch_lang' => 'FR', 'switch_link' => 'fr', // Version courte pour le header
         'hp' => 'HP', 'attack' => 'Attack', 'defense' => 'Defense', 
         'special-attack' => 'Sp. Atk', 'special-defense' => 'Sp. Def', 'speed' => 'Speed',
-        'sort_label' => 'Sort:', 'sort_id' => 'Number', 'sort_name' => 'Name (A-Z)',
-        'type_label' => 'Type:', 'all_types' => 'All Types'
+        'sort_label' => 'Sort', 'sort_id' => '#', 'sort_name' => 'A-Z',
+        'type_label' => 'Type', 'all_types' => 'All'
     ]
 ];
 $t = $tr[$lang]; 
@@ -107,223 +105,21 @@ function getTypeColor($type_slug) {
     <title><?php echo $pokemon_actuel ? $pokemon_actuel['noms'][$lang] : $t['title']; ?></title>
     
     <style>
-        /* BASE & RESET */
-        body { font-family: 'Segoe UI', sans-serif; background: #f0f2f5; color: #333; margin: 0; padding: 0; } /* Padding 0 pour que le header colle au bord */
-        .container { max-width: 1100px; margin: 0 auto; padding: 20px; }
+        /* RESET & BASE */
+        body { font-family: 'Segoe UI', sans-serif; background: #f0f2f5; color: #333; margin: 0; padding: 0; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 20px; }
         a { text-decoration: none; color: inherit; }
         
-        /* HEADER PRO */
-        header { background-color: #333; color: white; padding: 15px 0; box-shadow: 0 4px 10px rgba(0,0,0,0.1); position: sticky; top: 0; z-index: 1000; }
-        .header-content { max-width: 1100px; margin: 0 auto; padding: 0 20px; display: flex; justify-content: space-between; align-items: center; }
+        /* === HEADER COMPLEXE === */
+        header { background-color: #222; color: white; padding: 10px 0; box-shadow: 0 4px 10px rgba(0,0,0,0.2); position: sticky; top: 0; z-index: 1000; }
         
-        .brand { display: flex; align-items: center; gap: 15px; }
-        .brand img { height: 40px; }
-        .brand h1 { margin: 0; font-size: 1.5em; letter-spacing: 1px; }
-        .brand small { opacity: 0.7; font-size: 0.6em; font-weight: normal; margin-left: 10px; display: none; }
-        @media (min-width: 768px) { .brand small { display: inline; } } /* Sous-titre visible seulement sur ordi */
-
-        .lang-btn { background: rgba(255,255,255,0.1); color: white; padding: 8px 15px; border-radius: 20px; font-size: 0.85em; font-weight: bold; transition: 0.2s; border: 1px solid rgba(255,255,255,0.2); }
-        .lang-btn:hover { background: rgba(255,255,255,0.3); }
-
-        /* --- CONTROLS BAR --- */
-        .controls-bar { 
-            background: white; padding: 15px 20px; border-radius: 25px; box-shadow: 0 4px 15px rgba(0,0,0,0.05);
-            display: flex; flex-direction: column; gap: 15px; margin-bottom: 30px; margin-top: 10px;
-        }
-        @media (min-width: 768px) {
-            .controls-bar { flex-direction: row; align-items: center; justify-content: space-between; }
-            .search-group { flex: 3; } 
-            .filters-group { flex: 2; }
+        .header-content { 
+            max-width: 1200px; margin: 0 auto; padding: 0 20px; 
+            display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 15px;
         }
 
-        .search-input { width: 100%; padding: 12px 15px; border: 1px solid #eee; border-radius: 20px; font-size: 1em; outline: none; background: #f9f9f9; box-sizing: border-box; }
-        .search-input:focus { border-color: #ccc; background: white; }
-
-        .filters-group { display: flex; gap: 10px; width: 100%; }
-        .custom-select { flex: 1; padding: 12px 15px; border-radius: 20px; border: 1px solid #eee; background: #f9f9f9; cursor: pointer; font-size: 0.9em; outline: none; min-width: 0;}
-        
-        /* GRID */
-        .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 15px; }
-        .card { background: white; padding: 15px; border-radius: 16px; text-align: center; box-shadow: 0 2px 10px rgba(0,0,0,0.03); transition: transform 0.2s; border: 1px solid white; display: block; position: relative;}
-        .card:hover { transform: translateY(-5px); box-shadow: 0 8px 20px rgba(0,0,0,0.08); }
-        .card img { width: 100px; height: 100px; object-fit: contain; margin-bottom: 10px; }
-        .card-id { color: #ccc; font-weight: bold; font-size: 0.8em; position: absolute; top: 10px; right: 15px; }
-        .type-pill { color: white; padding: 3px 8px; border-radius: 10px; font-size: 0.7em; margin: 2px; display: inline-block; font-weight: 600; }
-        .card.hidden { display: none !important; }
-
-        /* DETAIL CARD */
-        .detail-card { background: white; border-radius: 24px; padding: 30px; box-shadow: 0 15px 40px rgba(0,0,0,0.08); max-width: 800px; margin: 20px auto; position: relative;}
-        .detail-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 20px; flex-wrap: wrap;}
-        .detail-img { display: block; margin: 0 auto -20px auto; width: 280px; max-width: 100%; filter: drop-shadow(0 10px 15px rgba(0,0,0,0.2)); }
-        .desc-box { background: #fafafa; padding: 20px; border-radius: 12px; margin: 30px 0; font-style: italic; color: #555; text-align: center; border-left: 4px solid #eee; }
-        .evo-container { display: flex; justify-content: center; align-items: center; gap: 15px; margin: 30px 0; flex-wrap: wrap; }
-        .evo-card img { width: 70px; height: 70px; }
-        .stats-table td { padding: 8px 0; }
-        .btn-retour { display: inline-block; margin-top: 30px; padding: 10px 25px; background: #eee; color: #333; border-radius: 30px; font-weight: bold; font-size: 0.9em; transition: 0.2s; }
-        .btn-retour:hover { background: #ddd; }
-    </style>
-</head>
-<body>
-
-<?php 
-// LIENS HEADER
-$home_url = "/?lang=" . $lang . "&type=" . $filter_type . "&sort=" . $sort_order;
-$lang_switch_url = "?lang=" . $t['switch_link'] . ($filter_type ? "&type=$filter_type" : "") . "&sort=$sort_order";
-if ($pokemon_actuel) {
-    // Si on est sur une fiche, on reste sur la fiche en changeant de langue
-    $current_slug = ($lang == 'fr') ? strtolower($pokemon_actuel['noms']['en']) : strtolower($pokemon_actuel['noms']['fr']);
-    // (Note: l'URL rewriting de base peut rendre ça complexe, on reste simple ici : retour accueil avec switch langue si trop complexe)
-}
-?>
-
-<header>
-    <div class="header-content">
-        <a href="<?php echo $home_url; ?>" class="brand">
-            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/poke-ball.png" alt="Logo">
-            <div>
-                <h1><?php echo $t['title']; ?></h1>
-            </div>
-            <small><?php echo $t['subtitle']; ?></small>
-        </a>
-
-        <a href="<?php echo $lang_switch_url; ?>" class="lang-btn">
-            <?php echo $t['switch_lang']; ?>
-        </a>
-    </div>
-</header>
-
-<div class="container">
-
-    <?php if ($pokemon_actuel): ?>
-        <div class="detail-card">
-            
-            <a href="<?php echo $home_url; ?>" class="btn-retour">← <?php echo $t['back']; ?></a>
-            <br><br>
-
-            <div class="detail-header">
-                <div>
-                    <h1 style="margin:0; font-size: 2em;"><?php echo $pokemon_actuel['noms'][$lang]; ?></h1>
-                    <div style="margin-top:10px;">
-                        <?php foreach($pokemon_actuel['types'] as $type_obj): ?>
-                            <a href="/?type=<?php echo $type_obj['slug']; ?>&lang=<?php echo $lang; ?>" class="type-pill" style="background-color: <?php echo getTypeColor($type_obj['slug']); ?>;">
-                                <?php echo $type_obj[$lang]; ?>
-                            </a>
-                        <?php endforeach; ?>
-                    </div>
-                </div>
-                <h2 style="color:#ddd; margin:0; font-size: 2em;">#<?php echo str_pad($pokemon_actuel['id'], 3, '0', STR_PAD_LEFT); ?></h2>
-            </div>
-            <img src="<?php echo $pokemon_actuel['image']; ?>" class="detail-img">
-            <div class="desc-box">« <?php echo $pokemon_actuel['description'][$lang]; ?> »</div>
-            
-            <p style="text-align: center;">
-                <strong><?php echo $t['height']; ?> :</strong> <?php echo $pokemon_actuel['taille']; ?> m &nbsp;|&nbsp; 
-                <strong><?php echo $t['weight']; ?> :</strong> <?php echo $pokemon_actuel['poids']; ?> kg
-            </p>
-
-            <?php if (count($famille_data) > 1): ?>
-                <h3 style="text-align:center; margin-top:40px; border-top:1px solid #eee; padding-top:20px;"><?php echo $t['family']; ?></h3>
-                <div class="evo-container">
-                    <?php foreach($famille_data as $index => $evo): ?>
-                        <?php if($index > 0) echo '<div class="arrow">→</div>'; ?>
-                        <a href="<?php echo strtolower(urlencode($evo['noms']['en'])); ?>?lang=<?php echo $lang; ?>" 
-                           class="evo-card <?php echo ($evo['id'] == $pokemon_actuel['id']) ? 'current' : ''; ?>">
-                            <img src="<?php echo $evo['thumbnail']; ?>">
-                            <div><?php echo $evo['noms'][$lang]; ?></div>
-                        </a>
-                    <?php endforeach; ?>
-                </div>
-            <?php endif; ?>
-
-            <h3 style="margin-top: 30px;"><?php echo $t['stats']; ?></h3>
-            <table style="width:100%; border-collapse: collapse;">
-                <?php foreach($pokemon_actuel['stats'] as $stat_key => $val): ?>
-                <tr>
-                    <td width="30%"><strong><?php echo isset($t[$stat_key]) ? $t[$stat_key] : ucfirst($stat_key); ?></strong></td>
-                    <td width="10%"><?php echo $val; ?></td>
-                    <td width="60%">
-                        <div style="background: #eee; height: 8px; border-radius: 4px; width: 100%; overflow: hidden;">
-                            <?php $bar_color = ($val >= 90) ? '#4caf50' : (($val < 50) ? '#ff5722' : '#ffc107'); ?>
-                            <div style="height: 100%; width: <?php echo min(100, $val/1.5); ?>%; background-color: <?php echo $bar_color; ?>;"></div>
-                        </div>
-                    </td>
-                </tr>
-                <?php endforeach; ?>
-            </table>
-        </div>
-
-    <?php else: ?>
-        <div class="controls-bar">
-            <div class="search-group">
-                <input type="text" id="searchInput" class="search-input" placeholder="<?php echo $t['search_placeholder']; ?>">
-            </div>
-            
-            <form method="GET" action="/" class="filters-group">
-                <input type="hidden" name="lang" value="<?php echo $lang; ?>">
-                
-                <select name="type" class="custom-select" onchange="this.form.submit()">
-                    <option value=""><?php echo $t['all_types']; ?></option>
-                    <?php foreach($type_names as $slug => $names): ?>
-                        <option value="<?php echo $slug; ?>" <?php echo $filter_type == $slug ? 'selected' : ''; ?>>
-                            <?php echo $names[$lang]; ?>
-                        </option>
-                    <?php endforeach; ?>
-                </select>
-
-                <select name="sort" class="custom-select" onchange="this.form.submit()">
-                    <option value="id" <?php echo $sort_order == 'id' ? 'selected' : ''; ?>><?php echo $t['sort_id']; ?></option>
-                    <option value="name" <?php echo $sort_order == 'name' ? 'selected' : ''; ?>><?php echo $t['sort_name']; ?></option>
-                </select>
-            </form>
-        </div>
-
-        <div class="grid" id="pokeGrid">
-            <?php foreach ($pokedex as $pokemon): ?>
-                <?php 
-                    if ($filter_type) {
-                        $has_type = false;
-                        foreach($pokemon['types'] as $pt) { if ($pt['slug'] == $filter_type) $has_type = true; }
-                        if (!$has_type) continue; 
-                    }
-                ?>
-                <a href="<?php echo strtolower(urlencode($pokemon['noms']['en'])); ?>?lang=<?php echo $lang; ?>&type=<?php echo $filter_type; ?>&sort=<?php echo $sort_order; ?>" 
-                   class="card" 
-                   data-name="<?php echo strtolower($pokemon['noms'][$lang] . ' ' . $pokemon['noms']['en']); ?>">
-                   
-                    <span class="card-id">#<?php echo str_pad($pokemon['id'], 3, '0', STR_PAD_LEFT); ?></span>
-
-                    <img src="<?php echo $pokemon['thumbnail']; ?>" loading="lazy">
-                    <h3 style="margin: 5px 0 5px; font-size:1.1em;"><?php echo $pokemon['noms'][$lang]; ?></h3>
-                    
-                    <div>
-                        <?php foreach($pokemon['types'] as $type_obj): ?>
-                            <object><a href="/?type=<?php echo $type_obj['slug']; ?>&lang=<?php echo $lang; ?>&sort=<?php echo $sort_order; ?>" class="type-pill" style="background-color: <?php echo getTypeColor($type_obj['slug']); ?>">
-                                <?php echo $type_obj[$lang]; ?>
-                            </a></object>
-                        <?php endforeach; ?>
-                    </div>
-                </a>
-            <?php endforeach; ?>
-        </div>
-        
-        <p id="noResult" style="display:none; text-align:center; color:#888; margin-top:50px;">Aucun résultat...</p>
-
-        <script>
-            document.getElementById('searchInput').addEventListener('keyup', function(e) {
-                let term = e.target.value.toLowerCase();
-                let cards = document.querySelectorAll('.card');
-                let hasResult = false;
-                cards.forEach(function(card) {
-                    let name = card.getAttribute('data-name');
-                    if (name.includes(term)) {
-                        card.classList.remove('hidden'); hasResult = true;
-                    } else { card.classList.add('hidden'); }
-                });
-                document.getElementById('noResult').style.display = hasResult ? 'none' : 'block';
-            });
-        </script>
-    <?php endif; ?>
-
-</div>
-</body>
-</html>
+        /* LOGO */
+        .brand { display: flex; align-items: center; gap: 10px; flex-shrink: 0; }
+        .brand img { height: 35px; }
+        .brand h1 { margin: 0; font-size: 1.4em; letter-spacing: 0.5px; color: white; }
+        .brand:hover { opacity: 0.
