@@ -8,7 +8,7 @@ $lang = isset($_GET['lang']) && $_GET['lang'] === 'fr' ? 'fr' : 'en';
 $sort_order = isset($_GET['sort']) ? $_GET['sort'] : 'id';
 $filter_type = isset($_GET['type']) ? $_GET['type'] : null;
 
-// TRADUCTIONS INTERFACE
+// TRADUCTIONS
 $tr = [
     'fr' => [
         'title' => 'Pokédex Complet',
@@ -39,29 +39,20 @@ $tr = [
 ];
 $t = $tr[$lang]; 
 
-// TRADUCTION DES TYPES (Pour le menu déroulant)
+// TYPES
 $type_names = [
-    'normal' => ['fr' => 'Normal', 'en' => 'Normal'],
-    'fire' => ['fr' => 'Feu', 'en' => 'Fire'],
-    'water' => ['fr' => 'Eau', 'en' => 'Water'],
-    'grass' => ['fr' => 'Plante', 'en' => 'Grass'],
-    'electric' => ['fr' => 'Électrik', 'en' => 'Electric'],
-    'ice' => ['fr' => 'Glace', 'en' => 'Ice'],
-    'fighting' => ['fr' => 'Combat', 'en' => 'Fighting'],
-    'poison' => ['fr' => 'Poison', 'en' => 'Poison'],
-    'ground' => ['fr' => 'Sol', 'en' => 'Ground'],
-    'flying' => ['fr' => 'Vol', 'en' => 'Flying'],
-    'psychic' => ['fr' => 'Psy', 'en' => 'Psychic'],
-    'bug' => ['fr' => 'Insecte', 'en' => 'Bug'],
-    'rock' => ['fr' => 'Roche', 'en' => 'Rock'],
-    'ghost' => ['fr' => 'Spectre', 'en' => 'Ghost'],
-    'dragon' => ['fr' => 'Dragon', 'en' => 'Dragon'],
-    'steel' => ['fr' => 'Acier', 'en' => 'Steel'],
-    'dark' => ['fr' => 'Ténèbres', 'en' => 'Dark'],
-    'fairy' => ['fr' => 'Fée', 'en' => 'Fairy']
+    'normal' => ['fr' => 'Normal', 'en' => 'Normal'], 'fire' => ['fr' => 'Feu', 'en' => 'Fire'],
+    'water' => ['fr' => 'Eau', 'en' => 'Water'], 'grass' => ['fr' => 'Plante', 'en' => 'Grass'],
+    'electric' => ['fr' => 'Électrik', 'en' => 'Electric'], 'ice' => ['fr' => 'Glace', 'en' => 'Ice'],
+    'fighting' => ['fr' => 'Combat', 'en' => 'Fighting'], 'poison' => ['fr' => 'Poison', 'en' => 'Poison'],
+    'ground' => ['fr' => 'Sol', 'en' => 'Ground'], 'flying' => ['fr' => 'Vol', 'en' => 'Flying'],
+    'psychic' => ['fr' => 'Psy', 'en' => 'Psychic'], 'bug' => ['fr' => 'Insecte', 'en' => 'Bug'],
+    'rock' => ['fr' => 'Roche', 'en' => 'Rock'], 'ghost' => ['fr' => 'Spectre', 'en' => 'Ghost'],
+    'dragon' => ['fr' => 'Dragon', 'en' => 'Dragon'], 'steel' => ['fr' => 'Acier', 'en' => 'Steel'],
+    'dark' => ['fr' => 'Ténèbres', 'en' => 'Dark'], 'fairy' => ['fr' => 'Fée', 'en' => 'Fairy']
 ];
 
-// LOGIQUE DE TRI
+// TRI
 if ($sort_order === 'name') {
     usort($pokedex, function($a, $b) use ($lang) {
         return strcmp($a['noms'][$lang], $b['noms'][$lang]);
@@ -87,8 +78,7 @@ if (!empty($request)) {
         foreach ($pokemon_actuel['famille'] as $membre_nom) {
             foreach ($pokedex as $p_search) {
                  if ($p_search['noms']['en'] == ucfirst($membre_nom)) { 
-                    $famille_data[] = $p_search;
-                    break; 
+                    $famille_data[] = $p_search; break; 
                 }
             }
         }
@@ -115,26 +105,36 @@ function getTypeColor($type_slug) {
     <title><?php echo $pokemon_actuel ? $pokemon_actuel['noms'][$lang] : $t['title']; ?></title>
     
     <style>
+        /* BASE & RESPONSIVE */
         body { font-family: 'Segoe UI', sans-serif; background: #f0f2f5; color: #333; margin: 0; padding: 20px; }
         .container { max-width: 1100px; margin: 0 auto; }
         a { text-decoration: none; color: inherit; }
-        .lang-switch { position: absolute; top: 20px; right: 20px; background: #333; color: white; padding: 5px 12px; border-radius: 20px; font-size: 0.85em; font-weight:bold; z-index: 100;}
         
-        /* BARRE DE CONTRÔLE UNIFIÉE */
+        /* Bouton Langue */
+        .lang-switch { position: absolute; top: 20px; right: 20px; background: #333; color: white; padding: 5px 12px; border-radius: 20px; font-size: 0.85em; font-weight:bold; z-index: 100;}
+
+        /* --- CONTROLS BAR (RESPONSIVE) --- */
         .controls-bar { 
-            background: white; padding: 15px 25px; border-radius: 30px; box-shadow: 0 4px 15px rgba(0,0,0,0.05);
-            display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 15px; margin-bottom: 30px;
+            background: white; padding: 15px 20px; border-radius: 25px; box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+            display: flex; flex-direction: column; gap: 15px; margin-bottom: 30px; /* Mobile First: Colonne */
         }
-        .search-group { flex: 1; min-width: 250px; }
-        .search-input { width: 100%; padding: 10px 15px; border: 1px solid #eee; border-radius: 20px; font-size: 1em; outline: none; background: #f9f9f9; }
+        
+        /* Version Ordi (Dès 768px de large) */
+        @media (min-width: 768px) {
+            .controls-bar { flex-direction: row; align-items: center; justify-content: space-between; }
+            .search-group { flex: 1; } /* La recherche prend la place dispo */
+            .filters-group { width: auto; }
+        }
+
+        .search-group { width: 100%; }
+        .search-input { width: 100%; padding: 12px 15px; border: 1px solid #eee; border-radius: 20px; font-size: 1em; outline: none; background: #f9f9f9; box-sizing: border-box; }
         .search-input:focus { border-color: #ccc; background: white; }
 
-        .filters-group { display: flex; gap: 15px; align-items: center; }
-        .custom-select { padding: 10px 15px; border-radius: 20px; border: 1px solid #eee; background: #f9f9f9; cursor: pointer; font-size: 0.9em; outline: none; }
-        .custom-select:hover { background: #eee; }
-
+        .filters-group { display: flex; gap: 10px; width: 100%; }
+        .custom-select { flex: 1; padding: 12px 15px; border-radius: 20px; border: 1px solid #eee; background: #f9f9f9; cursor: pointer; font-size: 0.9em; outline: none; }
+        
         /* GRID */
-        .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 20px; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 15px; }
         .card { background: white; padding: 15px; border-radius: 16px; text-align: center; box-shadow: 0 2px 10px rgba(0,0,0,0.03); transition: transform 0.2s; border: 1px solid white; display: block; position: relative;}
         .card:hover { transform: translateY(-5px); box-shadow: 0 8px 20px rgba(0,0,0,0.08); }
         .card img { width: 100px; height: 100px; object-fit: contain; margin-bottom: 10px; }
@@ -142,22 +142,19 @@ function getTypeColor($type_slug) {
         .type-pill { color: white; padding: 3px 8px; border-radius: 10px; font-size: 0.7em; margin: 2px; display: inline-block; font-weight: 600; }
         .card.hidden { display: none !important; }
 
-        /* DÉTAIL */
-        .detail-card { background: white; border-radius: 24px; padding: 40px; box-shadow: 0 15px 40px rgba(0,0,0,0.08); max-width: 800px; margin: 40px auto; position: relative;}
-        .detail-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 20px; }
-        .detail-img { display: block; margin: 0 auto -20px auto; width: 300px; max-width: 100%; filter: drop-shadow(0 10px 15px rgba(0,0,0,0.2)); }
-        .desc-box { background: #fafafa; padding: 25px; border-radius: 12px; margin: 30px 0; font-style: italic; color: #555; text-align: center; border-left: 4px solid #eee; }
-        .evo-container { display: flex; justify-content: center; align-items: center; gap: 20px; margin: 30px 0; flex-wrap: wrap; }
-        .evo-card { text-align: center; opacity: 0.6; transition: 0.3s; }
-        .evo-card:hover { opacity: 1; transform: scale(1.05); }
-        .evo-card.current { opacity: 1; font-weight: bold; transform: scale(1.1); pointer-events: none;}
-        .evo-card img { width: 80px; height: 80px; object-fit: contain; }
-        .arrow { font-size: 1.5em; color: #ccc; }
-        .stats-table { width: 100%; border-collapse: collapse; margin-top: 20px; }
-        .stats-table td { padding: 8px 0; border-bottom: 1px solid #f0f0f0; }
-        .bar-bg { background: #eee; height: 8px; border-radius: 4px; width: 100%; overflow: hidden; }
-        .bar-fill { height: 100%; background: #4CAF50; border-radius: 4px; }
+        /* DETAIL CARD */
+        .detail-card { background: white; border-radius: 24px; padding: 30px; box-shadow: 0 15px 40px rgba(0,0,0,0.08); max-width: 800px; margin: 40px auto; position: relative;}
+        .detail-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 20px; flex-wrap: wrap;}
+        .detail-img { display: block; margin: 0 auto -20px auto; width: 280px; max-width: 100%; filter: drop-shadow(0 10px 15px rgba(0,0,0,0.2)); }
+        .desc-box { background: #fafafa; padding: 20px; border-radius: 12px; margin: 30px 0; font-style: italic; color: #555; text-align: center; border-left: 4px solid #eee; }
+        
+        /* Stats Responsive */
+        .stats-table td { padding: 8px 0; }
         .btn-retour { display: inline-block; margin-top: 30px; color: #888; font-weight: 600; font-size: 0.9em; transition: color 0.2s; }
+        
+        /* EVOLUTION CHAIN */
+        .evo-container { display: flex; justify-content: center; align-items: center; gap: 15px; margin: 30px 0; flex-wrap: wrap; }
+        .evo-card img { width: 70px; height: 70px; }
     </style>
 </head>
 <body>
@@ -171,7 +168,7 @@ function getTypeColor($type_slug) {
         <div class="detail-card">
             <div class="detail-header">
                 <div>
-                    <h1 style="margin:0; font-size: 2.5em;"><?php echo $pokemon_actuel['noms'][$lang]; ?></h1>
+                    <h1 style="margin:0; font-size: 2em;"><?php echo $pokemon_actuel['noms'][$lang]; ?></h1>
                     <div style="margin-top:10px;">
                         <?php foreach($pokemon_actuel['types'] as $type_obj): ?>
                             <a href="/?type=<?php echo $type_obj['slug']; ?>&lang=<?php echo $lang; ?>" class="type-pill" style="background-color: <?php echo getTypeColor($type_obj['slug']); ?>;">
@@ -180,7 +177,7 @@ function getTypeColor($type_slug) {
                         <?php endforeach; ?>
                     </div>
                 </div>
-                <h2 style="color:#ddd; margin:0; font-size: 2.5em;">#<?php echo str_pad($pokemon_actuel['id'], 3, '0', STR_PAD_LEFT); ?></h2>
+                <h2 style="color:#ddd; margin:0; font-size: 2em;">#<?php echo str_pad($pokemon_actuel['id'], 3, '0', STR_PAD_LEFT); ?></h2>
             </div>
             <img src="<?php echo $pokemon_actuel['image']; ?>" class="detail-img">
             <div class="desc-box">« <?php echo $pokemon_actuel['description'][$lang]; ?> »</div>
@@ -204,16 +201,16 @@ function getTypeColor($type_slug) {
                 </div>
             <?php endif; ?>
 
-            <h3><?php echo $t['stats']; ?></h3>
-            <table class="stats-table">
+            <h3 style="margin-top: 30px;"><?php echo $t['stats']; ?></h3>
+            <table style="width:100%; border-collapse: collapse;">
                 <?php foreach($pokemon_actuel['stats'] as $stat_key => $val): ?>
                 <tr>
                     <td width="30%"><strong><?php echo isset($t[$stat_key]) ? $t[$stat_key] : ucfirst($stat_key); ?></strong></td>
                     <td width="10%"><?php echo $val; ?></td>
                     <td width="60%">
-                        <div class="bar-bg">
+                        <div style="background: #eee; height: 8px; border-radius: 4px; width: 100%; overflow: hidden;">
                             <?php $bar_color = ($val >= 90) ? '#4caf50' : (($val < 50) ? '#ff5722' : '#ffc107'); ?>
-                            <div class="bar-fill" style="width: <?php echo min(100, $val/1.5); ?>%; background-color: <?php echo $bar_color; ?>"></div>
+                            <div style="height: 100%; width: <?php echo min(100, $val/1.5); ?>%; background-color: <?php echo $bar_color; ?>;"></div>
                         </div>
                     </td>
                 </tr>
@@ -223,7 +220,7 @@ function getTypeColor($type_slug) {
         </div>
 
     <?php else: ?>
-        <div class="list-header" style="text-align:center; margin-bottom:20px;">
+        <div style="text-align:center; margin-bottom:20px;">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/poke-ball.png" width="50" style="margin-bottom:10px;">
             <h1 style="margin:0; font-size:1.8em;"><?php echo $t['title']; ?></h1>
         </div>
