@@ -1,2636 +1,3240 @@
 [
     {
         "id": 1,
-        "nom": "Bulbasaur",
+        "nom": "Bulbizarre",
+        "nom_en": "bulbasaur",
+        "description": "Au matin de sa vie, la graine sur son dos lui fournit les \u00e9l\u00e9ments dont il a besoin pour grandir.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
         "types": [
-            "Grass",
-            "Poison"
+            "grass",
+            "poison"
         ],
         "stats": {
-            "Hp": 45,
-            "Attack": 49,
-            "Defense": 49,
-            "Sp. Attack": 65,
-            "Sp. Defense": 65,
-            "Speed": 45
-        }
+            "PV": 45,
+            "Attaque": 49,
+            "D\u00e9fense": 49,
+            "Atq. Sp\u00e9": 65,
+            "D\u00e9f. Sp\u00e9": 65,
+            "Vitesse": 45
+        },
+        "poids": 6.9,
+        "taille": 0.7
     },
     {
         "id": 2,
-        "nom": "Ivysaur",
+        "nom": "Herbizarre",
+        "nom_en": "ivysaur",
+        "description": "Lorsque le bourgeon sur son dos \u00e9clot, il r\u00e9pand un doux parfum pour c\u00e9l\u00e9brer sa floraison.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/2.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png",
         "types": [
-            "Grass",
-            "Poison"
+            "grass",
+            "poison"
         ],
         "stats": {
-            "Hp": 60,
-            "Attack": 62,
-            "Defense": 63,
-            "Sp. Attack": 80,
-            "Sp. Defense": 80,
-            "Speed": 60
-        }
+            "PV": 60,
+            "Attaque": 62,
+            "D\u00e9fense": 63,
+            "Atq. Sp\u00e9": 80,
+            "D\u00e9f. Sp\u00e9": 80,
+            "Vitesse": 60
+        },
+        "poids": 13.0,
+        "taille": 1.0
     },
     {
         "id": 3,
-        "nom": "Venusaur",
+        "nom": "Florizarre",
+        "nom_en": "venusaur",
+        "description": "Le parfum de sa fleur se fait plus p\u00e9n\u00e9trant les lendemains de pluie. Cela app\u00e2te les autres Pok\u00e9mon.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/3.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png",
         "types": [
-            "Grass",
-            "Poison"
+            "grass",
+            "poison"
         ],
         "stats": {
-            "Hp": 80,
-            "Attack": 82,
-            "Defense": 83,
-            "Sp. Attack": 100,
-            "Sp. Defense": 100,
-            "Speed": 80
-        }
+            "PV": 80,
+            "Attaque": 82,
+            "D\u00e9fense": 83,
+            "Atq. Sp\u00e9": 100,
+            "D\u00e9f. Sp\u00e9": 100,
+            "Vitesse": 80
+        },
+        "poids": 100.0,
+        "taille": 2.0
     },
     {
         "id": 4,
-        "nom": "Charmander",
+        "nom": "Salam\u00e8che",
+        "nom_en": "charmander",
+        "description": "La flamme de sa queue symbolise sa vitalit\u00e9. Elle est intense quand il est en bonne sant\u00e9.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/4.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png",
         "types": [
-            "Fire"
+            "fire"
         ],
         "stats": {
-            "Hp": 39,
-            "Attack": 52,
-            "Defense": 43,
-            "Sp. Attack": 60,
-            "Sp. Defense": 50,
-            "Speed": 65
-        }
+            "PV": 39,
+            "Attaque": 52,
+            "D\u00e9fense": 43,
+            "Atq. Sp\u00e9": 60,
+            "D\u00e9f. Sp\u00e9": 50,
+            "Vitesse": 65
+        },
+        "poids": 8.5,
+        "taille": 0.6
     },
     {
         "id": 5,
-        "nom": "Charmeleon",
+        "nom": "Reptincel",
+        "nom_en": "charmeleon",
+        "description": "La nuit, la queue ardente du Reptincel brille comme une \u00e9toile dans son repaire montagneux.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/5.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png",
         "types": [
-            "Fire"
+            "fire"
         ],
         "stats": {
-            "Hp": 58,
-            "Attack": 64,
-            "Defense": 58,
-            "Sp. Attack": 80,
-            "Sp. Defense": 65,
-            "Speed": 80
-        }
+            "PV": 58,
+            "Attaque": 64,
+            "D\u00e9fense": 58,
+            "Atq. Sp\u00e9": 80,
+            "D\u00e9f. Sp\u00e9": 65,
+            "Vitesse": 80
+        },
+        "poids": 19.0,
+        "taille": 1.1
     },
     {
         "id": 6,
-        "nom": "Charizard",
+        "nom": "Dracaufeu",
+        "nom_en": "charizard",
+        "description": "On raconte que la flamme du Dracaufeu s\u2019intensifie apr\u00e8s un combat difficile.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png",
         "types": [
-            "Fire",
-            "Flying"
+            "fire",
+            "flying"
         ],
         "stats": {
-            "Hp": 78,
-            "Attack": 84,
-            "Defense": 78,
-            "Sp. Attack": 109,
-            "Sp. Defense": 85,
-            "Speed": 100
-        }
+            "PV": 78,
+            "Attaque": 84,
+            "D\u00e9fense": 78,
+            "Atq. Sp\u00e9": 109,
+            "D\u00e9f. Sp\u00e9": 85,
+            "Vitesse": 100
+        },
+        "poids": 90.5,
+        "taille": 1.7
     },
     {
         "id": 7,
-        "nom": "Squirtle",
+        "nom": "Carapuce",
+        "nom_en": "squirtle",
+        "description": "Il se r\u00e9fugie dans sa carapace et r\u00e9plique en \u00e9claboussant l\u2019ennemi \u00e0 la premi\u00e8re occasion.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/7.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png",
         "types": [
-            "Water"
+            "water"
         ],
         "stats": {
-            "Hp": 44,
-            "Attack": 48,
-            "Defense": 65,
-            "Sp. Attack": 50,
-            "Sp. Defense": 64,
-            "Speed": 43
-        }
+            "PV": 44,
+            "Attaque": 48,
+            "D\u00e9fense": 65,
+            "Atq. Sp\u00e9": 50,
+            "D\u00e9f. Sp\u00e9": 64,
+            "Vitesse": 43
+        },
+        "poids": 9.0,
+        "taille": 0.5
     },
     {
         "id": 8,
-        "nom": "Wartortle",
+        "nom": "Carabaffe",
+        "nom_en": "wartortle",
+        "description": "On pr\u00e9tend qu\u2019il vit 10 000 ans. Sa queue duveteuse est un symbole de long\u00e9vit\u00e9 populaire.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/8.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/8.png",
         "types": [
-            "Water"
+            "water"
         ],
         "stats": {
-            "Hp": 59,
-            "Attack": 63,
-            "Defense": 80,
-            "Sp. Attack": 65,
-            "Sp. Defense": 80,
-            "Speed": 58
-        }
+            "PV": 59,
+            "Attaque": 63,
+            "D\u00e9fense": 80,
+            "Atq. Sp\u00e9": 65,
+            "D\u00e9f. Sp\u00e9": 80,
+            "Vitesse": 58
+        },
+        "poids": 22.5,
+        "taille": 1.0
     },
     {
         "id": 9,
-        "nom": "Blastoise",
+        "nom": "Tortank",
+        "nom_en": "blastoise",
+        "description": "Les trombes d\u2019eau projet\u00e9es par les canons de sa carapace peuvent percer le m\u00e9tal le plus r\u00e9sistant.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/9.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png",
         "types": [
-            "Water"
+            "water"
         ],
         "stats": {
-            "Hp": 79,
-            "Attack": 83,
-            "Defense": 100,
-            "Sp. Attack": 85,
-            "Sp. Defense": 105,
-            "Speed": 78
-        }
+            "PV": 79,
+            "Attaque": 83,
+            "D\u00e9fense": 100,
+            "Atq. Sp\u00e9": 85,
+            "D\u00e9f. Sp\u00e9": 105,
+            "Vitesse": 78
+        },
+        "poids": 85.5,
+        "taille": 1.6
     },
     {
         "id": 10,
-        "nom": "Caterpie",
+        "nom": "Chenipan",
+        "nom_en": "caterpie",
+        "description": "Ses antennes rouges lib\u00e8rent une puanteur qui repousse l\u2019ennemi. Il grandit par mues r\u00e9guli\u00e8res.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10.png",
         "types": [
-            "Bug"
+            "bug"
         ],
         "stats": {
-            "Hp": 45,
-            "Attack": 30,
-            "Defense": 35,
-            "Sp. Attack": 20,
-            "Sp. Defense": 20,
-            "Speed": 45
-        }
+            "PV": 45,
+            "Attaque": 30,
+            "D\u00e9fense": 35,
+            "Atq. Sp\u00e9": 20,
+            "D\u00e9f. Sp\u00e9": 20,
+            "Vitesse": 45
+        },
+        "poids": 2.9,
+        "taille": 0.3
     },
     {
         "id": 11,
-        "nom": "Metapod",
+        "nom": "Chrysacier",
+        "nom_en": "metapod",
+        "description": "Son corps fr\u00eale est prot\u00e9g\u00e9 par sa carapace d\u2019acier. Il encaisse les coups durs en attendant d\u2019\u00e9voluer.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/11.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/11.png",
         "types": [
-            "Bug"
+            "bug"
         ],
         "stats": {
-            "Hp": 50,
-            "Attack": 20,
-            "Defense": 55,
-            "Sp. Attack": 25,
-            "Sp. Defense": 25,
-            "Speed": 30
-        }
+            "PV": 50,
+            "Attaque": 20,
+            "D\u00e9fense": 55,
+            "Atq. Sp\u00e9": 25,
+            "D\u00e9f. Sp\u00e9": 25,
+            "Vitesse": 30
+        },
+        "poids": 9.9,
+        "taille": 0.7
     },
     {
         "id": 12,
-        "nom": "Butterfree",
+        "nom": "Papilusion",
+        "nom_en": "butterfree",
+        "description": "Il raffole du nectar des fleurs. Il est capable de rep\u00e9rer la plus petite quantit\u00e9 de pollen.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/12.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/12.png",
         "types": [
-            "Bug",
-            "Flying"
+            "bug",
+            "flying"
         ],
         "stats": {
-            "Hp": 60,
-            "Attack": 45,
-            "Defense": 50,
-            "Sp. Attack": 90,
-            "Sp. Defense": 80,
-            "Speed": 70
-        }
+            "PV": 60,
+            "Attaque": 45,
+            "D\u00e9fense": 50,
+            "Atq. Sp\u00e9": 90,
+            "D\u00e9f. Sp\u00e9": 80,
+            "Vitesse": 70
+        },
+        "poids": 32.0,
+        "taille": 1.1
     },
     {
         "id": 13,
-        "nom": "Weedle",
+        "nom": "Aspicot",
+        "nom_en": "weedle",
+        "description": "Il mange chaque jour son poids en feuilles. Il utilise l\u2019aiguillon sur sa t\u00eate pour repousser l\u2019ennemi.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/13.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/13.png",
         "types": [
-            "Bug",
-            "Poison"
+            "bug",
+            "poison"
         ],
         "stats": {
-            "Hp": 40,
-            "Attack": 35,
-            "Defense": 30,
-            "Sp. Attack": 20,
-            "Sp. Defense": 20,
-            "Speed": 50
-        }
+            "PV": 40,
+            "Attaque": 35,
+            "D\u00e9fense": 30,
+            "Atq. Sp\u00e9": 20,
+            "D\u00e9f. Sp\u00e9": 20,
+            "Vitesse": 50
+        },
+        "poids": 3.2,
+        "taille": 0.3
     },
     {
         "id": 14,
-        "nom": "Kakuna",
+        "nom": "Coconfort",
+        "nom_en": "kakuna",
+        "description": "Il se cache sous les feuilles et les branches pour fuir les pr\u00e9dateurs en attendant d\u2019\u00e9voluer.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/14.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/14.png",
         "types": [
-            "Bug",
-            "Poison"
+            "bug",
+            "poison"
         ],
         "stats": {
-            "Hp": 45,
-            "Attack": 25,
-            "Defense": 50,
-            "Sp. Attack": 25,
-            "Sp. Defense": 25,
-            "Speed": 35
-        }
+            "PV": 45,
+            "Attaque": 25,
+            "D\u00e9fense": 50,
+            "Atq. Sp\u00e9": 25,
+            "D\u00e9f. Sp\u00e9": 25,
+            "Vitesse": 35
+        },
+        "poids": 10.0,
+        "taille": 0.6
     },
     {
         "id": 15,
-        "nom": "Beedrill",
+        "nom": "Dardargnan",
+        "nom_en": "beedrill",
+        "description": "Il virevolte rapidement autour de l\u2019ennemi et frappe de son dard empoisonn\u00e9 avant de d\u00e9camper.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/15.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/15.png",
         "types": [
-            "Bug",
-            "Poison"
+            "bug",
+            "poison"
         ],
         "stats": {
-            "Hp": 65,
-            "Attack": 90,
-            "Defense": 40,
-            "Sp. Attack": 45,
-            "Sp. Defense": 80,
-            "Speed": 75
-        }
+            "PV": 65,
+            "Attaque": 90,
+            "D\u00e9fense": 40,
+            "Atq. Sp\u00e9": 45,
+            "D\u00e9f. Sp\u00e9": 80,
+            "Vitesse": 75
+        },
+        "poids": 29.5,
+        "taille": 1.0
     },
     {
         "id": 16,
-        "nom": "Pidgey",
+        "nom": "Roucool",
+        "nom_en": "pidgey",
+        "description": "Ce Pok\u00e9mon docile pr\u00e9f\u00e8re \u00e9viter le combat. Toutefois, il se montre tr\u00e8s f\u00e9roce quand on l\u2019agresse.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/16.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/16.png",
         "types": [
-            "Normal",
-            "Flying"
+            "normal",
+            "flying"
         ],
         "stats": {
-            "Hp": 40,
-            "Attack": 45,
-            "Defense": 40,
-            "Sp. Attack": 35,
-            "Sp. Defense": 35,
-            "Speed": 56
-        }
+            "PV": 40,
+            "Attaque": 45,
+            "D\u00e9fense": 40,
+            "Atq. Sp\u00e9": 35,
+            "D\u00e9f. Sp\u00e9": 35,
+            "Vitesse": 56
+        },
+        "poids": 1.8,
+        "taille": 0.3
     },
     {
         "id": 17,
-        "nom": "Pidgeotto",
+        "nom": "Roucoups",
+        "nom_en": "pidgeotto",
+        "description": "Il survole son vaste territoire en qu\u00eate d\u2019une proie avant de fondre sur elle toutes griffes en avant.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/17.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/17.png",
         "types": [
-            "Normal",
-            "Flying"
+            "normal",
+            "flying"
         ],
         "stats": {
-            "Hp": 63,
-            "Attack": 60,
-            "Defense": 55,
-            "Sp. Attack": 50,
-            "Sp. Defense": 50,
-            "Speed": 71
-        }
+            "PV": 63,
+            "Attaque": 60,
+            "D\u00e9fense": 55,
+            "Atq. Sp\u00e9": 50,
+            "D\u00e9f. Sp\u00e9": 50,
+            "Vitesse": 71
+        },
+        "poids": 30.0,
+        "taille": 1.1
     },
     {
         "id": 18,
-        "nom": "Pidgeot",
+        "nom": "Roucarnage",
+        "nom_en": "pidgeot",
+        "description": "En battant des ailes de toutes ses forces, Roucarnage g\u00e9n\u00e8re une rafale \u00e0 en d\u00e9raciner les arbres.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/18.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/18.png",
         "types": [
-            "Normal",
-            "Flying"
+            "normal",
+            "flying"
         ],
         "stats": {
-            "Hp": 83,
-            "Attack": 80,
-            "Defense": 75,
-            "Sp. Attack": 70,
-            "Sp. Defense": 70,
-            "Speed": 101
-        }
+            "PV": 83,
+            "Attaque": 80,
+            "D\u00e9fense": 75,
+            "Atq. Sp\u00e9": 70,
+            "D\u00e9f. Sp\u00e9": 70,
+            "Vitesse": 101
+        },
+        "poids": 39.5,
+        "taille": 1.5
     },
     {
         "id": 19,
         "nom": "Rattata",
+        "nom_en": "rattata",
+        "description": "D\u2019une prudence extr\u00eame, sa nature robuste lui permet de s\u2019adapter \u00e0 tous les terrains.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/19.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/19.png",
         "types": [
-            "Normal"
+            "normal"
         ],
         "stats": {
-            "Hp": 30,
-            "Attack": 56,
-            "Defense": 35,
-            "Sp. Attack": 25,
-            "Sp. Defense": 35,
-            "Speed": 72
-        }
+            "PV": 30,
+            "Attaque": 56,
+            "D\u00e9fense": 35,
+            "Atq. Sp\u00e9": 25,
+            "D\u00e9f. Sp\u00e9": 35,
+            "Vitesse": 72
+        },
+        "poids": 3.5,
+        "taille": 0.3
     },
     {
         "id": 20,
-        "nom": "Raticate",
+        "nom": "Rattatac",
+        "nom_en": "raticate",
+        "description": "Ses pattes arri\u00e8re lui permettent de traverser les rivi\u00e8res. Il est toujours en qu\u00eate de nourriture.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/20.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/20.png",
         "types": [
-            "Normal"
+            "normal"
         ],
         "stats": {
-            "Hp": 55,
-            "Attack": 81,
-            "Defense": 60,
-            "Sp. Attack": 50,
-            "Sp. Defense": 70,
-            "Speed": 97
-        }
+            "PV": 55,
+            "Attaque": 81,
+            "D\u00e9fense": 60,
+            "Atq. Sp\u00e9": 50,
+            "D\u00e9f. Sp\u00e9": 70,
+            "Vitesse": 97
+        },
+        "poids": 18.5,
+        "taille": 0.7
     },
     {
         "id": 21,
-        "nom": "Spearow",
+        "nom": "Piafabec",
+        "nom_en": "spearow",
+        "description": "Il fait battre vigoureusement ses petites ailes pour voler et cherche \u00e0 manger dans l\u2019herbe avec le bec.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/21.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/21.png",
         "types": [
-            "Normal",
-            "Flying"
+            "normal",
+            "flying"
         ],
         "stats": {
-            "Hp": 40,
-            "Attack": 60,
-            "Defense": 30,
-            "Sp. Attack": 31,
-            "Sp. Defense": 31,
-            "Speed": 70
-        }
+            "PV": 40,
+            "Attaque": 60,
+            "D\u00e9fense": 30,
+            "Atq. Sp\u00e9": 31,
+            "D\u00e9f. Sp\u00e9": 31,
+            "Vitesse": 70
+        },
+        "poids": 2.0,
+        "taille": 0.3
     },
     {
         "id": 22,
-        "nom": "Fearow",
+        "nom": "Rapasdepic",
+        "nom_en": "fearow",
+        "description": "Il a assez d\u2019\u00e9nergie pour voler toute la journ\u00e9e avec ses grandes ailes. Il frappe de son bec ac\u00e9r\u00e9.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/22.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/22.png",
         "types": [
-            "Normal",
-            "Flying"
+            "normal",
+            "flying"
         ],
         "stats": {
-            "Hp": 65,
-            "Attack": 90,
-            "Defense": 65,
-            "Sp. Attack": 61,
-            "Sp. Defense": 61,
-            "Speed": 100
-        }
+            "PV": 65,
+            "Attaque": 90,
+            "D\u00e9fense": 65,
+            "Atq. Sp\u00e9": 61,
+            "D\u00e9f. Sp\u00e9": 61,
+            "Vitesse": 100
+        },
+        "poids": 38.0,
+        "taille": 1.2
     },
     {
         "id": 23,
-        "nom": "Ekans",
+        "nom": "Abo",
+        "nom_en": "ekans",
+        "description": "Il se faufile dans l\u2019herbe sans un bruit et frappe dans le dos quand sa proie s\u2019y attend le moins.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/23.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/23.png",
         "types": [
-            "Poison"
+            "poison"
         ],
         "stats": {
-            "Hp": 35,
-            "Attack": 60,
-            "Defense": 44,
-            "Sp. Attack": 40,
-            "Sp. Defense": 54,
-            "Speed": 55
-        }
+            "PV": 35,
+            "Attaque": 60,
+            "D\u00e9fense": 44,
+            "Atq. Sp\u00e9": 40,
+            "D\u00e9f. Sp\u00e9": 54,
+            "Vitesse": 55
+        },
+        "poids": 6.9,
+        "taille": 2.0
     },
     {
         "id": 24,
         "nom": "Arbok",
+        "nom_en": "arbok",
+        "description": "Il utilise la marque sur son ventre pour intimider l\u2019ennemi. Il \u00e9touffe l\u2019ennemi p\u00e9trifi\u00e9 par la peur.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/24.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/24.png",
         "types": [
-            "Poison"
+            "poison"
         ],
         "stats": {
-            "Hp": 60,
-            "Attack": 95,
-            "Defense": 69,
-            "Sp. Attack": 65,
-            "Sp. Defense": 79,
-            "Speed": 80
-        }
+            "PV": 60,
+            "Attaque": 95,
+            "D\u00e9fense": 69,
+            "Atq. Sp\u00e9": 65,
+            "D\u00e9f. Sp\u00e9": 79,
+            "Vitesse": 80
+        },
+        "poids": 65.0,
+        "taille": 3.5
     },
     {
         "id": 25,
         "nom": "Pikachu",
+        "nom_en": "pikachu",
+        "description": "Il lui arrive de remettre d\u2019aplomb un Pikachu alli\u00e9 en lui envoyant une d\u00e9charge \u00e9lectrique.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png",
         "types": [
-            "Electric"
+            "electric"
         ],
         "stats": {
-            "Hp": 35,
-            "Attack": 55,
-            "Defense": 40,
-            "Sp. Attack": 50,
-            "Sp. Defense": 50,
-            "Speed": 90
-        }
+            "PV": 35,
+            "Attaque": 55,
+            "D\u00e9fense": 40,
+            "Atq. Sp\u00e9": 50,
+            "D\u00e9f. Sp\u00e9": 50,
+            "Vitesse": 90
+        },
+        "poids": 6.0,
+        "taille": 0.4
     },
     {
         "id": 26,
         "nom": "Raichu",
+        "nom_en": "raichu",
+        "description": "Il se prot\u00e8ge des d\u00e9charges gr\u00e2ce \u00e0 sa queue qui dissipe l\u2019\u00e9lectricit\u00e9 dans le sol.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/26.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/26.png",
         "types": [
-            "Electric"
+            "electric"
         ],
         "stats": {
-            "Hp": 60,
-            "Attack": 90,
-            "Defense": 55,
-            "Sp. Attack": 90,
-            "Sp. Defense": 80,
-            "Speed": 110
-        }
+            "PV": 60,
+            "Attaque": 90,
+            "D\u00e9fense": 55,
+            "Atq. Sp\u00e9": 90,
+            "D\u00e9f. Sp\u00e9": 80,
+            "Vitesse": 110
+        },
+        "poids": 30.0,
+        "taille": 0.8
     },
     {
         "id": 27,
-        "nom": "Sandshrew",
+        "nom": "Sabelette",
+        "nom_en": "sandshrew",
+        "description": "Il vit sur des terres arides \u00e9pargn\u00e9es par la pluie. Il se roule en boule pour se prot\u00e9ger.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/27.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/27.png",
         "types": [
-            "Ground"
+            "ground"
         ],
         "stats": {
-            "Hp": 50,
-            "Attack": 75,
-            "Defense": 85,
-            "Sp. Attack": 20,
-            "Sp. Defense": 30,
-            "Speed": 40
-        }
+            "PV": 50,
+            "Attaque": 75,
+            "D\u00e9fense": 85,
+            "Atq. Sp\u00e9": 20,
+            "D\u00e9f. Sp\u00e9": 30,
+            "Vitesse": 40
+        },
+        "poids": 12.0,
+        "taille": 0.6
     },
     {
         "id": 28,
-        "nom": "Sandslash",
+        "nom": "Sablaireau",
+        "nom_en": "sandslash",
+        "description": "Il se met en boule pour percuter l\u2019ennemi. Ses \u00e9pines aiguis\u00e9es font beaucoup de d\u00e9g\u00e2ts.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/28.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/28.png",
         "types": [
-            "Ground"
+            "ground"
         ],
         "stats": {
-            "Hp": 75,
-            "Attack": 100,
-            "Defense": 110,
-            "Sp. Attack": 45,
-            "Sp. Defense": 55,
-            "Speed": 65
-        }
+            "PV": 75,
+            "Attaque": 100,
+            "D\u00e9fense": 110,
+            "Atq. Sp\u00e9": 45,
+            "D\u00e9f. Sp\u00e9": 55,
+            "Vitesse": 65
+        },
+        "poids": 29.5,
+        "taille": 1.0
     },
     {
         "id": 29,
-        "nom": "Nidoran-f",
+        "nom": "Nidoran\u2640",
+        "nom_en": "nidoran-f",
+        "description": "Bien qu\u2019il rechigne \u00e0 se battre, une goutte du poison s\u00e9cr\u00e9t\u00e9 par ses piquants peut s\u2019av\u00e9rer fatale.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/29.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/29.png",
         "types": [
-            "Poison"
+            "poison"
         ],
         "stats": {
-            "Hp": 55,
-            "Attack": 47,
-            "Defense": 52,
-            "Sp. Attack": 40,
-            "Sp. Defense": 40,
-            "Speed": 41
-        }
+            "PV": 55,
+            "Attaque": 47,
+            "D\u00e9fense": 52,
+            "Atq. Sp\u00e9": 40,
+            "D\u00e9f. Sp\u00e9": 40,
+            "Vitesse": 41
+        },
+        "poids": 7.0,
+        "taille": 0.4
     },
     {
         "id": 30,
         "nom": "Nidorina",
+        "nom_en": "nidorina",
+        "description": "Ce Pok\u00e9mon dresse ses piquants en cas de danger. Ils poussent moins vite que ceux de Nidorino.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/30.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/30.png",
         "types": [
-            "Poison"
+            "poison"
         ],
         "stats": {
-            "Hp": 70,
-            "Attack": 62,
-            "Defense": 67,
-            "Sp. Attack": 55,
-            "Sp. Defense": 55,
-            "Speed": 56
-        }
+            "PV": 70,
+            "Attaque": 62,
+            "D\u00e9fense": 67,
+            "Atq. Sp\u00e9": 55,
+            "D\u00e9f. Sp\u00e9": 55,
+            "Vitesse": 56
+        },
+        "poids": 20.0,
+        "taille": 0.8
     },
     {
         "id": 31,
         "nom": "Nidoqueen",
+        "nom_en": "nidoqueen",
+        "description": "Son corps est recouvert d\u2019\u00e9cailles solides. Il donnera sa vie pour secourir les petits de son terrier.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/31.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/31.png",
         "types": [
-            "Poison",
-            "Ground"
+            "poison",
+            "ground"
         ],
         "stats": {
-            "Hp": 90,
-            "Attack": 92,
-            "Defense": 87,
-            "Sp. Attack": 75,
-            "Sp. Defense": 85,
-            "Speed": 76
-        }
+            "PV": 90,
+            "Attaque": 92,
+            "D\u00e9fense": 87,
+            "Atq. Sp\u00e9": 75,
+            "D\u00e9f. Sp\u00e9": 85,
+            "Vitesse": 76
+        },
+        "poids": 60.0,
+        "taille": 1.3
     },
     {
         "id": 32,
-        "nom": "Nidoran-m",
+        "nom": "Nidoran\u2642",
+        "nom_en": "nidoran-m",
+        "description": "Il jauge le terrain en laissant ses oreilles d\u00e9passer de l\u2019herbe. Il se d\u00e9fend avec sa corne toxique.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/32.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/32.png",
         "types": [
-            "Poison"
+            "poison"
         ],
         "stats": {
-            "Hp": 46,
-            "Attack": 57,
-            "Defense": 40,
-            "Sp. Attack": 40,
-            "Sp. Defense": 40,
-            "Speed": 50
-        }
+            "PV": 46,
+            "Attaque": 57,
+            "D\u00e9fense": 40,
+            "Atq. Sp\u00e9": 40,
+            "D\u00e9f. Sp\u00e9": 40,
+            "Vitesse": 50
+        },
+        "poids": 9.0,
+        "taille": 0.5
     },
     {
         "id": 33,
         "nom": "Nidorino",
+        "nom_en": "nidorino",
+        "description": "D\u2019un temp\u00e9rament violent, il empale l\u2019ennemi sur sa corne qui distille un poison puissant.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/33.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/33.png",
         "types": [
-            "Poison"
+            "poison"
         ],
         "stats": {
-            "Hp": 61,
-            "Attack": 72,
-            "Defense": 57,
-            "Sp. Attack": 55,
-            "Sp. Defense": 55,
-            "Speed": 65
-        }
+            "PV": 61,
+            "Attaque": 72,
+            "D\u00e9fense": 57,
+            "Atq. Sp\u00e9": 55,
+            "D\u00e9f. Sp\u00e9": 55,
+            "Vitesse": 65
+        },
+        "poids": 19.5,
+        "taille": 0.9
     },
     {
         "id": 34,
         "nom": "Nidoking",
+        "nom_en": "nidoking",
+        "description": "Un coup de sa puissante queue peut briser un poteau t\u00e9l\u00e9phonique comme une allumette.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/34.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/34.png",
         "types": [
-            "Poison",
-            "Ground"
+            "poison",
+            "ground"
         ],
         "stats": {
-            "Hp": 81,
-            "Attack": 102,
-            "Defense": 77,
-            "Sp. Attack": 85,
-            "Sp. Defense": 75,
-            "Speed": 85
-        }
+            "PV": 81,
+            "Attaque": 102,
+            "D\u00e9fense": 77,
+            "Atq. Sp\u00e9": 85,
+            "D\u00e9f. Sp\u00e9": 75,
+            "Vitesse": 85
+        },
+        "poids": 62.0,
+        "taille": 1.4
     },
     {
         "id": 35,
-        "nom": "Clefairy",
+        "nom": "M\u00e9lof\u00e9e",
+        "nom_en": "clefairy",
+        "description": "On dit que ceux qui voient danser un groupe de M\u00e9lof\u00e9e sous la pleine lune conna\u00eetront un grand bonheur.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/35.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/35.png",
         "types": [
-            "Fairy"
+            "fairy"
         ],
         "stats": {
-            "Hp": 70,
-            "Attack": 45,
-            "Defense": 48,
-            "Sp. Attack": 60,
-            "Sp. Defense": 65,
-            "Speed": 35
-        }
+            "PV": 70,
+            "Attaque": 45,
+            "D\u00e9fense": 48,
+            "Atq. Sp\u00e9": 60,
+            "D\u00e9f. Sp\u00e9": 65,
+            "Vitesse": 35
+        },
+        "poids": 7.5,
+        "taille": 0.6
     },
     {
         "id": 36,
-        "nom": "Clefable",
+        "nom": "M\u00e9lodelfe",
+        "nom_en": "clefable",
+        "description": "Il est tr\u00e8s farouche et se laisse rarement approcher. De plus, il d\u00e9tecte les sons \u00e0 plus d\u20191 km.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/36.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/36.png",
         "types": [
-            "Fairy"
+            "fairy"
         ],
         "stats": {
-            "Hp": 95,
-            "Attack": 70,
-            "Defense": 73,
-            "Sp. Attack": 95,
-            "Sp. Defense": 90,
-            "Speed": 60
-        }
+            "PV": 95,
+            "Attaque": 70,
+            "D\u00e9fense": 73,
+            "Atq. Sp\u00e9": 95,
+            "D\u00e9f. Sp\u00e9": 90,
+            "Vitesse": 60
+        },
+        "poids": 40.0,
+        "taille": 1.3
     },
     {
         "id": 37,
-        "nom": "Vulpix",
+        "nom": "Goupix",
+        "nom_en": "vulpix",
+        "description": "Il envoie des boules de feu. Avec l\u2019\u00e2ge, ses six queues en forment de nouvelles.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/37.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/37.png",
         "types": [
-            "Fire"
+            "fire"
         ],
         "stats": {
-            "Hp": 38,
-            "Attack": 41,
-            "Defense": 40,
-            "Sp. Attack": 50,
-            "Sp. Defense": 65,
-            "Speed": 65
-        }
+            "PV": 38,
+            "Attaque": 41,
+            "D\u00e9fense": 40,
+            "Atq. Sp\u00e9": 50,
+            "D\u00e9f. Sp\u00e9": 65,
+            "Vitesse": 65
+        },
+        "poids": 9.9,
+        "taille": 0.6
     },
     {
         "id": 38,
-        "nom": "Ninetales",
+        "nom": "Feunard",
+        "nom_en": "ninetales",
+        "description": "On raconte que ses neuf queues d\u00e9tiennent un pouvoir mystique. Il peut vivre pendant mille ans.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/38.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/38.png",
         "types": [
-            "Fire"
+            "fire"
         ],
         "stats": {
-            "Hp": 73,
-            "Attack": 76,
-            "Defense": 75,
-            "Sp. Attack": 81,
-            "Sp. Defense": 100,
-            "Speed": 100
-        }
+            "PV": 73,
+            "Attaque": 76,
+            "D\u00e9fense": 75,
+            "Atq. Sp\u00e9": 81,
+            "D\u00e9f. Sp\u00e9": 100,
+            "Vitesse": 100
+        },
+        "poids": 19.9,
+        "taille": 1.1
     },
     {
         "id": 39,
-        "nom": "Jigglypuff",
+        "nom": "Rondoudou",
+        "nom_en": "jigglypuff",
+        "description": "Lorsqu\u2019il roule ses grands yeux ronds, il entonne une berceuse qui endort son auditoire.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/39.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/39.png",
         "types": [
-            "Normal",
-            "Fairy"
+            "normal",
+            "fairy"
         ],
         "stats": {
-            "Hp": 115,
-            "Attack": 45,
-            "Defense": 20,
-            "Sp. Attack": 45,
-            "Sp. Defense": 25,
-            "Speed": 20
-        }
+            "PV": 115,
+            "Attaque": 45,
+            "D\u00e9fense": 20,
+            "Atq. Sp\u00e9": 45,
+            "D\u00e9f. Sp\u00e9": 25,
+            "Vitesse": 20
+        },
+        "poids": 5.5,
+        "taille": 0.5
     },
     {
         "id": 40,
-        "nom": "Wigglytuff",
+        "nom": "Grodoudou",
+        "nom_en": "wigglytuff",
+        "description": "Sa fourrure est d\u2019une douceur incomparable au toucher. Il  peut gonfler en aspirant de l\u2019air.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/40.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/40.png",
         "types": [
-            "Normal",
-            "Fairy"
+            "normal",
+            "fairy"
         ],
         "stats": {
-            "Hp": 140,
-            "Attack": 70,
-            "Defense": 45,
-            "Sp. Attack": 85,
-            "Sp. Defense": 50,
-            "Speed": 45
-        }
+            "PV": 140,
+            "Attaque": 70,
+            "D\u00e9fense": 45,
+            "Atq. Sp\u00e9": 85,
+            "D\u00e9f. Sp\u00e9": 50,
+            "Vitesse": 45
+        },
+        "poids": 12.0,
+        "taille": 1.0
     },
     {
         "id": 41,
-        "nom": "Zubat",
+        "nom": "Nosferapti",
+        "nom_en": "zubat",
+        "description": "D\u00e9pourvu d\u2019yeux, il se rep\u00e8re dans l\u2019espace gr\u00e2ce aux ultrasons qu\u2019il \u00e9met avec sa bouche.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/41.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/41.png",
         "types": [
-            "Poison",
-            "Flying"
+            "poison",
+            "flying"
         ],
         "stats": {
-            "Hp": 40,
-            "Attack": 45,
-            "Defense": 35,
-            "Sp. Attack": 30,
-            "Sp. Defense": 40,
-            "Speed": 55
-        }
+            "PV": 40,
+            "Attaque": 45,
+            "D\u00e9fense": 35,
+            "Atq. Sp\u00e9": 30,
+            "D\u00e9f. Sp\u00e9": 40,
+            "Vitesse": 55
+        },
+        "poids": 7.5,
+        "taille": 0.8
     },
     {
         "id": 42,
-        "nom": "Golbat",
+        "nom": "Nosferalto",
+        "nom_en": "golbat",
+        "description": "Ses crocs ac\u00e9r\u00e9s et creux peuvent p\u00e9n\u00e9trer la plus \u00e9paisse des peaux et sucer le sang de la victime.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/42.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/42.png",
         "types": [
-            "Poison",
-            "Flying"
+            "poison",
+            "flying"
         ],
         "stats": {
-            "Hp": 75,
-            "Attack": 80,
-            "Defense": 70,
-            "Sp. Attack": 65,
-            "Sp. Defense": 75,
-            "Speed": 90
-        }
+            "PV": 75,
+            "Attaque": 80,
+            "D\u00e9fense": 70,
+            "Atq. Sp\u00e9": 65,
+            "D\u00e9f. Sp\u00e9": 75,
+            "Vitesse": 90
+        },
+        "poids": 55.0,
+        "taille": 1.6
     },
     {
         "id": 43,
-        "nom": "Oddish",
+        "nom": "Mystherbe",
+        "nom_en": "oddish",
+        "description": "En journ\u00e9e, il plante ses pieds-racines dans le sol. La nuit, il se prom\u00e8ne en semant des graines.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/43.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/43.png",
         "types": [
-            "Grass",
-            "Poison"
+            "grass",
+            "poison"
         ],
         "stats": {
-            "Hp": 45,
-            "Attack": 50,
-            "Defense": 55,
-            "Sp. Attack": 75,
-            "Sp. Defense": 65,
-            "Speed": 30
-        }
+            "PV": 45,
+            "Attaque": 50,
+            "D\u00e9fense": 55,
+            "Atq. Sp\u00e9": 75,
+            "D\u00e9f. Sp\u00e9": 65,
+            "Vitesse": 30
+        },
+        "poids": 5.4,
+        "taille": 0.5
     },
     {
         "id": 44,
-        "nom": "Gloom",
+        "nom": "Ortide",
+        "nom_en": "gloom",
+        "description": "L\u2019odeur du nectar de sa bouche est si r\u00e9pugnante qu\u2019elle agresse les narines \u00e0 deux kilom\u00e8tres.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/44.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/44.png",
         "types": [
-            "Grass",
-            "Poison"
+            "grass",
+            "poison"
         ],
         "stats": {
-            "Hp": 60,
-            "Attack": 65,
-            "Defense": 70,
-            "Sp. Attack": 85,
-            "Sp. Defense": 75,
-            "Speed": 40
-        }
+            "PV": 60,
+            "Attaque": 65,
+            "D\u00e9fense": 70,
+            "Atq. Sp\u00e9": 85,
+            "D\u00e9f. Sp\u00e9": 75,
+            "Vitesse": 40
+        },
+        "poids": 8.6,
+        "taille": 0.8
     },
     {
         "id": 45,
-        "nom": "Vileplume",
+        "nom": "Rafflesia",
+        "nom_en": "vileplume",
+        "description": "Ses p\u00e9tales sont les plus grands du monde. Il marche en r\u00e9pandant un pollen extr\u00eamement allerg\u00e8ne.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/45.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/45.png",
         "types": [
-            "Grass",
-            "Poison"
+            "grass",
+            "poison"
         ],
         "stats": {
-            "Hp": 75,
-            "Attack": 80,
-            "Defense": 85,
-            "Sp. Attack": 110,
-            "Sp. Defense": 90,
-            "Speed": 50
-        }
+            "PV": 75,
+            "Attaque": 80,
+            "D\u00e9fense": 85,
+            "Atq. Sp\u00e9": 110,
+            "D\u00e9f. Sp\u00e9": 90,
+            "Vitesse": 50
+        },
+        "poids": 18.6,
+        "taille": 1.2
     },
     {
         "id": 46,
         "nom": "Paras",
+        "nom_en": "paras",
+        "description": "Des champignons appel\u00e9s \u201ctochukaso\u201d poussent sur son dos. Ils \u00e9voluent avec le Paras h\u00f4te.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/46.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/46.png",
         "types": [
-            "Bug",
-            "Grass"
+            "bug",
+            "grass"
         ],
         "stats": {
-            "Hp": 35,
-            "Attack": 70,
-            "Defense": 55,
-            "Sp. Attack": 45,
-            "Sp. Defense": 55,
-            "Speed": 25
-        }
+            "PV": 35,
+            "Attaque": 70,
+            "D\u00e9fense": 55,
+            "Atq. Sp\u00e9": 45,
+            "D\u00e9f. Sp\u00e9": 55,
+            "Vitesse": 25
+        },
+        "poids": 5.4,
+        "taille": 0.3
     },
     {
         "id": 47,
         "nom": "Parasect",
+        "nom_en": "parasect",
+        "description": "Un champignon parasite plus gros que Parasect contr\u00f4le son corps. Il r\u00e9pand des spores empoisonn\u00e9es.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/47.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/47.png",
         "types": [
-            "Bug",
-            "Grass"
+            "bug",
+            "grass"
         ],
         "stats": {
-            "Hp": 60,
-            "Attack": 95,
-            "Defense": 80,
-            "Sp. Attack": 60,
-            "Sp. Defense": 80,
-            "Speed": 30
-        }
+            "PV": 60,
+            "Attaque": 95,
+            "D\u00e9fense": 80,
+            "Atq. Sp\u00e9": 60,
+            "D\u00e9f. Sp\u00e9": 80,
+            "Vitesse": 30
+        },
+        "poids": 29.5,
+        "taille": 1.0
     },
     {
         "id": 48,
-        "nom": "Venonat",
+        "nom": "Mimitoss",
+        "nom_en": "venonat",
+        "description": "Ses grands yeux sont en fait des amas d\u2019yeux minuscules. La nuit, il est attir\u00e9 par la lumi\u00e8re.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/48.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/48.png",
         "types": [
-            "Bug",
-            "Poison"
+            "bug",
+            "poison"
         ],
         "stats": {
-            "Hp": 60,
-            "Attack": 55,
-            "Defense": 50,
-            "Sp. Attack": 40,
-            "Sp. Defense": 55,
-            "Speed": 45
-        }
+            "PV": 60,
+            "Attaque": 55,
+            "D\u00e9fense": 50,
+            "Atq. Sp\u00e9": 40,
+            "D\u00e9f. Sp\u00e9": 55,
+            "Vitesse": 45
+        },
+        "poids": 30.0,
+        "taille": 1.0
     },
     {
         "id": 49,
-        "nom": "Venomoth",
+        "nom": "A\u00e9romite",
+        "nom_en": "venomoth",
+        "description": "Il r\u00e9pand ses \u00e9cailles poudreuses en battant des ailes. Elles sont toxiques au toucher.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/49.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/49.png",
         "types": [
-            "Bug",
-            "Poison"
+            "bug",
+            "poison"
         ],
         "stats": {
-            "Hp": 70,
-            "Attack": 65,
-            "Defense": 60,
-            "Sp. Attack": 90,
-            "Sp. Defense": 75,
-            "Speed": 90
-        }
+            "PV": 70,
+            "Attaque": 65,
+            "D\u00e9fense": 60,
+            "Atq. Sp\u00e9": 90,
+            "D\u00e9f. Sp\u00e9": 75,
+            "Vitesse": 90
+        },
+        "poids": 12.5,
+        "taille": 1.5
     },
     {
         "id": 50,
-        "nom": "Diglett",
+        "nom": "Taupiqueur",
+        "nom_en": "diglett",
+        "description": "Un Pok\u00e9mon qui vit sous terre. Habitu\u00e9 aux souterrains, il fuit la lumi\u00e8re du jour.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/50.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/50.png",
         "types": [
-            "Ground"
+            "ground"
         ],
         "stats": {
-            "Hp": 10,
-            "Attack": 55,
-            "Defense": 25,
-            "Sp. Attack": 35,
-            "Sp. Defense": 45,
-            "Speed": 95
-        }
+            "PV": 10,
+            "Attaque": 55,
+            "D\u00e9fense": 25,
+            "Atq. Sp\u00e9": 35,
+            "D\u00e9f. Sp\u00e9": 45,
+            "Vitesse": 95
+        },
+        "poids": 0.8,
+        "taille": 0.2
     },
     {
         "id": 51,
-        "nom": "Dugtrio",
+        "nom": "Triopikeur",
+        "nom_en": "dugtrio",
+        "description": "Ses trois t\u00eates creusent le sol \u00e0 tour de r\u00f4le. Il peut atteindre des profondeurs de 100 kilom\u00e8tres.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/51.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/51.png",
         "types": [
-            "Ground"
+            "ground"
         ],
         "stats": {
-            "Hp": 35,
-            "Attack": 100,
-            "Defense": 50,
-            "Sp. Attack": 50,
-            "Sp. Defense": 70,
-            "Speed": 120
-        }
+            "PV": 35,
+            "Attaque": 100,
+            "D\u00e9fense": 50,
+            "Atq. Sp\u00e9": 50,
+            "D\u00e9f. Sp\u00e9": 70,
+            "Vitesse": 120
+        },
+        "poids": 33.3,
+        "taille": 0.7
     },
     {
         "id": 52,
-        "nom": "Meowth",
+        "nom": "Miaouss",
+        "nom_en": "meowth",
+        "description": "Son regard s\u2019anime \u00e0 la vue d\u2019un objet brillant. C\u2019est un Pok\u00e9mon nocturne.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/52.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/52.png",
         "types": [
-            "Normal"
+            "normal"
         ],
         "stats": {
-            "Hp": 40,
-            "Attack": 45,
-            "Defense": 35,
-            "Sp. Attack": 40,
-            "Sp. Defense": 40,
-            "Speed": 90
-        }
+            "PV": 40,
+            "Attaque": 45,
+            "D\u00e9fense": 35,
+            "Atq. Sp\u00e9": 40,
+            "D\u00e9f. Sp\u00e9": 40,
+            "Vitesse": 90
+        },
+        "poids": 4.2,
+        "taille": 0.4
     },
     {
         "id": 53,
         "nom": "Persian",
+        "nom_en": "persian",
+        "description": "Un Pok\u00e9mon tr\u00e8s snob. La taille du joyau qui orne son front alimente bien des d\u00e9bats parmi ses fans.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/53.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/53.png",
         "types": [
-            "Normal"
+            "normal"
         ],
         "stats": {
-            "Hp": 65,
-            "Attack": 70,
-            "Defense": 60,
-            "Sp. Attack": 65,
-            "Sp. Defense": 65,
-            "Speed": 115
-        }
+            "PV": 65,
+            "Attaque": 70,
+            "D\u00e9fense": 60,
+            "Atq. Sp\u00e9": 65,
+            "D\u00e9f. Sp\u00e9": 65,
+            "Vitesse": 115
+        },
+        "poids": 32.0,
+        "taille": 1.0
     },
     {
         "id": 54,
-        "nom": "Psyduck",
+        "nom": "Psykokwak",
+        "nom_en": "psyduck",
+        "description": "Ses pouvoirs d\u00e9concertants et myst\u00e9rieux lui font subir de constantes migraines.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/54.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/54.png",
         "types": [
-            "Water"
+            "water"
         ],
         "stats": {
-            "Hp": 50,
-            "Attack": 52,
-            "Defense": 48,
-            "Sp. Attack": 65,
-            "Sp. Defense": 50,
-            "Speed": 55
-        }
+            "PV": 50,
+            "Attaque": 52,
+            "D\u00e9fense": 48,
+            "Atq. Sp\u00e9": 65,
+            "D\u00e9f. Sp\u00e9": 50,
+            "Vitesse": 55
+        },
+        "poids": 19.6,
+        "taille": 0.8
     },
     {
         "id": 55,
-        "nom": "Golduck",
+        "nom": "Akwakwak",
+        "nom_en": "golduck",
+        "description": "Ses membres palm\u00e9s et son corps parfaitement adapt\u00e9 font de lui un nageur exceptionnel.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/55.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/55.png",
         "types": [
-            "Water"
+            "water"
         ],
         "stats": {
-            "Hp": 80,
-            "Attack": 82,
-            "Defense": 78,
-            "Sp. Attack": 95,
-            "Sp. Defense": 80,
-            "Speed": 85
-        }
+            "PV": 80,
+            "Attaque": 82,
+            "D\u00e9fense": 78,
+            "Atq. Sp\u00e9": 95,
+            "D\u00e9f. Sp\u00e9": 80,
+            "Vitesse": 85
+        },
+        "poids": 76.6,
+        "taille": 1.7
     },
     {
         "id": 56,
-        "nom": "Mankey",
+        "nom": "F\u00e9rosinge",
+        "nom_en": "mankey",
+        "description": "Ils vivent en colonies sylvestres. Quand un F\u00e9rosinge s\u2019\u00e9nerve, toute la colonie suit son exemple.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/56.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/56.png",
         "types": [
-            "Fighting"
+            "fighting"
         ],
         "stats": {
-            "Hp": 40,
-            "Attack": 80,
-            "Defense": 35,
-            "Sp. Attack": 35,
-            "Sp. Defense": 45,
-            "Speed": 70
-        }
+            "PV": 40,
+            "Attaque": 80,
+            "D\u00e9fense": 35,
+            "Atq. Sp\u00e9": 35,
+            "D\u00e9f. Sp\u00e9": 45,
+            "Vitesse": 70
+        },
+        "poids": 28.0,
+        "taille": 0.5
     },
     {
         "id": 57,
-        "nom": "Primeape",
+        "nom": "Colossinge",
+        "nom_en": "primeape",
+        "description": "Il grogne quand on le toise, rugit quand on s\u2019enfuit et devient fou de rage quand on le frappe.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/57.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/57.png",
         "types": [
-            "Fighting"
+            "fighting"
         ],
         "stats": {
-            "Hp": 65,
-            "Attack": 105,
-            "Defense": 60,
-            "Sp. Attack": 60,
-            "Sp. Defense": 70,
-            "Speed": 95
-        }
+            "PV": 65,
+            "Attaque": 105,
+            "D\u00e9fense": 60,
+            "Atq. Sp\u00e9": 60,
+            "D\u00e9f. Sp\u00e9": 70,
+            "Vitesse": 95
+        },
+        "poids": 32.0,
+        "taille": 1.0
     },
     {
         "id": 58,
-        "nom": "Growlithe",
+        "nom": "Caninos",
+        "nom_en": "growlithe",
+        "description": "Un Pok\u00e9mon tr\u00e8s loyal. Il restera immobile jusqu\u2019\u00e0 ce que son Dresseur lui donne un ordre.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/58.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/58.png",
         "types": [
-            "Fire"
+            "fire"
         ],
         "stats": {
-            "Hp": 55,
-            "Attack": 70,
-            "Defense": 45,
-            "Sp. Attack": 70,
-            "Sp. Defense": 50,
-            "Speed": 60
-        }
+            "PV": 55,
+            "Attaque": 70,
+            "D\u00e9fense": 45,
+            "Atq. Sp\u00e9": 70,
+            "D\u00e9f. Sp\u00e9": 50,
+            "Vitesse": 60
+        },
+        "poids": 19.0,
+        "taille": 0.7
     },
     {
         "id": 59,
-        "nom": "Arcanine",
+        "nom": "Arcanin",
+        "nom_en": "arcanine",
+        "description": "Son port altier et son attitude fi\u00e8re ont depuis longtemps conquis le c\u0153ur des hommes.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/59.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/59.png",
         "types": [
-            "Fire"
+            "fire"
         ],
         "stats": {
-            "Hp": 90,
-            "Attack": 110,
-            "Defense": 80,
-            "Sp. Attack": 100,
-            "Sp. Defense": 80,
-            "Speed": 95
-        }
+            "PV": 90,
+            "Attaque": 110,
+            "D\u00e9fense": 80,
+            "Atq. Sp\u00e9": 100,
+            "D\u00e9f. Sp\u00e9": 80,
+            "Vitesse": 95
+        },
+        "poids": 155.0,
+        "taille": 1.9
     },
     {
         "id": 60,
-        "nom": "Poliwag",
+        "nom": "Ptitard",
+        "nom_en": "poliwag",
+        "description": "Sa peau est si mince qu\u2019on voit ses organes internes. Il tient \u00e0 peine sur ses nouveaux pieds.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/60.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/60.png",
         "types": [
-            "Water"
+            "water"
         ],
         "stats": {
-            "Hp": 40,
-            "Attack": 50,
-            "Defense": 40,
-            "Sp. Attack": 40,
-            "Sp. Defense": 40,
-            "Speed": 90
-        }
+            "PV": 40,
+            "Attaque": 50,
+            "D\u00e9fense": 40,
+            "Atq. Sp\u00e9": 40,
+            "D\u00e9f. Sp\u00e9": 40,
+            "Vitesse": 90
+        },
+        "poids": 12.4,
+        "taille": 0.6
     },
     {
         "id": 61,
-        "nom": "Poliwhirl",
+        "nom": "T\u00eatarte",
+        "nom_en": "poliwhirl",
+        "description": "La spirale qui orne son ventre ondule doucement. Celui qui la fixe est saisi d\u2019une \u00e9trange torpeur.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/61.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/61.png",
         "types": [
-            "Water"
+            "water"
         ],
         "stats": {
-            "Hp": 65,
-            "Attack": 65,
-            "Defense": 65,
-            "Sp. Attack": 50,
-            "Sp. Defense": 50,
-            "Speed": 90
-        }
+            "PV": 65,
+            "Attaque": 65,
+            "D\u00e9fense": 65,
+            "Atq. Sp\u00e9": 50,
+            "D\u00e9f. Sp\u00e9": 50,
+            "Vitesse": 90
+        },
+        "poids": 20.0,
+        "taille": 1.0
     },
     {
         "id": 62,
-        "nom": "Poliwrath",
+        "nom": "Tartard",
+        "nom_en": "poliwrath",
+        "description": "Il poss\u00e8de de sacr\u00e9s biscoteaux. Il peut parcourir sans rel\u00e2che l\u2019Oc\u00e9an Pacifique.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/62.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/62.png",
         "types": [
-            "Water",
-            "Fighting"
+            "water",
+            "fighting"
         ],
         "stats": {
-            "Hp": 90,
-            "Attack": 95,
-            "Defense": 95,
-            "Sp. Attack": 70,
-            "Sp. Defense": 90,
-            "Speed": 70
-        }
+            "PV": 90,
+            "Attaque": 95,
+            "D\u00e9fense": 95,
+            "Atq. Sp\u00e9": 70,
+            "D\u00e9f. Sp\u00e9": 90,
+            "Vitesse": 70
+        },
+        "poids": 54.0,
+        "taille": 1.3
     },
     {
         "id": 63,
         "nom": "Abra",
+        "nom_en": "abra",
+        "description": "L\u2019utilisation de ses pouvoirs mentaux le fatigue tellement qu\u2019il dort 18 heures par jour.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/63.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/63.png",
         "types": [
-            "Psychic"
+            "psychic"
         ],
         "stats": {
-            "Hp": 25,
-            "Attack": 20,
-            "Defense": 15,
-            "Sp. Attack": 105,
-            "Sp. Defense": 55,
-            "Speed": 90
-        }
+            "PV": 25,
+            "Attaque": 20,
+            "D\u00e9fense": 15,
+            "Atq. Sp\u00e9": 105,
+            "D\u00e9f. Sp\u00e9": 55,
+            "Vitesse": 90
+        },
+        "poids": 19.5,
+        "taille": 0.9
     },
     {
         "id": 64,
         "nom": "Kadabra",
+        "nom_en": "kadabra",
+        "description": "Il fixe sa cuill\u00e8re d\u2019argent afin de concentrer son esprit et d\u2019\u00e9mettre un maximum d\u2019ondes alpha.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/64.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/64.png",
         "types": [
-            "Psychic"
+            "psychic"
         ],
         "stats": {
-            "Hp": 40,
-            "Attack": 35,
-            "Defense": 30,
-            "Sp. Attack": 120,
-            "Sp. Defense": 70,
-            "Speed": 105
-        }
+            "PV": 40,
+            "Attaque": 35,
+            "D\u00e9fense": 30,
+            "Atq. Sp\u00e9": 120,
+            "D\u00e9f. Sp\u00e9": 70,
+            "Vitesse": 105
+        },
+        "poids": 56.5,
+        "taille": 1.3
     },
     {
         "id": 65,
         "nom": "Alakazam",
+        "nom_en": "alakazam",
+        "description": "On dit que les cuill\u00e8res qu\u2019il tient en permanence ont \u00e9t\u00e9 cr\u00e9\u00e9es par la puissance de son esprit.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/65.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/65.png",
         "types": [
-            "Psychic"
+            "psychic"
         ],
         "stats": {
-            "Hp": 55,
-            "Attack": 50,
-            "Defense": 45,
-            "Sp. Attack": 135,
-            "Sp. Defense": 95,
-            "Speed": 120
-        }
+            "PV": 55,
+            "Attaque": 50,
+            "D\u00e9fense": 45,
+            "Atq. Sp\u00e9": 135,
+            "D\u00e9f. Sp\u00e9": 95,
+            "Vitesse": 120
+        },
+        "poids": 48.0,
+        "taille": 1.5
     },
     {
         "id": 66,
-        "nom": "Machop",
+        "nom": "Machoc",
+        "nom_en": "machop",
+        "description": "Malgr\u00e9 sa petite taille, sa force lui permet de soulever plusieurs Racaillou \u00e0 la fois.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/66.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/66.png",
         "types": [
-            "Fighting"
+            "fighting"
         ],
         "stats": {
-            "Hp": 70,
-            "Attack": 80,
-            "Defense": 50,
-            "Sp. Attack": 35,
-            "Sp. Defense": 35,
-            "Speed": 35
-        }
+            "PV": 70,
+            "Attaque": 80,
+            "D\u00e9fense": 50,
+            "Atq. Sp\u00e9": 35,
+            "D\u00e9f. Sp\u00e9": 35,
+            "Vitesse": 35
+        },
+        "poids": 19.5,
+        "taille": 0.8
     },
     {
         "id": 67,
-        "nom": "Machoke",
+        "nom": "Machopeur",
+        "nom_en": "machoke",
+        "description": "Il soul\u00e8ve les plus lourdes charges avec plaisir et facilit\u00e9. Il donne un coup de main tout en s\u2019entra\u00eenant!",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/67.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/67.png",
         "types": [
-            "Fighting"
+            "fighting"
         ],
         "stats": {
-            "Hp": 80,
-            "Attack": 100,
-            "Defense": 70,
-            "Sp. Attack": 50,
-            "Sp. Defense": 60,
-            "Speed": 45
-        }
+            "PV": 80,
+            "Attaque": 100,
+            "D\u00e9fense": 70,
+            "Atq. Sp\u00e9": 50,
+            "D\u00e9f. Sp\u00e9": 60,
+            "Vitesse": 45
+        },
+        "poids": 70.5,
+        "taille": 1.5
     },
     {
         "id": 68,
-        "nom": "Machamp",
+        "nom": "Mackogneur",
+        "nom_en": "machamp",
+        "description": "La puissance et la rapidit\u00e9 de ses quatre bras puissants font des ravages sur ses adversaires.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/68.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/68.png",
         "types": [
-            "Fighting"
+            "fighting"
         ],
         "stats": {
-            "Hp": 90,
-            "Attack": 130,
-            "Defense": 80,
-            "Sp. Attack": 65,
-            "Sp. Defense": 85,
-            "Speed": 55
-        }
+            "PV": 90,
+            "Attaque": 130,
+            "D\u00e9fense": 80,
+            "Atq. Sp\u00e9": 65,
+            "D\u00e9f. Sp\u00e9": 85,
+            "Vitesse": 55
+        },
+        "poids": 130.0,
+        "taille": 1.6
     },
     {
         "id": 69,
-        "nom": "Bellsprout",
+        "nom": "Ch\u00e9tiflor",
+        "nom_en": "bellsprout",
+        "description": "Il pr\u00e9f\u00e8re les climats chauds et humides. Ses lianes peuvent capturer une proie en un clin d\u2019\u0153il.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/69.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/69.png",
         "types": [
-            "Grass",
-            "Poison"
+            "grass",
+            "poison"
         ],
         "stats": {
-            "Hp": 50,
-            "Attack": 75,
-            "Defense": 35,
-            "Sp. Attack": 70,
-            "Sp. Defense": 30,
-            "Speed": 40
-        }
+            "PV": 50,
+            "Attaque": 75,
+            "D\u00e9fense": 35,
+            "Atq. Sp\u00e9": 70,
+            "D\u00e9f. Sp\u00e9": 30,
+            "Vitesse": 40
+        },
+        "poids": 4.0,
+        "taille": 0.7
     },
     {
         "id": 70,
-        "nom": "Weepinbell",
+        "nom": "Boustiflor",
+        "nom_en": "weepinbell",
+        "description": "Un Pok\u00e9mon v\u00e9g\u00e9tal. Il capture les proies \u00e9tourdies en les endormant \u00e0 l\u2019aide d\u2019une poudre toxique.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/70.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/70.png",
         "types": [
-            "Grass",
-            "Poison"
+            "grass",
+            "poison"
         ],
         "stats": {
-            "Hp": 65,
-            "Attack": 90,
-            "Defense": 50,
-            "Sp. Attack": 85,
-            "Sp. Defense": 45,
-            "Speed": 55
-        }
+            "PV": 65,
+            "Attaque": 90,
+            "D\u00e9fense": 50,
+            "Atq. Sp\u00e9": 85,
+            "D\u00e9f. Sp\u00e9": 45,
+            "Vitesse": 55
+        },
+        "poids": 6.4,
+        "taille": 1.0
     },
     {
         "id": 71,
-        "nom": "Victreebel",
+        "nom": "Empiflor",
+        "nom_en": "victreebel",
+        "description": "Sa bouche s\u00e9cr\u00e8te un fluide \u00e0 l\u2019odeur de miel, qui s\u2019av\u00e8re \u00eatre un acide extr\u00eamement corrosif.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/71.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/71.png",
         "types": [
-            "Grass",
-            "Poison"
+            "grass",
+            "poison"
         ],
         "stats": {
-            "Hp": 80,
-            "Attack": 105,
-            "Defense": 65,
-            "Sp. Attack": 100,
-            "Sp. Defense": 70,
-            "Speed": 70
-        }
+            "PV": 80,
+            "Attaque": 105,
+            "D\u00e9fense": 65,
+            "Atq. Sp\u00e9": 100,
+            "D\u00e9f. Sp\u00e9": 70,
+            "Vitesse": 70
+        },
+        "poids": 15.5,
+        "taille": 1.7
     },
     {
         "id": 72,
         "nom": "Tentacool",
+        "nom_en": "tentacool",
+        "description": "Presque enti\u00e8rement compos\u00e9 d\u2019eau, son corps a tendance \u00e0 se dess\u00e9cher sur la terre ferme.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/72.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/72.png",
         "types": [
-            "Water",
-            "Poison"
+            "water",
+            "poison"
         ],
         "stats": {
-            "Hp": 40,
-            "Attack": 40,
-            "Defense": 35,
-            "Sp. Attack": 50,
-            "Sp. Defense": 100,
-            "Speed": 70
-        }
+            "PV": 40,
+            "Attaque": 40,
+            "D\u00e9fense": 35,
+            "Atq. Sp\u00e9": 50,
+            "D\u00e9f. Sp\u00e9": 100,
+            "Vitesse": 70
+        },
+        "poids": 45.5,
+        "taille": 0.9
     },
     {
         "id": 73,
         "nom": "Tentacruel",
+        "nom_en": "tentacruel",
+        "description": "Ses 80 tentacules lui permettent d\u2019emprisonner ses adversaires dans un redoutable filet venimeux.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/73.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/73.png",
         "types": [
-            "Water",
-            "Poison"
+            "water",
+            "poison"
         ],
         "stats": {
-            "Hp": 80,
-            "Attack": 70,
-            "Defense": 65,
-            "Sp. Attack": 80,
-            "Sp. Defense": 120,
-            "Speed": 100
-        }
+            "PV": 80,
+            "Attaque": 70,
+            "D\u00e9fense": 65,
+            "Atq. Sp\u00e9": 80,
+            "D\u00e9f. Sp\u00e9": 120,
+            "Vitesse": 100
+        },
+        "poids": 55.0,
+        "taille": 1.6
     },
     {
         "id": 74,
-        "nom": "Geodude",
+        "nom": "Racaillou",
+        "nom_en": "geodude",
+        "description": "Au repos, rien ne le distingue d\u2019un vulgaire caillou. Malheur \u00e0 ceux qui lui marchent dessus par m\u00e9garde!",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/74.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/74.png",
         "types": [
-            "Rock",
-            "Ground"
+            "rock",
+            "ground"
         ],
         "stats": {
-            "Hp": 40,
-            "Attack": 80,
-            "Defense": 100,
-            "Sp. Attack": 30,
-            "Sp. Defense": 30,
-            "Speed": 20
-        }
+            "PV": 40,
+            "Attaque": 80,
+            "D\u00e9fense": 100,
+            "Atq. Sp\u00e9": 30,
+            "D\u00e9f. Sp\u00e9": 30,
+            "Vitesse": 20
+        },
+        "poids": 20.0,
+        "taille": 0.4
     },
     {
         "id": 75,
-        "nom": "Graveler",
+        "nom": "Gravalanch",
+        "nom_en": "graveler",
+        "description": "Il d\u00e9vale les montagnes pour se d\u00e9placer. Une fois qu\u2019il a pris tout son \u00e9lan, dur dur de l\u2019arr\u00eater!",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/75.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/75.png",
         "types": [
-            "Rock",
-            "Ground"
+            "rock",
+            "ground"
         ],
         "stats": {
-            "Hp": 55,
-            "Attack": 95,
-            "Defense": 115,
-            "Sp. Attack": 45,
-            "Sp. Defense": 45,
-            "Speed": 35
-        }
+            "PV": 55,
+            "Attaque": 95,
+            "D\u00e9fense": 115,
+            "Atq. Sp\u00e9": 45,
+            "D\u00e9f. Sp\u00e9": 45,
+            "Vitesse": 35
+        },
+        "poids": 105.0,
+        "taille": 1.0
     },
     {
         "id": 76,
-        "nom": "Golem",
+        "nom": "Grolem",
+        "nom_en": "golem",
+        "description": "Aucun explosif ne pourrait entamer sa carapace de pierre. Il mue une fois par an.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/76.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/76.png",
         "types": [
-            "Rock",
-            "Ground"
+            "rock",
+            "ground"
         ],
         "stats": {
-            "Hp": 80,
-            "Attack": 120,
-            "Defense": 130,
-            "Sp. Attack": 55,
-            "Sp. Defense": 65,
-            "Speed": 45
-        }
+            "PV": 80,
+            "Attaque": 120,
+            "D\u00e9fense": 130,
+            "Atq. Sp\u00e9": 55,
+            "D\u00e9f. Sp\u00e9": 65,
+            "Vitesse": 45
+        },
+        "poids": 300.0,
+        "taille": 1.4
     },
     {
         "id": 77,
         "nom": "Ponyta",
+        "nom_en": "ponyta",
+        "description": "Chancelantes \u00e0 la naissance, ses pattes deviennent tr\u00e8s vite s\u00fbres et solides \u00e0 force de galoper.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/77.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/77.png",
         "types": [
-            "Fire"
+            "fire"
         ],
         "stats": {
-            "Hp": 50,
-            "Attack": 85,
-            "Defense": 55,
-            "Sp. Attack": 65,
-            "Sp. Defense": 65,
-            "Speed": 90
-        }
+            "PV": 50,
+            "Attaque": 85,
+            "D\u00e9fense": 55,
+            "Atq. Sp\u00e9": 65,
+            "D\u00e9f. Sp\u00e9": 65,
+            "Vitesse": 90
+        },
+        "poids": 30.0,
+        "taille": 1.0
     },
     {
         "id": 78,
-        "nom": "Rapidash",
+        "nom": "Galopa",
+        "nom_en": "rapidash",
+        "description": "Au grand galop, sa crini\u00e8re de feu disperse au vent une myriade d\u2019\u00e9tincelles ardentes.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/78.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/78.png",
         "types": [
-            "Fire"
+            "fire"
         ],
         "stats": {
-            "Hp": 65,
-            "Attack": 100,
-            "Defense": 70,
-            "Sp. Attack": 80,
-            "Sp. Defense": 80,
-            "Speed": 105
-        }
+            "PV": 65,
+            "Attaque": 100,
+            "D\u00e9fense": 70,
+            "Atq. Sp\u00e9": 80,
+            "D\u00e9f. Sp\u00e9": 80,
+            "Vitesse": 105
+        },
+        "poids": 95.0,
+        "taille": 1.7
     },
     {
         "id": 79,
-        "nom": "Slowpoke",
+        "nom": "Ramoloss",
+        "nom_en": "slowpoke",
+        "description": "Bien que lent, c\u2019est un p\u00eacheur adroit qui utilise sa queue. Elle est insensible aux morsures.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/79.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/79.png",
         "types": [
-            "Water",
-            "Psychic"
+            "water",
+            "psychic"
         ],
         "stats": {
-            "Hp": 90,
-            "Attack": 65,
-            "Defense": 65,
-            "Sp. Attack": 40,
-            "Sp. Defense": 40,
-            "Speed": 15
-        }
+            "PV": 90,
+            "Attaque": 65,
+            "D\u00e9fense": 65,
+            "Atq. Sp\u00e9": 40,
+            "D\u00e9f. Sp\u00e9": 40,
+            "Vitesse": 15
+        },
+        "poids": 36.0,
+        "taille": 1.2
     },
     {
         "id": 80,
-        "nom": "Slowbro",
+        "nom": "Flagadoss",
+        "nom_en": "slowbro",
+        "description": "Ce grand ben\u00eat conna\u00eet des \u00e9clairs de lucidit\u00e9 lorsque le Kokiyas de sa queue se met \u00e0 mordre.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/80.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/80.png",
         "types": [
-            "Water",
-            "Psychic"
+            "water",
+            "psychic"
         ],
         "stats": {
-            "Hp": 95,
-            "Attack": 75,
-            "Defense": 110,
-            "Sp. Attack": 100,
-            "Sp. Defense": 80,
-            "Speed": 30
-        }
+            "PV": 95,
+            "Attaque": 75,
+            "D\u00e9fense": 110,
+            "Atq. Sp\u00e9": 100,
+            "D\u00e9f. Sp\u00e9": 80,
+            "Vitesse": 30
+        },
+        "poids": 78.5,
+        "taille": 1.6
     },
     {
         "id": 81,
-        "nom": "Magnemite",
+        "nom": "Magn\u00e9ti",
+        "nom_en": "magnemite",
+        "description": "Plus la rotation de ses extr\u00e9mit\u00e9s est rapide, plus la force du champ magn\u00e9tique qu\u2019il g\u00e9n\u00e8re est grande.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/81.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/81.png",
         "types": [
-            "Electric",
-            "Steel"
+            "electric",
+            "steel"
         ],
         "stats": {
-            "Hp": 25,
-            "Attack": 35,
-            "Defense": 70,
-            "Sp. Attack": 95,
-            "Sp. Defense": 55,
-            "Speed": 45
-        }
+            "PV": 25,
+            "Attaque": 35,
+            "D\u00e9fense": 70,
+            "Atq. Sp\u00e9": 95,
+            "D\u00e9f. Sp\u00e9": 55,
+            "Vitesse": 45
+        },
+        "poids": 6.0,
+        "taille": 0.3
     },
     {
         "id": 82,
-        "nom": "Magneton",
+        "nom": "Magn\u00e9ton",
+        "nom_en": "magneton",
+        "description": "Des groupes apparaissent si des taches solaires couvrent le soleil. Ils brouillent les t\u00e9l\u00e9visions.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/82.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/82.png",
         "types": [
-            "Electric",
-            "Steel"
+            "electric",
+            "steel"
         ],
         "stats": {
-            "Hp": 50,
-            "Attack": 60,
-            "Defense": 95,
-            "Sp. Attack": 120,
-            "Sp. Defense": 70,
-            "Speed": 70
-        }
+            "PV": 50,
+            "Attaque": 60,
+            "D\u00e9fense": 95,
+            "Atq. Sp\u00e9": 120,
+            "D\u00e9f. Sp\u00e9": 70,
+            "Vitesse": 70
+        },
+        "poids": 60.0,
+        "taille": 1.0
     },
     {
         "id": 83,
-        "nom": "Farfetchd",
+        "nom": "Canarticho",
+        "nom_en": "farfetchd",
+        "description": "Il ne peut pas vivre sans son l\u00e9gume, c\u2019est pourquoi il le prot\u00e9gera au p\u00e9ril de sa vie.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/83.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/83.png",
         "types": [
-            "Normal",
-            "Flying"
+            "normal",
+            "flying"
         ],
         "stats": {
-            "Hp": 52,
-            "Attack": 90,
-            "Defense": 55,
-            "Sp. Attack": 58,
-            "Sp. Defense": 62,
-            "Speed": 60
-        }
+            "PV": 52,
+            "Attaque": 90,
+            "D\u00e9fense": 55,
+            "Atq. Sp\u00e9": 58,
+            "D\u00e9f. Sp\u00e9": 62,
+            "Vitesse": 60
+        },
+        "poids": 15.0,
+        "taille": 0.8
     },
     {
         "id": 84,
         "nom": "Doduo",
+        "nom_en": "doduo",
+        "description": "Ses deux cerveaux semblent communiquer leurs \u00e9motions gr\u00e2ce \u00e0 un lien t\u00e9l\u00e9pathique.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/84.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/84.png",
         "types": [
-            "Normal",
-            "Flying"
+            "normal",
+            "flying"
         ],
         "stats": {
-            "Hp": 35,
-            "Attack": 85,
-            "Defense": 45,
-            "Sp. Attack": 35,
-            "Sp. Defense": 35,
-            "Speed": 75
-        }
+            "PV": 35,
+            "Attaque": 85,
+            "D\u00e9fense": 45,
+            "Atq. Sp\u00e9": 35,
+            "D\u00e9f. Sp\u00e9": 35,
+            "Vitesse": 75
+        },
+        "poids": 39.2,
+        "taille": 1.4
     },
     {
         "id": 85,
         "nom": "Dodrio",
+        "nom_en": "dodrio",
+        "description": "Quand Doduo conna\u00eet cette \u00e9trange \u00e9volution, l\u2019une de ses t\u00eates se d\u00e9double. Il atteint les 60 km/h.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/85.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/85.png",
         "types": [
-            "Normal",
-            "Flying"
+            "normal",
+            "flying"
         ],
         "stats": {
-            "Hp": 60,
-            "Attack": 110,
-            "Defense": 70,
-            "Sp. Attack": 60,
-            "Sp. Defense": 60,
-            "Speed": 110
-        }
+            "PV": 60,
+            "Attaque": 110,
+            "D\u00e9fense": 70,
+            "Atq. Sp\u00e9": 60,
+            "D\u00e9f. Sp\u00e9": 60,
+            "Vitesse": 110
+        },
+        "poids": 85.2,
+        "taille": 1.8
     },
     {
         "id": 86,
-        "nom": "Seel",
+        "nom": "Otaria",
+        "nom_en": "seel",
+        "description": "Un habitant des icebergs. En mer, il utilise la corne sur sa t\u00eate pour briser la banquise.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/86.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/86.png",
         "types": [
-            "Water"
+            "water"
         ],
         "stats": {
-            "Hp": 65,
-            "Attack": 45,
-            "Defense": 55,
-            "Sp. Attack": 45,
-            "Sp. Defense": 70,
-            "Speed": 45
-        }
+            "PV": 65,
+            "Attaque": 45,
+            "D\u00e9fense": 55,
+            "Atq. Sp\u00e9": 45,
+            "D\u00e9f. Sp\u00e9": 70,
+            "Vitesse": 45
+        },
+        "poids": 90.0,
+        "taille": 1.1
     },
     {
         "id": 87,
-        "nom": "Dewgong",
+        "nom": "Lamantine",
+        "nom_en": "dewgong",
+        "description": "Son corps est couvert d\u2019un grand manteau blanc qui, dans la neige, le dissimule aux yeux des pr\u00e9dateurs.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/87.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/87.png",
         "types": [
-            "Water",
-            "Ice"
+            "water",
+            "ice"
         ],
         "stats": {
-            "Hp": 90,
-            "Attack": 70,
-            "Defense": 80,
-            "Sp. Attack": 70,
-            "Sp. Defense": 95,
-            "Speed": 70
-        }
+            "PV": 90,
+            "Attaque": 70,
+            "D\u00e9fense": 80,
+            "Atq. Sp\u00e9": 70,
+            "D\u00e9f. Sp\u00e9": 95,
+            "Vitesse": 70
+        },
+        "poids": 120.0,
+        "taille": 1.7
     },
     {
         "id": 88,
-        "nom": "Grimer",
+        "nom": "Tadmorv",
+        "nom_en": "grimer",
+        "description": "Il est n\u00e9 d\u2019un torrent de boue expos\u00e9 aux rayons X de la lune. Il vit dans les ordures.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/88.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/88.png",
         "types": [
-            "Poison"
+            "poison"
         ],
         "stats": {
-            "Hp": 80,
-            "Attack": 80,
-            "Defense": 50,
-            "Sp. Attack": 40,
-            "Sp. Defense": 50,
-            "Speed": 25
-        }
+            "PV": 80,
+            "Attaque": 80,
+            "D\u00e9fense": 50,
+            "Atq. Sp\u00e9": 40,
+            "D\u00e9f. Sp\u00e9": 50,
+            "Vitesse": 25
+        },
+        "poids": 30.0,
+        "taille": 0.9
     },
     {
         "id": 89,
-        "nom": "Muk",
+        "nom": "Grotadmorv",
+        "nom_en": "muk",
+        "description": "Son corps exsude un fluide toxique qui tue instantan\u00e9ment les plantes et les arbres au contact.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/89.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/89.png",
         "types": [
-            "Poison"
+            "poison"
         ],
         "stats": {
-            "Hp": 105,
-            "Attack": 105,
-            "Defense": 75,
-            "Sp. Attack": 65,
-            "Sp. Defense": 100,
-            "Speed": 50
-        }
+            "PV": 105,
+            "Attaque": 105,
+            "D\u00e9fense": 75,
+            "Atq. Sp\u00e9": 65,
+            "D\u00e9f. Sp\u00e9": 100,
+            "Vitesse": 50
+        },
+        "poids": 30.0,
+        "taille": 1.2
     },
     {
         "id": 90,
-        "nom": "Shellder",
+        "nom": "Kokiyas",
+        "nom_en": "shellder",
+        "description": "Il nage \u00e0 reculons en ouvrant et en refermant ses deux coquilles. Il laisse tra\u00eener sa large langue.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/90.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/90.png",
         "types": [
-            "Water"
+            "water"
         ],
         "stats": {
-            "Hp": 30,
-            "Attack": 65,
-            "Defense": 100,
-            "Sp. Attack": 45,
-            "Sp. Defense": 25,
-            "Speed": 40
-        }
+            "PV": 30,
+            "Attaque": 65,
+            "D\u00e9fense": 100,
+            "Atq. Sp\u00e9": 45,
+            "D\u00e9f. Sp\u00e9": 25,
+            "Vitesse": 40
+        },
+        "poids": 4.0,
+        "taille": 0.3
     },
     {
         "id": 91,
-        "nom": "Cloyster",
+        "nom": "Crustabri",
+        "nom_en": "cloyster",
+        "description": "Il se d\u00e9fend en fermant sa coquille et projette des piquants qui repoussent ses agresseurs.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/91.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/91.png",
         "types": [
-            "Water",
-            "Ice"
+            "water",
+            "ice"
         ],
         "stats": {
-            "Hp": 50,
-            "Attack": 95,
-            "Defense": 180,
-            "Sp. Attack": 85,
-            "Sp. Defense": 45,
-            "Speed": 70
-        }
+            "PV": 50,
+            "Attaque": 95,
+            "D\u00e9fense": 180,
+            "Atq. Sp\u00e9": 85,
+            "D\u00e9f. Sp\u00e9": 45,
+            "Vitesse": 70
+        },
+        "poids": 132.5,
+        "taille": 1.5
     },
     {
         "id": 92,
-        "nom": "Gastly",
+        "nom": "Fantominus",
+        "nom_en": "gastly",
+        "description": "Son corps compos\u00e9 de gaz toxique pourrait asphyxier n\u2019importe qui en quelques secondes.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/92.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/92.png",
         "types": [
-            "Ghost",
-            "Poison"
+            "ghost",
+            "poison"
         ],
         "stats": {
-            "Hp": 30,
-            "Attack": 35,
-            "Defense": 30,
-            "Sp. Attack": 100,
-            "Sp. Defense": 35,
-            "Speed": 80
-        }
+            "PV": 30,
+            "Attaque": 35,
+            "D\u00e9fense": 30,
+            "Atq. Sp\u00e9": 100,
+            "D\u00e9f. Sp\u00e9": 35,
+            "Vitesse": 80
+        },
+        "poids": 0.1,
+        "taille": 1.3
     },
     {
         "id": 93,
-        "nom": "Haunter",
+        "nom": "Spectrum",
+        "nom_en": "haunter",
+        "description": "Il adore se tapir dans l\u2019ombre et faire frissonner ses proies en leur touchant l\u2019\u00e9paule.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/93.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/93.png",
         "types": [
-            "Ghost",
-            "Poison"
+            "ghost",
+            "poison"
         ],
         "stats": {
-            "Hp": 45,
-            "Attack": 50,
-            "Defense": 45,
-            "Sp. Attack": 115,
-            "Sp. Defense": 55,
-            "Speed": 95
-        }
+            "PV": 45,
+            "Attaque": 50,
+            "D\u00e9fense": 45,
+            "Atq. Sp\u00e9": 115,
+            "D\u00e9f. Sp\u00e9": 55,
+            "Vitesse": 95
+        },
+        "poids": 0.1,
+        "taille": 1.6
     },
     {
         "id": 94,
-        "nom": "Gengar",
+        "nom": "Ectoplasma",
+        "nom_en": "gengar",
+        "description": "Si vous croisez un regard inqui\u00e9tant qui perce la nuit, c\u2019est s\u00fbrement un Ectoplasma.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/94.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/94.png",
         "types": [
-            "Ghost",
-            "Poison"
+            "ghost",
+            "poison"
         ],
         "stats": {
-            "Hp": 60,
-            "Attack": 65,
-            "Defense": 60,
-            "Sp. Attack": 130,
-            "Sp. Defense": 75,
-            "Speed": 110
-        }
+            "PV": 60,
+            "Attaque": 65,
+            "D\u00e9fense": 60,
+            "Atq. Sp\u00e9": 130,
+            "D\u00e9f. Sp\u00e9": 75,
+            "Vitesse": 110
+        },
+        "poids": 40.5,
+        "taille": 1.5
     },
     {
         "id": 95,
         "nom": "Onix",
+        "nom_en": "onix",
+        "description": "Il se nourrit des pierres qu\u2019il rencontre en creusant le sol. Il peut creuser \u00e0 80 km/h!",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/95.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/95.png",
         "types": [
-            "Rock",
-            "Ground"
+            "rock",
+            "ground"
         ],
         "stats": {
-            "Hp": 35,
-            "Attack": 45,
-            "Defense": 160,
-            "Sp. Attack": 30,
-            "Sp. Defense": 45,
-            "Speed": 70
-        }
+            "PV": 35,
+            "Attaque": 45,
+            "D\u00e9fense": 160,
+            "Atq. Sp\u00e9": 30,
+            "D\u00e9f. Sp\u00e9": 45,
+            "Vitesse": 70
+        },
+        "poids": 210.0,
+        "taille": 8.8
     },
     {
         "id": 96,
-        "nom": "Drowzee",
+        "nom": "Soporifik",
+        "nom_en": "drowzee",
+        "description": "Son grand nez lui permet de lire les r\u00eaves d\u2019autrui. Il adore les songes amusants.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/96.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/96.png",
         "types": [
-            "Psychic"
+            "psychic"
         ],
         "stats": {
-            "Hp": 60,
-            "Attack": 48,
-            "Defense": 45,
-            "Sp. Attack": 43,
-            "Sp. Defense": 90,
-            "Speed": 42
-        }
+            "PV": 60,
+            "Attaque": 48,
+            "D\u00e9fense": 45,
+            "Atq. Sp\u00e9": 43,
+            "D\u00e9f. Sp\u00e9": 90,
+            "Vitesse": 42
+        },
+        "poids": 32.4,
+        "taille": 1.0
     },
     {
         "id": 97,
-        "nom": "Hypno",
+        "nom": "Hypnomade",
+        "nom_en": "hypno",
+        "description": "La vue de son pendule oscillant endort en trois secondes, m\u00eame quand on vient de se r\u00e9veiller.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/97.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/97.png",
         "types": [
-            "Psychic"
+            "psychic"
         ],
         "stats": {
-            "Hp": 85,
-            "Attack": 73,
-            "Defense": 70,
-            "Sp. Attack": 73,
-            "Sp. Defense": 115,
-            "Speed": 67
-        }
+            "PV": 85,
+            "Attaque": 73,
+            "D\u00e9fense": 70,
+            "Atq. Sp\u00e9": 73,
+            "D\u00e9f. Sp\u00e9": 115,
+            "Vitesse": 67
+        },
+        "poids": 75.6,
+        "taille": 1.6
     },
     {
         "id": 98,
         "nom": "Krabby",
+        "nom_en": "krabby",
+        "description": "Il creuse son terrier sur des plages sablonneuses. Ses pinces repoussent si on les brise.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/98.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/98.png",
         "types": [
-            "Water"
+            "water"
         ],
         "stats": {
-            "Hp": 30,
-            "Attack": 105,
-            "Defense": 90,
-            "Sp. Attack": 25,
-            "Sp. Defense": 25,
-            "Speed": 50
-        }
+            "PV": 30,
+            "Attaque": 105,
+            "D\u00e9fense": 90,
+            "Atq. Sp\u00e9": 25,
+            "D\u00e9f. Sp\u00e9": 25,
+            "Vitesse": 50
+        },
+        "poids": 6.5,
+        "taille": 0.4
     },
     {
         "id": 99,
-        "nom": "Kingler",
+        "nom": "Krabboss",
+        "nom_en": "kingler",
+        "description": "Sa grande pince poss\u00e8de une puissance de 10 000 chevaux. Son poids la rend difficile \u00e0 manier.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/99.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/99.png",
         "types": [
-            "Water"
+            "water"
         ],
         "stats": {
-            "Hp": 55,
-            "Attack": 130,
-            "Defense": 115,
-            "Sp. Attack": 50,
-            "Sp. Defense": 50,
-            "Speed": 75
-        }
+            "PV": 55,
+            "Attaque": 130,
+            "D\u00e9fense": 115,
+            "Atq. Sp\u00e9": 50,
+            "D\u00e9f. Sp\u00e9": 50,
+            "Vitesse": 75
+        },
+        "poids": 60.0,
+        "taille": 1.3
     },
     {
         "id": 100,
-        "nom": "Voltorb",
+        "nom": "Voltorbe",
+        "nom_en": "voltorb",
+        "description": "Il ressemble \u00e0 une Pok\u00e9 Ball. Ce Pok\u00e9mon dangereux peut exploser ou s\u2019\u00e9lectrifier au toucher.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/100.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/100.png",
         "types": [
-            "Electric"
+            "electric"
         ],
         "stats": {
-            "Hp": 40,
-            "Attack": 30,
-            "Defense": 50,
-            "Sp. Attack": 55,
-            "Sp. Defense": 55,
-            "Speed": 100
-        }
+            "PV": 40,
+            "Attaque": 30,
+            "D\u00e9fense": 50,
+            "Atq. Sp\u00e9": 55,
+            "D\u00e9f. Sp\u00e9": 55,
+            "Vitesse": 100
+        },
+        "poids": 10.4,
+        "taille": 0.5
     },
     {
         "id": 101,
-        "nom": "Electrode",
+        "nom": "\u00c9lectrode",
+        "nom_en": "electrode",
+        "description": "Il se laisse porter par les vents lorsque son corps est gonfl\u00e9 d\u2019\u00e9lectricit\u00e9 \u00e0 en \u00e9clater.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/101.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/101.png",
         "types": [
-            "Electric"
+            "electric"
         ],
         "stats": {
-            "Hp": 60,
-            "Attack": 50,
-            "Defense": 70,
-            "Sp. Attack": 80,
-            "Sp. Defense": 80,
-            "Speed": 150
-        }
+            "PV": 60,
+            "Attaque": 50,
+            "D\u00e9fense": 70,
+            "Atq. Sp\u00e9": 80,
+            "D\u00e9f. Sp\u00e9": 80,
+            "Vitesse": 150
+        },
+        "poids": 66.6,
+        "taille": 1.2
     },
     {
         "id": 102,
-        "nom": "Exeggcute",
+        "nom": "Noeunoeuf",
+        "nom_en": "exeggcute",
+        "description": "Ces six \u0153ufs communiquent par t\u00e9l\u00e9pathie. Ils peuvent se r\u00e9unir rapidement si on les s\u00e9pare.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/102.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/102.png",
         "types": [
-            "Grass",
-            "Psychic"
+            "grass",
+            "psychic"
         ],
         "stats": {
-            "Hp": 60,
-            "Attack": 40,
-            "Defense": 80,
-            "Sp. Attack": 60,
-            "Sp. Defense": 45,
-            "Speed": 40
-        }
+            "PV": 60,
+            "Attaque": 40,
+            "D\u00e9fense": 80,
+            "Atq. Sp\u00e9": 60,
+            "D\u00e9f. Sp\u00e9": 45,
+            "Vitesse": 40
+        },
+        "poids": 2.5,
+        "taille": 0.4
     },
     {
         "id": 103,
-        "nom": "Exeggutor",
+        "nom": "Noadkoko",
+        "nom_en": "exeggutor",
+        "description": "On l\u2019appelle \u201cjungle sur pattes\u201d. Si une t\u00eate devient trop grosse, elle tombe et produit un Noeunoeuf.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/103.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/103.png",
         "types": [
-            "Grass",
-            "Psychic"
+            "grass",
+            "psychic"
         ],
         "stats": {
-            "Hp": 95,
-            "Attack": 95,
-            "Defense": 85,
-            "Sp. Attack": 125,
-            "Sp. Defense": 75,
-            "Speed": 55
-        }
+            "PV": 95,
+            "Attaque": 95,
+            "D\u00e9fense": 85,
+            "Atq. Sp\u00e9": 125,
+            "D\u00e9f. Sp\u00e9": 75,
+            "Vitesse": 55
+        },
+        "poids": 120.0,
+        "taille": 2.0
     },
     {
         "id": 104,
-        "nom": "Cubone",
+        "nom": "Osselait",
+        "nom_en": "cubone",
+        "description": "Il pleure en pensant \u00e0 sa m\u00e8re disparue, et ses larmes r\u00e9sonnent dans son cr\u00e2ne creux.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/104.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/104.png",
         "types": [
-            "Ground"
+            "ground"
         ],
         "stats": {
-            "Hp": 50,
-            "Attack": 50,
-            "Defense": 95,
-            "Sp. Attack": 40,
-            "Sp. Defense": 50,
-            "Speed": 35
-        }
+            "PV": 50,
+            "Attaque": 50,
+            "D\u00e9fense": 95,
+            "Atq. Sp\u00e9": 40,
+            "D\u00e9f. Sp\u00e9": 50,
+            "Vitesse": 35
+        },
+        "poids": 6.5,
+        "taille": 0.4
     },
     {
         "id": 105,
-        "nom": "Marowak",
+        "nom": "Ossatueur",
+        "nom_en": "marowak",
+        "description": "Ce Pok\u00e9mon sauvage poss\u00e8de des os depuis sa naissance. Il s\u2019en sert pour combattre avec dext\u00e9rit\u00e9.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/105.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/105.png",
         "types": [
-            "Ground"
+            "ground"
         ],
         "stats": {
-            "Hp": 60,
-            "Attack": 80,
-            "Defense": 110,
-            "Sp. Attack": 50,
-            "Sp. Defense": 80,
-            "Speed": 45
-        }
+            "PV": 60,
+            "Attaque": 80,
+            "D\u00e9fense": 110,
+            "Atq. Sp\u00e9": 50,
+            "D\u00e9f. Sp\u00e9": 80,
+            "Vitesse": 45
+        },
+        "poids": 45.0,
+        "taille": 1.0
     },
     {
         "id": 106,
-        "nom": "Hitmonlee",
+        "nom": "Kicklee",
+        "nom_en": "hitmonlee",
+        "description": "Ses pattes \u00e9lastiques s\u2019allongent, ce qui ne manque jamais de surprendre au premier combat.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/106.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/106.png",
         "types": [
-            "Fighting"
+            "fighting"
         ],
         "stats": {
-            "Hp": 50,
-            "Attack": 120,
-            "Defense": 53,
-            "Sp. Attack": 35,
-            "Sp. Defense": 110,
-            "Speed": 87
-        }
+            "PV": 50,
+            "Attaque": 120,
+            "D\u00e9fense": 53,
+            "Atq. Sp\u00e9": 35,
+            "D\u00e9f. Sp\u00e9": 110,
+            "Vitesse": 87
+        },
+        "poids": 49.8,
+        "taille": 1.5
     },
     {
         "id": 107,
-        "nom": "Hitmonchan",
+        "nom": "Tygnon",
+        "nom_en": "hitmonchan",
+        "description": "M\u00eame le b\u00e9ton c\u00e8de sous ses  poings d\u00e9vastateurs. Au combat, il s\u2019essouffle au bout de 3 minutes.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/107.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/107.png",
         "types": [
-            "Fighting"
+            "fighting"
         ],
         "stats": {
-            "Hp": 50,
-            "Attack": 105,
-            "Defense": 79,
-            "Sp. Attack": 35,
-            "Sp. Defense": 110,
-            "Speed": 76
-        }
+            "PV": 50,
+            "Attaque": 105,
+            "D\u00e9fense": 79,
+            "Atq. Sp\u00e9": 35,
+            "D\u00e9f. Sp\u00e9": 110,
+            "Vitesse": 76
+        },
+        "poids": 50.2,
+        "taille": 1.4
     },
     {
         "id": 108,
-        "nom": "Lickitung",
+        "nom": "Excelangue",
+        "nom_en": "lickitung",
+        "description": "Quand il d\u00e9ploie sa langue de pr\u00e8s de deux m\u00e8tres, sa queue s\u2019agite. Elles seraient reli\u00e9es entre elles.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/108.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/108.png",
         "types": [
-            "Normal"
+            "normal"
         ],
         "stats": {
-            "Hp": 90,
-            "Attack": 55,
-            "Defense": 75,
-            "Sp. Attack": 60,
-            "Sp. Defense": 75,
-            "Speed": 30
-        }
+            "PV": 90,
+            "Attaque": 55,
+            "D\u00e9fense": 75,
+            "Atq. Sp\u00e9": 60,
+            "D\u00e9f. Sp\u00e9": 75,
+            "Vitesse": 30
+        },
+        "poids": 65.5,
+        "taille": 1.2
     },
     {
         "id": 109,
-        "nom": "Koffing",
+        "nom": "Smogo",
+        "nom_en": "koffing",
+        "description": "Il flotte en retenant des gaz plus l\u00e9gers que l\u2019air. Ceux-ci sont explosifs, en plus d\u2019\u00eatre f\u00e9tides.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/109.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/109.png",
         "types": [
-            "Poison"
+            "poison"
         ],
         "stats": {
-            "Hp": 40,
-            "Attack": 65,
-            "Defense": 95,
-            "Sp. Attack": 60,
-            "Sp. Defense": 45,
-            "Speed": 35
-        }
+            "PV": 40,
+            "Attaque": 65,
+            "D\u00e9fense": 95,
+            "Atq. Sp\u00e9": 60,
+            "D\u00e9f. Sp\u00e9": 45,
+            "Vitesse": 35
+        },
+        "poids": 1.0,
+        "taille": 0.6
     },
     {
         "id": 110,
-        "nom": "Weezing",
+        "nom": "Smogogo",
+        "nom_en": "weezing",
+        "description": "Il grandit en absorbant les gaz des d\u00e9tritus. Des tripl\u00e9s existent, bien qu\u2019ils soient fort rares.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/110.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/110.png",
         "types": [
-            "Poison"
+            "poison"
         ],
         "stats": {
-            "Hp": 65,
-            "Attack": 90,
-            "Defense": 120,
-            "Sp. Attack": 85,
-            "Sp. Defense": 70,
-            "Speed": 60
-        }
+            "PV": 65,
+            "Attaque": 90,
+            "D\u00e9fense": 120,
+            "Atq. Sp\u00e9": 85,
+            "D\u00e9f. Sp\u00e9": 70,
+            "Vitesse": 60
+        },
+        "poids": 9.5,
+        "taille": 1.2
     },
     {
         "id": 111,
-        "nom": "Rhyhorn",
+        "nom": "Rhinocorne",
+        "nom_en": "rhyhorn",
+        "description": "Ses puissantes charges pourraient d\u00e9molir n\u2019importe quel b\u00e2timent. Dommage qu\u2019il soit stupide.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/111.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/111.png",
         "types": [
-            "Ground",
-            "Rock"
+            "ground",
+            "rock"
         ],
         "stats": {
-            "Hp": 80,
-            "Attack": 85,
-            "Defense": 95,
-            "Sp. Attack": 30,
-            "Sp. Defense": 30,
-            "Speed": 25
-        }
+            "PV": 80,
+            "Attaque": 85,
+            "D\u00e9fense": 95,
+            "Atq. Sp\u00e9": 30,
+            "D\u00e9f. Sp\u00e9": 30,
+            "Vitesse": 25
+        },
+        "poids": 115.0,
+        "taille": 1.0
     },
     {
         "id": 112,
-        "nom": "Rhydon",
+        "nom": "Rhinof\u00e9ros",
+        "nom_en": "rhydon",
+        "description": "La station debout a lib\u00e9r\u00e9 ses pattes avant et l\u2019a rendu plus intelligent, mais il est distrait.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/112.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/112.png",
         "types": [
-            "Ground",
-            "Rock"
+            "ground",
+            "rock"
         ],
         "stats": {
-            "Hp": 105,
-            "Attack": 130,
-            "Defense": 120,
-            "Sp. Attack": 45,
-            "Sp. Defense": 45,
-            "Speed": 40
-        }
+            "PV": 105,
+            "Attaque": 130,
+            "D\u00e9fense": 120,
+            "Atq. Sp\u00e9": 45,
+            "D\u00e9f. Sp\u00e9": 45,
+            "Vitesse": 40
+        },
+        "poids": 120.0,
+        "taille": 1.9
     },
     {
         "id": 113,
-        "nom": "Chansey",
+        "nom": "Leveinard",
+        "nom_en": "chansey",
+        "description": "Ce Pok\u00e9mon tr\u00e8s serviable distribue ses \u0153ufs hautement nutritifs aux humains et Pok\u00e9mon bless\u00e9s.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/113.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/113.png",
         "types": [
-            "Normal"
+            "normal"
         ],
         "stats": {
-            "Hp": 250,
-            "Attack": 5,
-            "Defense": 5,
-            "Sp. Attack": 35,
-            "Sp. Defense": 105,
-            "Speed": 50
-        }
+            "PV": 250,
+            "Attaque": 5,
+            "D\u00e9fense": 5,
+            "Atq. Sp\u00e9": 35,
+            "D\u00e9f. Sp\u00e9": 105,
+            "Vitesse": 50
+        },
+        "poids": 34.6,
+        "taille": 1.1
     },
     {
         "id": 114,
-        "nom": "Tangela",
+        "nom": "Saquedeneu",
+        "nom_en": "tangela",
+        "description": "Il se cache derri\u00e8re des lianes bleues recouvertes d\u2019un fin duvet. Il est chatouilleux.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/114.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/114.png",
         "types": [
-            "Grass"
+            "grass"
         ],
         "stats": {
-            "Hp": 65,
-            "Attack": 55,
-            "Defense": 115,
-            "Sp. Attack": 100,
-            "Sp. Defense": 40,
-            "Speed": 60
-        }
+            "PV": 65,
+            "Attaque": 55,
+            "D\u00e9fense": 115,
+            "Atq. Sp\u00e9": 100,
+            "D\u00e9f. Sp\u00e9": 40,
+            "Vitesse": 60
+        },
+        "poids": 35.0,
+        "taille": 1.0
     },
     {
         "id": 115,
-        "nom": "Kangaskhan",
+        "nom": "Kangourex",
+        "nom_en": "kangaskhan",
+        "description": "Il \u00e9l\u00e8ve ses petits dans sa poche ventrale. Il attend d\u2019\u00eatre en lieu s\u00fbr pour les laisser jouer dehors.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/115.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/115.png",
         "types": [
-            "Normal"
+            "normal"
         ],
         "stats": {
-            "Hp": 105,
-            "Attack": 95,
-            "Defense": 80,
-            "Sp. Attack": 40,
-            "Sp. Defense": 80,
-            "Speed": 90
-        }
+            "PV": 105,
+            "Attaque": 95,
+            "D\u00e9fense": 80,
+            "Atq. Sp\u00e9": 40,
+            "D\u00e9f. Sp\u00e9": 80,
+            "Vitesse": 90
+        },
+        "poids": 80.0,
+        "taille": 2.2
     },
     {
         "id": 116,
-        "nom": "Horsea",
+        "nom": "Hypotrempe",
+        "nom_en": "horsea",
+        "description": "Il niche \u00e0 l\u2019ombre du corail. Quand il se sent menac\u00e9, il dispara\u00eet dans un nuage d\u2019encre opaque.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/116.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/116.png",
         "types": [
-            "Water"
+            "water"
         ],
         "stats": {
-            "Hp": 30,
-            "Attack": 40,
-            "Defense": 70,
-            "Sp. Attack": 70,
-            "Sp. Defense": 25,
-            "Speed": 60
-        }
+            "PV": 30,
+            "Attaque": 40,
+            "D\u00e9fense": 70,
+            "Atq. Sp\u00e9": 70,
+            "D\u00e9f. Sp\u00e9": 25,
+            "Vitesse": 60
+        },
+        "poids": 8.0,
+        "taille": 0.4
     },
     {
         "id": 117,
-        "nom": "Seadra",
+        "nom": "Hypoc\u00e9an",
+        "nom_en": "seadra",
+        "description": "Son \u00e9pine dorsale le prot\u00e8ge. Ses os et ses nageoires sont tr\u00e8s pris\u00e9s en m\u00e9decine traditionnelle.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/117.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/117.png",
         "types": [
-            "Water"
+            "water"
         ],
         "stats": {
-            "Hp": 55,
-            "Attack": 65,
-            "Defense": 95,
-            "Sp. Attack": 95,
-            "Sp. Defense": 45,
-            "Speed": 85
-        }
+            "PV": 55,
+            "Attaque": 65,
+            "D\u00e9fense": 95,
+            "Atq. Sp\u00e9": 95,
+            "D\u00e9f. Sp\u00e9": 45,
+            "Vitesse": 85
+        },
+        "poids": 25.0,
+        "taille": 1.2
     },
     {
         "id": 118,
-        "nom": "Goldeen",
+        "nom": "Poissir\u00e8ne",
+        "nom_en": "goldeen",
+        "description": "Malgr\u00e9 son \u00e9l\u00e9gance quand il nage, ses coups de corne sont redoutables.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/118.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/118.png",
         "types": [
-            "Water"
+            "water"
         ],
         "stats": {
-            "Hp": 45,
-            "Attack": 67,
-            "Defense": 60,
-            "Sp. Attack": 35,
-            "Sp. Defense": 50,
-            "Speed": 63
-        }
+            "PV": 45,
+            "Attaque": 67,
+            "D\u00e9fense": 60,
+            "Atq. Sp\u00e9": 35,
+            "D\u00e9f. Sp\u00e9": 50,
+            "Vitesse": 63
+        },
+        "poids": 15.0,
+        "taille": 0.6
     },
     {
         "id": 119,
-        "nom": "Seaking",
+        "nom": "Poissoroy",
+        "nom_en": "seaking",
+        "description": "En automne, \u00e0 la saison des amours, il fait des r\u00e9serves de graisse et arbore des couleurs chatoyantes.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/119.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/119.png",
         "types": [
-            "Water"
+            "water"
         ],
         "stats": {
-            "Hp": 80,
-            "Attack": 92,
-            "Defense": 65,
-            "Sp. Attack": 65,
-            "Sp. Defense": 80,
-            "Speed": 68
-        }
+            "PV": 80,
+            "Attaque": 92,
+            "D\u00e9fense": 65,
+            "Atq. Sp\u00e9": 65,
+            "D\u00e9f. Sp\u00e9": 80,
+            "Vitesse": 68
+        },
+        "poids": 39.0,
+        "taille": 1.3
     },
     {
         "id": 120,
-        "nom": "Staryu",
+        "nom": "Stari",
+        "nom_en": "staryu",
+        "description": "M\u00eame amoch\u00e9, son corps se r\u00e9g\u00e9n\u00e8re tant que le noyau rouge est intact. Le noyau s\u2019illumine \u00e0 minuit.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/120.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/120.png",
         "types": [
-            "Water"
+            "water"
         ],
         "stats": {
-            "Hp": 30,
-            "Attack": 45,
-            "Defense": 55,
-            "Sp. Attack": 70,
-            "Sp. Defense": 55,
-            "Speed": 85
-        }
+            "PV": 30,
+            "Attaque": 45,
+            "D\u00e9fense": 55,
+            "Atq. Sp\u00e9": 70,
+            "D\u00e9f. Sp\u00e9": 55,
+            "Vitesse": 85
+        },
+        "poids": 34.5,
+        "taille": 0.8
     },
     {
         "id": 121,
-        "nom": "Starmie",
+        "nom": "Staross",
+        "nom_en": "starmie",
+        "description": "Un noyau rouge tr\u00f4ne en son centre. Il envoie des signaux radio myst\u00e9rieux vers le ciel nocturne.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/121.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/121.png",
         "types": [
-            "Water",
-            "Psychic"
+            "water",
+            "psychic"
         ],
         "stats": {
-            "Hp": 60,
-            "Attack": 75,
-            "Defense": 85,
-            "Sp. Attack": 100,
-            "Sp. Defense": 85,
-            "Speed": 115
-        }
+            "PV": 60,
+            "Attaque": 75,
+            "D\u00e9fense": 85,
+            "Atq. Sp\u00e9": 100,
+            "D\u00e9f. Sp\u00e9": 85,
+            "Vitesse": 115
+        },
+        "poids": 80.0,
+        "taille": 1.1
     },
     {
         "id": 122,
-        "nom": "Mr-mime",
+        "nom": "M. Mime",
+        "nom_en": "mr-mime",
+        "description": "En modifiant les mol\u00e9cules de l\u2019air du bout de ses doigts, il parvient \u00e0 cr\u00e9er un mur invisible devant lui.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/122.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/122.png",
         "types": [
-            "Psychic",
-            "Fairy"
+            "psychic",
+            "fairy"
         ],
         "stats": {
-            "Hp": 40,
-            "Attack": 45,
-            "Defense": 65,
-            "Sp. Attack": 100,
-            "Sp. Defense": 120,
-            "Speed": 90
-        }
+            "PV": 40,
+            "Attaque": 45,
+            "D\u00e9fense": 65,
+            "Atq. Sp\u00e9": 100,
+            "D\u00e9f. Sp\u00e9": 120,
+            "Vitesse": 90
+        },
+        "poids": 54.5,
+        "taille": 1.3
     },
     {
         "id": 123,
-        "nom": "Scyther",
+        "nom": "Ins\u00e9cateur",
+        "nom_en": "scyther",
+        "description": "\u00c0 force de trancher des objets solides, les faux de ses bras sont tr\u00e8s aiguis\u00e9es.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/123.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/123.png",
         "types": [
-            "Bug",
-            "Flying"
+            "bug",
+            "flying"
         ],
         "stats": {
-            "Hp": 70,
-            "Attack": 110,
-            "Defense": 80,
-            "Sp. Attack": 55,
-            "Sp. Defense": 80,
-            "Speed": 105
-        }
+            "PV": 70,
+            "Attaque": 110,
+            "D\u00e9fense": 80,
+            "Atq. Sp\u00e9": 55,
+            "D\u00e9f. Sp\u00e9": 80,
+            "Vitesse": 105
+        },
+        "poids": 56.0,
+        "taille": 1.5
     },
     {
         "id": 124,
-        "nom": "Jynx",
+        "nom": "Lippoutou",
+        "nom_en": "jynx",
+        "description": "Son cri ressemble \u00e0 des paroles humaines. Mais nul n\u2019est jamais parvenu \u00e0 les comprendre.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/124.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/124.png",
         "types": [
-            "Ice",
-            "Psychic"
+            "ice",
+            "psychic"
         ],
         "stats": {
-            "Hp": 65,
-            "Attack": 50,
-            "Defense": 35,
-            "Sp. Attack": 115,
-            "Sp. Defense": 95,
-            "Speed": 95
-        }
+            "PV": 65,
+            "Attaque": 50,
+            "D\u00e9fense": 35,
+            "Atq. Sp\u00e9": 115,
+            "D\u00e9f. Sp\u00e9": 95,
+            "Vitesse": 95
+        },
+        "poids": 40.6,
+        "taille": 1.4
     },
     {
         "id": 125,
-        "nom": "Electabuzz",
+        "nom": "\u00c9lektek",
+        "nom_en": "electabuzz",
+        "description": "Il fait tournoyer ses bras pour donner de la force \u00e0 ses coups. Profitez-en pour filer!",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/125.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/125.png",
         "types": [
-            "Electric"
+            "electric"
         ],
         "stats": {
-            "Hp": 65,
-            "Attack": 83,
-            "Defense": 57,
-            "Sp. Attack": 95,
-            "Sp. Defense": 85,
-            "Speed": 105
-        }
+            "PV": 65,
+            "Attaque": 83,
+            "D\u00e9fense": 57,
+            "Atq. Sp\u00e9": 95,
+            "D\u00e9f. Sp\u00e9": 85,
+            "Vitesse": 105
+        },
+        "poids": 30.0,
+        "taille": 1.1
     },
     {
         "id": 126,
         "nom": "Magmar",
+        "nom_en": "magmar",
+        "description": "Quand il respire profond\u00e9ment, des vagues de chaleur \u00e9manent de son corps et le rendent difficile \u00e0 voir.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/126.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/126.png",
         "types": [
-            "Fire"
+            "fire"
         ],
         "stats": {
-            "Hp": 65,
-            "Attack": 95,
-            "Defense": 57,
-            "Sp. Attack": 100,
-            "Sp. Defense": 85,
-            "Speed": 93
-        }
+            "PV": 65,
+            "Attaque": 95,
+            "D\u00e9fense": 57,
+            "Atq. Sp\u00e9": 100,
+            "D\u00e9f. Sp\u00e9": 85,
+            "Vitesse": 93
+        },
+        "poids": 44.5,
+        "taille": 1.3
     },
     {
         "id": 127,
-        "nom": "Pinsir",
+        "nom": "Scarabrute",
+        "nom_en": "pinsir",
+        "description": "Il serre les proies dans ses pinces pour les trancher en deux. S\u2019il n\u2019y arrive pas, il les jette au loin.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/127.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/127.png",
         "types": [
-            "Bug"
+            "bug"
         ],
         "stats": {
-            "Hp": 65,
-            "Attack": 125,
-            "Defense": 100,
-            "Sp. Attack": 55,
-            "Sp. Defense": 70,
-            "Speed": 85
-        }
+            "PV": 65,
+            "Attaque": 125,
+            "D\u00e9fense": 100,
+            "Atq. Sp\u00e9": 55,
+            "D\u00e9f. Sp\u00e9": 70,
+            "Vitesse": 85
+        },
+        "poids": 55.0,
+        "taille": 1.5
     },
     {
         "id": 128,
         "nom": "Tauros",
+        "nom_en": "tauros",
+        "description": "Apr\u00e8s avoir choisi sa cible, il fonce dessus t\u00eate baiss\u00e9e. Il est r\u00e9put\u00e9 pour sa nature violente.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/128.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/128.png",
         "types": [
-            "Normal"
+            "normal"
         ],
         "stats": {
-            "Hp": 75,
-            "Attack": 100,
-            "Defense": 95,
-            "Sp. Attack": 40,
-            "Sp. Defense": 70,
-            "Speed": 110
-        }
+            "PV": 75,
+            "Attaque": 100,
+            "D\u00e9fense": 95,
+            "Atq. Sp\u00e9": 40,
+            "D\u00e9f. Sp\u00e9": 70,
+            "Vitesse": 110
+        },
+        "poids": 88.4,
+        "taille": 1.4
     },
     {
         "id": 129,
-        "nom": "Magikarp",
+        "nom": "Magicarpe",
+        "nom_en": "magikarp",
+        "description": "Un v\u00e9n\u00e9rable Magicarpe peut franchir une montagne en utilisant Trempette. Mais c\u2019est tout...",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/129.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/129.png",
         "types": [
-            "Water"
+            "water"
         ],
         "stats": {
-            "Hp": 20,
-            "Attack": 10,
-            "Defense": 55,
-            "Sp. Attack": 15,
-            "Sp. Defense": 20,
-            "Speed": 80
-        }
+            "PV": 20,
+            "Attaque": 10,
+            "D\u00e9fense": 55,
+            "Atq. Sp\u00e9": 15,
+            "D\u00e9f. Sp\u00e9": 20,
+            "Vitesse": 80
+        },
+        "poids": 10.0,
+        "taille": 0.9
     },
     {
         "id": 130,
-        "nom": "Gyarados",
+        "nom": "L\u00e9viator",
+        "nom_en": "gyarados",
+        "description": "Quand il se laisse emporter par la rage, il ne se calme qu\u2019apr\u00e8s avoir d\u00e9truit tout ce qui l\u2019entoure.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/130.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/130.png",
         "types": [
-            "Water",
-            "Flying"
+            "water",
+            "flying"
         ],
         "stats": {
-            "Hp": 95,
-            "Attack": 125,
-            "Defense": 79,
-            "Sp. Attack": 60,
-            "Sp. Defense": 100,
-            "Speed": 81
-        }
+            "PV": 95,
+            "Attaque": 125,
+            "D\u00e9fense": 79,
+            "Atq. Sp\u00e9": 60,
+            "D\u00e9f. Sp\u00e9": 100,
+            "Vitesse": 81
+        },
+        "poids": 235.0,
+        "taille": 6.5
     },
     {
         "id": 131,
-        "nom": "Lapras",
+        "nom": "Lokhlass",
+        "nom_en": "lapras",
+        "description": "Il aime naviguer en portant des humains et des Pok\u00e9mon sur son dos. Il comprend le langage humain.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/131.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/131.png",
         "types": [
-            "Water",
-            "Ice"
+            "water",
+            "ice"
         ],
         "stats": {
-            "Hp": 130,
-            "Attack": 85,
-            "Defense": 80,
-            "Sp. Attack": 85,
-            "Sp. Defense": 95,
-            "Speed": 60
-        }
+            "PV": 130,
+            "Attaque": 85,
+            "D\u00e9fense": 80,
+            "Atq. Sp\u00e9": 85,
+            "D\u00e9f. Sp\u00e9": 95,
+            "Vitesse": 60
+        },
+        "poids": 220.0,
+        "taille": 2.5
     },
     {
         "id": 132,
-        "nom": "Ditto",
+        "nom": "M\u00e9tamorph",
+        "nom_en": "ditto",
+        "description": "Il a la capacit\u00e9 de modifier sa structure cellulaire pour prendre l\u2019apparence de ce qu\u2019il voit.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/132.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/132.png",
         "types": [
-            "Normal"
+            "normal"
         ],
         "stats": {
-            "Hp": 48,
-            "Attack": 48,
-            "Defense": 48,
-            "Sp. Attack": 48,
-            "Sp. Defense": 48,
-            "Speed": 48
-        }
+            "PV": 48,
+            "Attaque": 48,
+            "D\u00e9fense": 48,
+            "Atq. Sp\u00e9": 48,
+            "D\u00e9f. Sp\u00e9": 48,
+            "Vitesse": 48
+        },
+        "poids": 4.0,
+        "taille": 0.3
     },
     {
         "id": 133,
-        "nom": "Eevee",
+        "nom": "\u00c9voli",
+        "nom_en": "eevee",
+        "description": "Son ADN particulier lui permet de s\u2019adapter tr\u00e8s rapidement \u00e0 son environnement.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/133.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/133.png",
         "types": [
-            "Normal"
+            "normal"
         ],
         "stats": {
-            "Hp": 55,
-            "Attack": 55,
-            "Defense": 50,
-            "Sp. Attack": 45,
-            "Sp. Defense": 65,
-            "Speed": 55
-        }
+            "PV": 55,
+            "Attaque": 55,
+            "D\u00e9fense": 50,
+            "Atq. Sp\u00e9": 45,
+            "D\u00e9f. Sp\u00e9": 65,
+            "Vitesse": 55
+        },
+        "poids": 6.5,
+        "taille": 0.3
     },
     {
         "id": 134,
-        "nom": "Vaporeon",
+        "nom": "Aquali",
+        "nom_en": "vaporeon",
+        "description": "Sa composition mol\u00e9culaire est proche de celle de l\u2019eau, ce qui lui permet de se liqu\u00e9fier.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/134.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/134.png",
         "types": [
-            "Water"
+            "water"
         ],
         "stats": {
-            "Hp": 130,
-            "Attack": 65,
-            "Defense": 60,
-            "Sp. Attack": 110,
-            "Sp. Defense": 95,
-            "Speed": 65
-        }
+            "PV": 130,
+            "Attaque": 65,
+            "D\u00e9fense": 60,
+            "Atq. Sp\u00e9": 110,
+            "D\u00e9f. Sp\u00e9": 95,
+            "Vitesse": 65
+        },
+        "poids": 29.0,
+        "taille": 1.0
     },
     {
         "id": 135,
-        "nom": "Jolteon",
+        "nom": "Voltali",
+        "nom_en": "jolteon",
+        "description": "Face au danger, il fait appel \u00e0 l\u2019\u00e9lectricit\u00e9 pour dresser ses poils et lancer des d\u00e9charges.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/135.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/135.png",
         "types": [
-            "Electric"
+            "electric"
         ],
         "stats": {
-            "Hp": 65,
-            "Attack": 65,
-            "Defense": 60,
-            "Sp. Attack": 110,
-            "Sp. Defense": 95,
-            "Speed": 130
-        }
+            "PV": 65,
+            "Attaque": 65,
+            "D\u00e9fense": 60,
+            "Atq. Sp\u00e9": 110,
+            "D\u00e9f. Sp\u00e9": 95,
+            "Vitesse": 130
+        },
+        "poids": 24.5,
+        "taille": 0.8
     },
     {
         "id": 136,
-        "nom": "Flareon",
+        "nom": "Pyroli",
+        "nom_en": "flareon",
+        "description": "L\u2019air qu\u2019il inspire est chauff\u00e9 par la glande enflamm\u00e9e de son corps, atteignant les 1 700 \u00b0C.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/136.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/136.png",
         "types": [
-            "Fire"
+            "fire"
         ],
         "stats": {
-            "Hp": 65,
-            "Attack": 130,
-            "Defense": 60,
-            "Sp. Attack": 95,
-            "Sp. Defense": 110,
-            "Speed": 65
-        }
+            "PV": 65,
+            "Attaque": 130,
+            "D\u00e9fense": 60,
+            "Atq. Sp\u00e9": 95,
+            "D\u00e9f. Sp\u00e9": 110,
+            "Vitesse": 65
+        },
+        "poids": 25.0,
+        "taille": 0.9
     },
     {
         "id": 137,
         "nom": "Porygon",
+        "nom_en": "porygon",
+        "description": "Ce Pok\u00e9mon cr\u00e9\u00e9 par des scientifiques peut arpenter librement le cyberespace.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/137.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/137.png",
         "types": [
-            "Normal"
+            "normal"
         ],
         "stats": {
-            "Hp": 65,
-            "Attack": 60,
-            "Defense": 70,
-            "Sp. Attack": 85,
-            "Sp. Defense": 75,
-            "Speed": 40
-        }
+            "PV": 65,
+            "Attaque": 60,
+            "D\u00e9fense": 70,
+            "Atq. Sp\u00e9": 85,
+            "D\u00e9f. Sp\u00e9": 75,
+            "Vitesse": 40
+        },
+        "poids": 36.5,
+        "taille": 0.8
     },
     {
         "id": 138,
-        "nom": "Omanyte",
+        "nom": "Amonita",
+        "nom_en": "omanyte",
+        "description": "Un Pok\u00e9mon ramen\u00e9 \u00e0 la vie par la science \u00e0 partir d\u2019un fossile. Il peuplait autrefois les mers.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/138.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/138.png",
         "types": [
-            "Rock",
-            "Water"
+            "rock",
+            "water"
         ],
         "stats": {
-            "Hp": 35,
-            "Attack": 40,
-            "Defense": 100,
-            "Sp. Attack": 90,
-            "Sp. Defense": 55,
-            "Speed": 35
-        }
+            "PV": 35,
+            "Attaque": 40,
+            "D\u00e9fense": 100,
+            "Atq. Sp\u00e9": 90,
+            "D\u00e9f. Sp\u00e9": 55,
+            "Vitesse": 35
+        },
+        "poids": 7.5,
+        "taille": 0.4
     },
     {
         "id": 139,
-        "nom": "Omastar",
+        "nom": "Amonistar",
+        "nom_en": "omastar",
+        "description": "On pense que ce Pok\u00e9mon a disparu parce que sa coquille en spirale \u00e9tait devenue trop grosse.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/139.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/139.png",
         "types": [
-            "Rock",
-            "Water"
+            "rock",
+            "water"
         ],
         "stats": {
-            "Hp": 70,
-            "Attack": 60,
-            "Defense": 125,
-            "Sp. Attack": 115,
-            "Sp. Defense": 70,
-            "Speed": 55
-        }
+            "PV": 70,
+            "Attaque": 60,
+            "D\u00e9fense": 125,
+            "Atq. Sp\u00e9": 115,
+            "D\u00e9f. Sp\u00e9": 70,
+            "Vitesse": 55
+        },
+        "poids": 35.0,
+        "taille": 1.0
     },
     {
         "id": 140,
         "nom": "Kabuto",
+        "nom_en": "kabuto",
+        "description": "On pense qu\u2019il peuplait les plages il y a 300 millions d\u2019ann\u00e9es. Il est prot\u00e9g\u00e9 par une coquille robuste.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/140.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/140.png",
         "types": [
-            "Rock",
-            "Water"
+            "rock",
+            "water"
         ],
         "stats": {
-            "Hp": 30,
-            "Attack": 80,
-            "Defense": 90,
-            "Sp. Attack": 55,
-            "Sp. Defense": 45,
-            "Speed": 55
-        }
+            "PV": 30,
+            "Attaque": 80,
+            "D\u00e9fense": 90,
+            "Atq. Sp\u00e9": 55,
+            "D\u00e9f. Sp\u00e9": 45,
+            "Vitesse": 55
+        },
+        "poids": 11.5,
+        "taille": 0.5
     },
     {
         "id": 141,
         "nom": "Kabutops",
+        "nom_en": "kabutops",
+        "description": "On pense que ce Pok\u00e9mon est venu sur la terre ferme pour suivre l\u2019\u00e9volution de ses proies.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/141.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/141.png",
         "types": [
-            "Rock",
-            "Water"
+            "rock",
+            "water"
         ],
         "stats": {
-            "Hp": 60,
-            "Attack": 115,
-            "Defense": 105,
-            "Sp. Attack": 65,
-            "Sp. Defense": 70,
-            "Speed": 80
-        }
+            "PV": 60,
+            "Attaque": 115,
+            "D\u00e9fense": 105,
+            "Atq. Sp\u00e9": 65,
+            "D\u00e9f. Sp\u00e9": 70,
+            "Vitesse": 80
+        },
+        "poids": 40.5,
+        "taille": 1.3
     },
     {
         "id": 142,
-        "nom": "Aerodactyl",
+        "nom": "Pt\u00e9ra",
+        "nom_en": "aerodactyl",
+        "description": "Un Pok\u00e9mon qui arpentait le ciel au temps des dinosaures. Ses crocs sont pareils \u00e0 des scies.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/142.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/142.png",
         "types": [
-            "Rock",
-            "Flying"
+            "rock",
+            "flying"
         ],
         "stats": {
-            "Hp": 80,
-            "Attack": 105,
-            "Defense": 65,
-            "Sp. Attack": 60,
-            "Sp. Defense": 75,
-            "Speed": 130
-        }
+            "PV": 80,
+            "Attaque": 105,
+            "D\u00e9fense": 65,
+            "Atq. Sp\u00e9": 60,
+            "D\u00e9f. Sp\u00e9": 75,
+            "Vitesse": 130
+        },
+        "poids": 59.0,
+        "taille": 1.8
     },
     {
         "id": 143,
-        "nom": "Snorlax",
+        "nom": "Ronflex",
+        "nom_en": "snorlax",
+        "description": "Une fois le ventre plein, il est trop amorphe pour lever le petit doigt. Sautez sur son ventre!",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/143.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/143.png",
         "types": [
-            "Normal"
+            "normal"
         ],
         "stats": {
-            "Hp": 160,
-            "Attack": 110,
-            "Defense": 65,
-            "Sp. Attack": 65,
-            "Sp. Defense": 110,
-            "Speed": 30
-        }
+            "PV": 160,
+            "Attaque": 110,
+            "D\u00e9fense": 65,
+            "Atq. Sp\u00e9": 65,
+            "D\u00e9f. Sp\u00e9": 110,
+            "Vitesse": 30
+        },
+        "poids": 460.0,
+        "taille": 2.1
     },
     {
         "id": 144,
-        "nom": "Articuno",
+        "nom": "Artikodin",
+        "nom_en": "articuno",
+        "description": "Un Pok\u00e9mon Oiseau l\u00e9gendaire. Il peut provoquer des blizzards en gelant l\u2019humidit\u00e9 de l\u2019air.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/144.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/144.png",
         "types": [
-            "Ice",
-            "Flying"
+            "ice",
+            "flying"
         ],
         "stats": {
-            "Hp": 90,
-            "Attack": 85,
-            "Defense": 100,
-            "Sp. Attack": 95,
-            "Sp. Defense": 125,
-            "Speed": 85
-        }
+            "PV": 90,
+            "Attaque": 85,
+            "D\u00e9fense": 100,
+            "Atq. Sp\u00e9": 95,
+            "D\u00e9f. Sp\u00e9": 125,
+            "Vitesse": 85
+        },
+        "poids": 55.4,
+        "taille": 1.7
     },
     {
         "id": 145,
-        "nom": "Zapdos",
+        "nom": "\u00c9lecthor",
+        "nom_en": "zapdos",
+        "description": "Un Pok\u00e9mon Oiseau l\u00e9gendaire dont on dit qu\u2019il vit dans les nuages d\u2019orage. Il contr\u00f4le la foudre.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/145.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/145.png",
         "types": [
-            "Electric",
-            "Flying"
+            "electric",
+            "flying"
         ],
         "stats": {
-            "Hp": 90,
-            "Attack": 90,
-            "Defense": 85,
-            "Sp. Attack": 125,
-            "Sp. Defense": 90,
-            "Speed": 100
-        }
+            "PV": 90,
+            "Attaque": 90,
+            "D\u00e9fense": 85,
+            "Atq. Sp\u00e9": 125,
+            "D\u00e9f. Sp\u00e9": 90,
+            "Vitesse": 100
+        },
+        "poids": 52.6,
+        "taille": 1.6
     },
     {
         "id": 146,
-        "nom": "Moltres",
+        "nom": "Sulfura",
+        "nom_en": "moltres",
+        "description": "L\u2019un des Pok\u00e9mon Oiseaux l\u00e9gendaires. On dit que sa venue annonce l\u2019arriv\u00e9e du printemps.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/146.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/146.png",
         "types": [
-            "Fire",
-            "Flying"
+            "fire",
+            "flying"
         ],
         "stats": {
-            "Hp": 90,
-            "Attack": 100,
-            "Defense": 90,
-            "Sp. Attack": 125,
-            "Sp. Defense": 85,
-            "Speed": 90
-        }
+            "PV": 90,
+            "Attaque": 100,
+            "D\u00e9fense": 90,
+            "Atq. Sp\u00e9": 125,
+            "D\u00e9f. Sp\u00e9": 85,
+            "Vitesse": 90
+        },
+        "poids": 60.0,
+        "taille": 2.0
     },
     {
         "id": 147,
-        "nom": "Dratini",
+        "nom": "Minidraco",
+        "nom_en": "dratini",
+        "description": "On l\u2019appelle \u201cPok\u00e9mon mirage\u201d en raison de sa raret\u00e9. On a d\u00e9couvert sa mue.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/147.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/147.png",
         "types": [
-            "Dragon"
+            "dragon"
         ],
         "stats": {
-            "Hp": 41,
-            "Attack": 64,
-            "Defense": 45,
-            "Sp. Attack": 50,
-            "Sp. Defense": 50,
-            "Speed": 50
-        }
+            "PV": 41,
+            "Attaque": 64,
+            "D\u00e9fense": 45,
+            "Atq. Sp\u00e9": 50,
+            "D\u00e9f. Sp\u00e9": 50,
+            "Vitesse": 50
+        },
+        "poids": 3.3,
+        "taille": 1.8
     },
     {
         "id": 148,
-        "nom": "Dragonair",
+        "nom": "Draco",
+        "nom_en": "dragonair",
+        "description": "La m\u00e9t\u00e9o change brusquement quand il est entour\u00e9 d\u2019une aura. On dit qu\u2019il peuple les mers et les lacs.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/148.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/148.png",
         "types": [
-            "Dragon"
+            "dragon"
         ],
         "stats": {
-            "Hp": 61,
-            "Attack": 84,
-            "Defense": 65,
-            "Sp. Attack": 70,
-            "Sp. Defense": 70,
-            "Speed": 70
-        }
+            "PV": 61,
+            "Attaque": 84,
+            "D\u00e9fense": 65,
+            "Atq. Sp\u00e9": 70,
+            "D\u00e9f. Sp\u00e9": 70,
+            "Vitesse": 70
+        },
+        "poids": 16.5,
+        "taille": 4.0
     },
     {
         "id": 149,
-        "nom": "Dragonite",
+        "nom": "Dracolosse",
+        "nom_en": "dragonite",
+        "description": "On raconte qu\u2019il vit quelque part en mer. Il guide les \u00e9quipages naufrag\u00e9s jusqu\u2019\u00e0 la terre ferme.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/149.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/149.png",
         "types": [
-            "Dragon",
-            "Flying"
+            "dragon",
+            "flying"
         ],
         "stats": {
-            "Hp": 91,
-            "Attack": 134,
-            "Defense": 95,
-            "Sp. Attack": 100,
-            "Sp. Defense": 100,
-            "Speed": 80
-        }
+            "PV": 91,
+            "Attaque": 134,
+            "D\u00e9fense": 95,
+            "Atq. Sp\u00e9": 100,
+            "D\u00e9f. Sp\u00e9": 100,
+            "Vitesse": 80
+        },
+        "poids": 210.0,
+        "taille": 2.2
     },
     {
         "id": 150,
         "nom": "Mewtwo",
+        "nom_en": "mewtwo",
+        "description": "Un Pok\u00e9mon con\u00e7u en r\u00e9organisant les g\u00e8nes de Mew. On raconte qu\u2019il s\u2019agit du Pok\u00e9mon le plus f\u00e9roce.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/150.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/150.png",
         "types": [
-            "Psychic"
+            "psychic"
         ],
         "stats": {
-            "Hp": 106,
-            "Attack": 110,
-            "Defense": 90,
-            "Sp. Attack": 154,
-            "Sp. Defense": 90,
-            "Speed": 130
-        }
+            "PV": 106,
+            "Attaque": 110,
+            "D\u00e9fense": 90,
+            "Atq. Sp\u00e9": 154,
+            "D\u00e9f. Sp\u00e9": 90,
+            "Vitesse": 130
+        },
+        "poids": 122.0,
+        "taille": 2.0
     },
     {
         "id": 151,
         "nom": "Mew",
+        "nom_en": "mew",
+        "description": "Nombre de scientifiques voient en lui l\u2019anc\u00eatre des Pok\u00e9mon car il ma\u00eetrise toutes leurs capacit\u00e9s.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/151.png",
         "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/151.png",
         "types": [
-            "Psychic"
+            "psychic"
         ],
         "stats": {
-            "Hp": 100,
-            "Attack": 100,
-            "Defense": 100,
-            "Sp. Attack": 100,
-            "Sp. Defense": 100,
-            "Speed": 100
-        }
+            "PV": 100,
+            "Attaque": 100,
+            "D\u00e9fense": 100,
+            "Atq. Sp\u00e9": 100,
+            "D\u00e9f. Sp\u00e9": 100,
+            "Vitesse": 100
+        },
+        "poids": 4.0,
+        "taille": 0.4
     }
 ]
