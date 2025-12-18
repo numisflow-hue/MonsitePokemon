@@ -1,0 +1,2636 @@
+[
+    {
+        "id": 1,
+        "nom": "Bulbasaur",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+        "types": [
+            "Grass",
+            "Poison"
+        ],
+        "stats": {
+            "Hp": 45,
+            "Attack": 49,
+            "Defense": 49,
+            "Sp. Attack": 65,
+            "Sp. Defense": 65,
+            "Speed": 45
+        }
+    },
+    {
+        "id": 2,
+        "nom": "Ivysaur",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/2.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png",
+        "types": [
+            "Grass",
+            "Poison"
+        ],
+        "stats": {
+            "Hp": 60,
+            "Attack": 62,
+            "Defense": 63,
+            "Sp. Attack": 80,
+            "Sp. Defense": 80,
+            "Speed": 60
+        }
+    },
+    {
+        "id": 3,
+        "nom": "Venusaur",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/3.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png",
+        "types": [
+            "Grass",
+            "Poison"
+        ],
+        "stats": {
+            "Hp": 80,
+            "Attack": 82,
+            "Defense": 83,
+            "Sp. Attack": 100,
+            "Sp. Defense": 100,
+            "Speed": 80
+        }
+    },
+    {
+        "id": 4,
+        "nom": "Charmander",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/4.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png",
+        "types": [
+            "Fire"
+        ],
+        "stats": {
+            "Hp": 39,
+            "Attack": 52,
+            "Defense": 43,
+            "Sp. Attack": 60,
+            "Sp. Defense": 50,
+            "Speed": 65
+        }
+    },
+    {
+        "id": 5,
+        "nom": "Charmeleon",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/5.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png",
+        "types": [
+            "Fire"
+        ],
+        "stats": {
+            "Hp": 58,
+            "Attack": 64,
+            "Defense": 58,
+            "Sp. Attack": 80,
+            "Sp. Defense": 65,
+            "Speed": 80
+        }
+    },
+    {
+        "id": 6,
+        "nom": "Charizard",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png",
+        "types": [
+            "Fire",
+            "Flying"
+        ],
+        "stats": {
+            "Hp": 78,
+            "Attack": 84,
+            "Defense": 78,
+            "Sp. Attack": 109,
+            "Sp. Defense": 85,
+            "Speed": 100
+        }
+    },
+    {
+        "id": 7,
+        "nom": "Squirtle",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/7.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png",
+        "types": [
+            "Water"
+        ],
+        "stats": {
+            "Hp": 44,
+            "Attack": 48,
+            "Defense": 65,
+            "Sp. Attack": 50,
+            "Sp. Defense": 64,
+            "Speed": 43
+        }
+    },
+    {
+        "id": 8,
+        "nom": "Wartortle",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/8.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/8.png",
+        "types": [
+            "Water"
+        ],
+        "stats": {
+            "Hp": 59,
+            "Attack": 63,
+            "Defense": 80,
+            "Sp. Attack": 65,
+            "Sp. Defense": 80,
+            "Speed": 58
+        }
+    },
+    {
+        "id": 9,
+        "nom": "Blastoise",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/9.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png",
+        "types": [
+            "Water"
+        ],
+        "stats": {
+            "Hp": 79,
+            "Attack": 83,
+            "Defense": 100,
+            "Sp. Attack": 85,
+            "Sp. Defense": 105,
+            "Speed": 78
+        }
+    },
+    {
+        "id": 10,
+        "nom": "Caterpie",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10.png",
+        "types": [
+            "Bug"
+        ],
+        "stats": {
+            "Hp": 45,
+            "Attack": 30,
+            "Defense": 35,
+            "Sp. Attack": 20,
+            "Sp. Defense": 20,
+            "Speed": 45
+        }
+    },
+    {
+        "id": 11,
+        "nom": "Metapod",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/11.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/11.png",
+        "types": [
+            "Bug"
+        ],
+        "stats": {
+            "Hp": 50,
+            "Attack": 20,
+            "Defense": 55,
+            "Sp. Attack": 25,
+            "Sp. Defense": 25,
+            "Speed": 30
+        }
+    },
+    {
+        "id": 12,
+        "nom": "Butterfree",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/12.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/12.png",
+        "types": [
+            "Bug",
+            "Flying"
+        ],
+        "stats": {
+            "Hp": 60,
+            "Attack": 45,
+            "Defense": 50,
+            "Sp. Attack": 90,
+            "Sp. Defense": 80,
+            "Speed": 70
+        }
+    },
+    {
+        "id": 13,
+        "nom": "Weedle",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/13.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/13.png",
+        "types": [
+            "Bug",
+            "Poison"
+        ],
+        "stats": {
+            "Hp": 40,
+            "Attack": 35,
+            "Defense": 30,
+            "Sp. Attack": 20,
+            "Sp. Defense": 20,
+            "Speed": 50
+        }
+    },
+    {
+        "id": 14,
+        "nom": "Kakuna",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/14.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/14.png",
+        "types": [
+            "Bug",
+            "Poison"
+        ],
+        "stats": {
+            "Hp": 45,
+            "Attack": 25,
+            "Defense": 50,
+            "Sp. Attack": 25,
+            "Sp. Defense": 25,
+            "Speed": 35
+        }
+    },
+    {
+        "id": 15,
+        "nom": "Beedrill",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/15.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/15.png",
+        "types": [
+            "Bug",
+            "Poison"
+        ],
+        "stats": {
+            "Hp": 65,
+            "Attack": 90,
+            "Defense": 40,
+            "Sp. Attack": 45,
+            "Sp. Defense": 80,
+            "Speed": 75
+        }
+    },
+    {
+        "id": 16,
+        "nom": "Pidgey",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/16.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/16.png",
+        "types": [
+            "Normal",
+            "Flying"
+        ],
+        "stats": {
+            "Hp": 40,
+            "Attack": 45,
+            "Defense": 40,
+            "Sp. Attack": 35,
+            "Sp. Defense": 35,
+            "Speed": 56
+        }
+    },
+    {
+        "id": 17,
+        "nom": "Pidgeotto",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/17.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/17.png",
+        "types": [
+            "Normal",
+            "Flying"
+        ],
+        "stats": {
+            "Hp": 63,
+            "Attack": 60,
+            "Defense": 55,
+            "Sp. Attack": 50,
+            "Sp. Defense": 50,
+            "Speed": 71
+        }
+    },
+    {
+        "id": 18,
+        "nom": "Pidgeot",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/18.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/18.png",
+        "types": [
+            "Normal",
+            "Flying"
+        ],
+        "stats": {
+            "Hp": 83,
+            "Attack": 80,
+            "Defense": 75,
+            "Sp. Attack": 70,
+            "Sp. Defense": 70,
+            "Speed": 101
+        }
+    },
+    {
+        "id": 19,
+        "nom": "Rattata",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/19.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/19.png",
+        "types": [
+            "Normal"
+        ],
+        "stats": {
+            "Hp": 30,
+            "Attack": 56,
+            "Defense": 35,
+            "Sp. Attack": 25,
+            "Sp. Defense": 35,
+            "Speed": 72
+        }
+    },
+    {
+        "id": 20,
+        "nom": "Raticate",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/20.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/20.png",
+        "types": [
+            "Normal"
+        ],
+        "stats": {
+            "Hp": 55,
+            "Attack": 81,
+            "Defense": 60,
+            "Sp. Attack": 50,
+            "Sp. Defense": 70,
+            "Speed": 97
+        }
+    },
+    {
+        "id": 21,
+        "nom": "Spearow",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/21.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/21.png",
+        "types": [
+            "Normal",
+            "Flying"
+        ],
+        "stats": {
+            "Hp": 40,
+            "Attack": 60,
+            "Defense": 30,
+            "Sp. Attack": 31,
+            "Sp. Defense": 31,
+            "Speed": 70
+        }
+    },
+    {
+        "id": 22,
+        "nom": "Fearow",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/22.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/22.png",
+        "types": [
+            "Normal",
+            "Flying"
+        ],
+        "stats": {
+            "Hp": 65,
+            "Attack": 90,
+            "Defense": 65,
+            "Sp. Attack": 61,
+            "Sp. Defense": 61,
+            "Speed": 100
+        }
+    },
+    {
+        "id": 23,
+        "nom": "Ekans",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/23.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/23.png",
+        "types": [
+            "Poison"
+        ],
+        "stats": {
+            "Hp": 35,
+            "Attack": 60,
+            "Defense": 44,
+            "Sp. Attack": 40,
+            "Sp. Defense": 54,
+            "Speed": 55
+        }
+    },
+    {
+        "id": 24,
+        "nom": "Arbok",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/24.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/24.png",
+        "types": [
+            "Poison"
+        ],
+        "stats": {
+            "Hp": 60,
+            "Attack": 95,
+            "Defense": 69,
+            "Sp. Attack": 65,
+            "Sp. Defense": 79,
+            "Speed": 80
+        }
+    },
+    {
+        "id": 25,
+        "nom": "Pikachu",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png",
+        "types": [
+            "Electric"
+        ],
+        "stats": {
+            "Hp": 35,
+            "Attack": 55,
+            "Defense": 40,
+            "Sp. Attack": 50,
+            "Sp. Defense": 50,
+            "Speed": 90
+        }
+    },
+    {
+        "id": 26,
+        "nom": "Raichu",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/26.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/26.png",
+        "types": [
+            "Electric"
+        ],
+        "stats": {
+            "Hp": 60,
+            "Attack": 90,
+            "Defense": 55,
+            "Sp. Attack": 90,
+            "Sp. Defense": 80,
+            "Speed": 110
+        }
+    },
+    {
+        "id": 27,
+        "nom": "Sandshrew",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/27.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/27.png",
+        "types": [
+            "Ground"
+        ],
+        "stats": {
+            "Hp": 50,
+            "Attack": 75,
+            "Defense": 85,
+            "Sp. Attack": 20,
+            "Sp. Defense": 30,
+            "Speed": 40
+        }
+    },
+    {
+        "id": 28,
+        "nom": "Sandslash",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/28.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/28.png",
+        "types": [
+            "Ground"
+        ],
+        "stats": {
+            "Hp": 75,
+            "Attack": 100,
+            "Defense": 110,
+            "Sp. Attack": 45,
+            "Sp. Defense": 55,
+            "Speed": 65
+        }
+    },
+    {
+        "id": 29,
+        "nom": "Nidoran-f",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/29.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/29.png",
+        "types": [
+            "Poison"
+        ],
+        "stats": {
+            "Hp": 55,
+            "Attack": 47,
+            "Defense": 52,
+            "Sp. Attack": 40,
+            "Sp. Defense": 40,
+            "Speed": 41
+        }
+    },
+    {
+        "id": 30,
+        "nom": "Nidorina",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/30.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/30.png",
+        "types": [
+            "Poison"
+        ],
+        "stats": {
+            "Hp": 70,
+            "Attack": 62,
+            "Defense": 67,
+            "Sp. Attack": 55,
+            "Sp. Defense": 55,
+            "Speed": 56
+        }
+    },
+    {
+        "id": 31,
+        "nom": "Nidoqueen",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/31.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/31.png",
+        "types": [
+            "Poison",
+            "Ground"
+        ],
+        "stats": {
+            "Hp": 90,
+            "Attack": 92,
+            "Defense": 87,
+            "Sp. Attack": 75,
+            "Sp. Defense": 85,
+            "Speed": 76
+        }
+    },
+    {
+        "id": 32,
+        "nom": "Nidoran-m",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/32.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/32.png",
+        "types": [
+            "Poison"
+        ],
+        "stats": {
+            "Hp": 46,
+            "Attack": 57,
+            "Defense": 40,
+            "Sp. Attack": 40,
+            "Sp. Defense": 40,
+            "Speed": 50
+        }
+    },
+    {
+        "id": 33,
+        "nom": "Nidorino",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/33.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/33.png",
+        "types": [
+            "Poison"
+        ],
+        "stats": {
+            "Hp": 61,
+            "Attack": 72,
+            "Defense": 57,
+            "Sp. Attack": 55,
+            "Sp. Defense": 55,
+            "Speed": 65
+        }
+    },
+    {
+        "id": 34,
+        "nom": "Nidoking",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/34.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/34.png",
+        "types": [
+            "Poison",
+            "Ground"
+        ],
+        "stats": {
+            "Hp": 81,
+            "Attack": 102,
+            "Defense": 77,
+            "Sp. Attack": 85,
+            "Sp. Defense": 75,
+            "Speed": 85
+        }
+    },
+    {
+        "id": 35,
+        "nom": "Clefairy",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/35.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/35.png",
+        "types": [
+            "Fairy"
+        ],
+        "stats": {
+            "Hp": 70,
+            "Attack": 45,
+            "Defense": 48,
+            "Sp. Attack": 60,
+            "Sp. Defense": 65,
+            "Speed": 35
+        }
+    },
+    {
+        "id": 36,
+        "nom": "Clefable",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/36.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/36.png",
+        "types": [
+            "Fairy"
+        ],
+        "stats": {
+            "Hp": 95,
+            "Attack": 70,
+            "Defense": 73,
+            "Sp. Attack": 95,
+            "Sp. Defense": 90,
+            "Speed": 60
+        }
+    },
+    {
+        "id": 37,
+        "nom": "Vulpix",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/37.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/37.png",
+        "types": [
+            "Fire"
+        ],
+        "stats": {
+            "Hp": 38,
+            "Attack": 41,
+            "Defense": 40,
+            "Sp. Attack": 50,
+            "Sp. Defense": 65,
+            "Speed": 65
+        }
+    },
+    {
+        "id": 38,
+        "nom": "Ninetales",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/38.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/38.png",
+        "types": [
+            "Fire"
+        ],
+        "stats": {
+            "Hp": 73,
+            "Attack": 76,
+            "Defense": 75,
+            "Sp. Attack": 81,
+            "Sp. Defense": 100,
+            "Speed": 100
+        }
+    },
+    {
+        "id": 39,
+        "nom": "Jigglypuff",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/39.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/39.png",
+        "types": [
+            "Normal",
+            "Fairy"
+        ],
+        "stats": {
+            "Hp": 115,
+            "Attack": 45,
+            "Defense": 20,
+            "Sp. Attack": 45,
+            "Sp. Defense": 25,
+            "Speed": 20
+        }
+    },
+    {
+        "id": 40,
+        "nom": "Wigglytuff",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/40.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/40.png",
+        "types": [
+            "Normal",
+            "Fairy"
+        ],
+        "stats": {
+            "Hp": 140,
+            "Attack": 70,
+            "Defense": 45,
+            "Sp. Attack": 85,
+            "Sp. Defense": 50,
+            "Speed": 45
+        }
+    },
+    {
+        "id": 41,
+        "nom": "Zubat",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/41.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/41.png",
+        "types": [
+            "Poison",
+            "Flying"
+        ],
+        "stats": {
+            "Hp": 40,
+            "Attack": 45,
+            "Defense": 35,
+            "Sp. Attack": 30,
+            "Sp. Defense": 40,
+            "Speed": 55
+        }
+    },
+    {
+        "id": 42,
+        "nom": "Golbat",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/42.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/42.png",
+        "types": [
+            "Poison",
+            "Flying"
+        ],
+        "stats": {
+            "Hp": 75,
+            "Attack": 80,
+            "Defense": 70,
+            "Sp. Attack": 65,
+            "Sp. Defense": 75,
+            "Speed": 90
+        }
+    },
+    {
+        "id": 43,
+        "nom": "Oddish",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/43.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/43.png",
+        "types": [
+            "Grass",
+            "Poison"
+        ],
+        "stats": {
+            "Hp": 45,
+            "Attack": 50,
+            "Defense": 55,
+            "Sp. Attack": 75,
+            "Sp. Defense": 65,
+            "Speed": 30
+        }
+    },
+    {
+        "id": 44,
+        "nom": "Gloom",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/44.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/44.png",
+        "types": [
+            "Grass",
+            "Poison"
+        ],
+        "stats": {
+            "Hp": 60,
+            "Attack": 65,
+            "Defense": 70,
+            "Sp. Attack": 85,
+            "Sp. Defense": 75,
+            "Speed": 40
+        }
+    },
+    {
+        "id": 45,
+        "nom": "Vileplume",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/45.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/45.png",
+        "types": [
+            "Grass",
+            "Poison"
+        ],
+        "stats": {
+            "Hp": 75,
+            "Attack": 80,
+            "Defense": 85,
+            "Sp. Attack": 110,
+            "Sp. Defense": 90,
+            "Speed": 50
+        }
+    },
+    {
+        "id": 46,
+        "nom": "Paras",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/46.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/46.png",
+        "types": [
+            "Bug",
+            "Grass"
+        ],
+        "stats": {
+            "Hp": 35,
+            "Attack": 70,
+            "Defense": 55,
+            "Sp. Attack": 45,
+            "Sp. Defense": 55,
+            "Speed": 25
+        }
+    },
+    {
+        "id": 47,
+        "nom": "Parasect",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/47.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/47.png",
+        "types": [
+            "Bug",
+            "Grass"
+        ],
+        "stats": {
+            "Hp": 60,
+            "Attack": 95,
+            "Defense": 80,
+            "Sp. Attack": 60,
+            "Sp. Defense": 80,
+            "Speed": 30
+        }
+    },
+    {
+        "id": 48,
+        "nom": "Venonat",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/48.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/48.png",
+        "types": [
+            "Bug",
+            "Poison"
+        ],
+        "stats": {
+            "Hp": 60,
+            "Attack": 55,
+            "Defense": 50,
+            "Sp. Attack": 40,
+            "Sp. Defense": 55,
+            "Speed": 45
+        }
+    },
+    {
+        "id": 49,
+        "nom": "Venomoth",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/49.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/49.png",
+        "types": [
+            "Bug",
+            "Poison"
+        ],
+        "stats": {
+            "Hp": 70,
+            "Attack": 65,
+            "Defense": 60,
+            "Sp. Attack": 90,
+            "Sp. Defense": 75,
+            "Speed": 90
+        }
+    },
+    {
+        "id": 50,
+        "nom": "Diglett",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/50.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/50.png",
+        "types": [
+            "Ground"
+        ],
+        "stats": {
+            "Hp": 10,
+            "Attack": 55,
+            "Defense": 25,
+            "Sp. Attack": 35,
+            "Sp. Defense": 45,
+            "Speed": 95
+        }
+    },
+    {
+        "id": 51,
+        "nom": "Dugtrio",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/51.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/51.png",
+        "types": [
+            "Ground"
+        ],
+        "stats": {
+            "Hp": 35,
+            "Attack": 100,
+            "Defense": 50,
+            "Sp. Attack": 50,
+            "Sp. Defense": 70,
+            "Speed": 120
+        }
+    },
+    {
+        "id": 52,
+        "nom": "Meowth",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/52.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/52.png",
+        "types": [
+            "Normal"
+        ],
+        "stats": {
+            "Hp": 40,
+            "Attack": 45,
+            "Defense": 35,
+            "Sp. Attack": 40,
+            "Sp. Defense": 40,
+            "Speed": 90
+        }
+    },
+    {
+        "id": 53,
+        "nom": "Persian",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/53.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/53.png",
+        "types": [
+            "Normal"
+        ],
+        "stats": {
+            "Hp": 65,
+            "Attack": 70,
+            "Defense": 60,
+            "Sp. Attack": 65,
+            "Sp. Defense": 65,
+            "Speed": 115
+        }
+    },
+    {
+        "id": 54,
+        "nom": "Psyduck",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/54.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/54.png",
+        "types": [
+            "Water"
+        ],
+        "stats": {
+            "Hp": 50,
+            "Attack": 52,
+            "Defense": 48,
+            "Sp. Attack": 65,
+            "Sp. Defense": 50,
+            "Speed": 55
+        }
+    },
+    {
+        "id": 55,
+        "nom": "Golduck",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/55.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/55.png",
+        "types": [
+            "Water"
+        ],
+        "stats": {
+            "Hp": 80,
+            "Attack": 82,
+            "Defense": 78,
+            "Sp. Attack": 95,
+            "Sp. Defense": 80,
+            "Speed": 85
+        }
+    },
+    {
+        "id": 56,
+        "nom": "Mankey",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/56.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/56.png",
+        "types": [
+            "Fighting"
+        ],
+        "stats": {
+            "Hp": 40,
+            "Attack": 80,
+            "Defense": 35,
+            "Sp. Attack": 35,
+            "Sp. Defense": 45,
+            "Speed": 70
+        }
+    },
+    {
+        "id": 57,
+        "nom": "Primeape",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/57.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/57.png",
+        "types": [
+            "Fighting"
+        ],
+        "stats": {
+            "Hp": 65,
+            "Attack": 105,
+            "Defense": 60,
+            "Sp. Attack": 60,
+            "Sp. Defense": 70,
+            "Speed": 95
+        }
+    },
+    {
+        "id": 58,
+        "nom": "Growlithe",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/58.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/58.png",
+        "types": [
+            "Fire"
+        ],
+        "stats": {
+            "Hp": 55,
+            "Attack": 70,
+            "Defense": 45,
+            "Sp. Attack": 70,
+            "Sp. Defense": 50,
+            "Speed": 60
+        }
+    },
+    {
+        "id": 59,
+        "nom": "Arcanine",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/59.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/59.png",
+        "types": [
+            "Fire"
+        ],
+        "stats": {
+            "Hp": 90,
+            "Attack": 110,
+            "Defense": 80,
+            "Sp. Attack": 100,
+            "Sp. Defense": 80,
+            "Speed": 95
+        }
+    },
+    {
+        "id": 60,
+        "nom": "Poliwag",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/60.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/60.png",
+        "types": [
+            "Water"
+        ],
+        "stats": {
+            "Hp": 40,
+            "Attack": 50,
+            "Defense": 40,
+            "Sp. Attack": 40,
+            "Sp. Defense": 40,
+            "Speed": 90
+        }
+    },
+    {
+        "id": 61,
+        "nom": "Poliwhirl",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/61.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/61.png",
+        "types": [
+            "Water"
+        ],
+        "stats": {
+            "Hp": 65,
+            "Attack": 65,
+            "Defense": 65,
+            "Sp. Attack": 50,
+            "Sp. Defense": 50,
+            "Speed": 90
+        }
+    },
+    {
+        "id": 62,
+        "nom": "Poliwrath",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/62.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/62.png",
+        "types": [
+            "Water",
+            "Fighting"
+        ],
+        "stats": {
+            "Hp": 90,
+            "Attack": 95,
+            "Defense": 95,
+            "Sp. Attack": 70,
+            "Sp. Defense": 90,
+            "Speed": 70
+        }
+    },
+    {
+        "id": 63,
+        "nom": "Abra",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/63.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/63.png",
+        "types": [
+            "Psychic"
+        ],
+        "stats": {
+            "Hp": 25,
+            "Attack": 20,
+            "Defense": 15,
+            "Sp. Attack": 105,
+            "Sp. Defense": 55,
+            "Speed": 90
+        }
+    },
+    {
+        "id": 64,
+        "nom": "Kadabra",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/64.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/64.png",
+        "types": [
+            "Psychic"
+        ],
+        "stats": {
+            "Hp": 40,
+            "Attack": 35,
+            "Defense": 30,
+            "Sp. Attack": 120,
+            "Sp. Defense": 70,
+            "Speed": 105
+        }
+    },
+    {
+        "id": 65,
+        "nom": "Alakazam",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/65.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/65.png",
+        "types": [
+            "Psychic"
+        ],
+        "stats": {
+            "Hp": 55,
+            "Attack": 50,
+            "Defense": 45,
+            "Sp. Attack": 135,
+            "Sp. Defense": 95,
+            "Speed": 120
+        }
+    },
+    {
+        "id": 66,
+        "nom": "Machop",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/66.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/66.png",
+        "types": [
+            "Fighting"
+        ],
+        "stats": {
+            "Hp": 70,
+            "Attack": 80,
+            "Defense": 50,
+            "Sp. Attack": 35,
+            "Sp. Defense": 35,
+            "Speed": 35
+        }
+    },
+    {
+        "id": 67,
+        "nom": "Machoke",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/67.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/67.png",
+        "types": [
+            "Fighting"
+        ],
+        "stats": {
+            "Hp": 80,
+            "Attack": 100,
+            "Defense": 70,
+            "Sp. Attack": 50,
+            "Sp. Defense": 60,
+            "Speed": 45
+        }
+    },
+    {
+        "id": 68,
+        "nom": "Machamp",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/68.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/68.png",
+        "types": [
+            "Fighting"
+        ],
+        "stats": {
+            "Hp": 90,
+            "Attack": 130,
+            "Defense": 80,
+            "Sp. Attack": 65,
+            "Sp. Defense": 85,
+            "Speed": 55
+        }
+    },
+    {
+        "id": 69,
+        "nom": "Bellsprout",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/69.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/69.png",
+        "types": [
+            "Grass",
+            "Poison"
+        ],
+        "stats": {
+            "Hp": 50,
+            "Attack": 75,
+            "Defense": 35,
+            "Sp. Attack": 70,
+            "Sp. Defense": 30,
+            "Speed": 40
+        }
+    },
+    {
+        "id": 70,
+        "nom": "Weepinbell",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/70.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/70.png",
+        "types": [
+            "Grass",
+            "Poison"
+        ],
+        "stats": {
+            "Hp": 65,
+            "Attack": 90,
+            "Defense": 50,
+            "Sp. Attack": 85,
+            "Sp. Defense": 45,
+            "Speed": 55
+        }
+    },
+    {
+        "id": 71,
+        "nom": "Victreebel",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/71.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/71.png",
+        "types": [
+            "Grass",
+            "Poison"
+        ],
+        "stats": {
+            "Hp": 80,
+            "Attack": 105,
+            "Defense": 65,
+            "Sp. Attack": 100,
+            "Sp. Defense": 70,
+            "Speed": 70
+        }
+    },
+    {
+        "id": 72,
+        "nom": "Tentacool",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/72.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/72.png",
+        "types": [
+            "Water",
+            "Poison"
+        ],
+        "stats": {
+            "Hp": 40,
+            "Attack": 40,
+            "Defense": 35,
+            "Sp. Attack": 50,
+            "Sp. Defense": 100,
+            "Speed": 70
+        }
+    },
+    {
+        "id": 73,
+        "nom": "Tentacruel",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/73.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/73.png",
+        "types": [
+            "Water",
+            "Poison"
+        ],
+        "stats": {
+            "Hp": 80,
+            "Attack": 70,
+            "Defense": 65,
+            "Sp. Attack": 80,
+            "Sp. Defense": 120,
+            "Speed": 100
+        }
+    },
+    {
+        "id": 74,
+        "nom": "Geodude",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/74.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/74.png",
+        "types": [
+            "Rock",
+            "Ground"
+        ],
+        "stats": {
+            "Hp": 40,
+            "Attack": 80,
+            "Defense": 100,
+            "Sp. Attack": 30,
+            "Sp. Defense": 30,
+            "Speed": 20
+        }
+    },
+    {
+        "id": 75,
+        "nom": "Graveler",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/75.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/75.png",
+        "types": [
+            "Rock",
+            "Ground"
+        ],
+        "stats": {
+            "Hp": 55,
+            "Attack": 95,
+            "Defense": 115,
+            "Sp. Attack": 45,
+            "Sp. Defense": 45,
+            "Speed": 35
+        }
+    },
+    {
+        "id": 76,
+        "nom": "Golem",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/76.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/76.png",
+        "types": [
+            "Rock",
+            "Ground"
+        ],
+        "stats": {
+            "Hp": 80,
+            "Attack": 120,
+            "Defense": 130,
+            "Sp. Attack": 55,
+            "Sp. Defense": 65,
+            "Speed": 45
+        }
+    },
+    {
+        "id": 77,
+        "nom": "Ponyta",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/77.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/77.png",
+        "types": [
+            "Fire"
+        ],
+        "stats": {
+            "Hp": 50,
+            "Attack": 85,
+            "Defense": 55,
+            "Sp. Attack": 65,
+            "Sp. Defense": 65,
+            "Speed": 90
+        }
+    },
+    {
+        "id": 78,
+        "nom": "Rapidash",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/78.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/78.png",
+        "types": [
+            "Fire"
+        ],
+        "stats": {
+            "Hp": 65,
+            "Attack": 100,
+            "Defense": 70,
+            "Sp. Attack": 80,
+            "Sp. Defense": 80,
+            "Speed": 105
+        }
+    },
+    {
+        "id": 79,
+        "nom": "Slowpoke",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/79.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/79.png",
+        "types": [
+            "Water",
+            "Psychic"
+        ],
+        "stats": {
+            "Hp": 90,
+            "Attack": 65,
+            "Defense": 65,
+            "Sp. Attack": 40,
+            "Sp. Defense": 40,
+            "Speed": 15
+        }
+    },
+    {
+        "id": 80,
+        "nom": "Slowbro",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/80.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/80.png",
+        "types": [
+            "Water",
+            "Psychic"
+        ],
+        "stats": {
+            "Hp": 95,
+            "Attack": 75,
+            "Defense": 110,
+            "Sp. Attack": 100,
+            "Sp. Defense": 80,
+            "Speed": 30
+        }
+    },
+    {
+        "id": 81,
+        "nom": "Magnemite",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/81.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/81.png",
+        "types": [
+            "Electric",
+            "Steel"
+        ],
+        "stats": {
+            "Hp": 25,
+            "Attack": 35,
+            "Defense": 70,
+            "Sp. Attack": 95,
+            "Sp. Defense": 55,
+            "Speed": 45
+        }
+    },
+    {
+        "id": 82,
+        "nom": "Magneton",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/82.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/82.png",
+        "types": [
+            "Electric",
+            "Steel"
+        ],
+        "stats": {
+            "Hp": 50,
+            "Attack": 60,
+            "Defense": 95,
+            "Sp. Attack": 120,
+            "Sp. Defense": 70,
+            "Speed": 70
+        }
+    },
+    {
+        "id": 83,
+        "nom": "Farfetchd",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/83.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/83.png",
+        "types": [
+            "Normal",
+            "Flying"
+        ],
+        "stats": {
+            "Hp": 52,
+            "Attack": 90,
+            "Defense": 55,
+            "Sp. Attack": 58,
+            "Sp. Defense": 62,
+            "Speed": 60
+        }
+    },
+    {
+        "id": 84,
+        "nom": "Doduo",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/84.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/84.png",
+        "types": [
+            "Normal",
+            "Flying"
+        ],
+        "stats": {
+            "Hp": 35,
+            "Attack": 85,
+            "Defense": 45,
+            "Sp. Attack": 35,
+            "Sp. Defense": 35,
+            "Speed": 75
+        }
+    },
+    {
+        "id": 85,
+        "nom": "Dodrio",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/85.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/85.png",
+        "types": [
+            "Normal",
+            "Flying"
+        ],
+        "stats": {
+            "Hp": 60,
+            "Attack": 110,
+            "Defense": 70,
+            "Sp. Attack": 60,
+            "Sp. Defense": 60,
+            "Speed": 110
+        }
+    },
+    {
+        "id": 86,
+        "nom": "Seel",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/86.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/86.png",
+        "types": [
+            "Water"
+        ],
+        "stats": {
+            "Hp": 65,
+            "Attack": 45,
+            "Defense": 55,
+            "Sp. Attack": 45,
+            "Sp. Defense": 70,
+            "Speed": 45
+        }
+    },
+    {
+        "id": 87,
+        "nom": "Dewgong",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/87.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/87.png",
+        "types": [
+            "Water",
+            "Ice"
+        ],
+        "stats": {
+            "Hp": 90,
+            "Attack": 70,
+            "Defense": 80,
+            "Sp. Attack": 70,
+            "Sp. Defense": 95,
+            "Speed": 70
+        }
+    },
+    {
+        "id": 88,
+        "nom": "Grimer",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/88.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/88.png",
+        "types": [
+            "Poison"
+        ],
+        "stats": {
+            "Hp": 80,
+            "Attack": 80,
+            "Defense": 50,
+            "Sp. Attack": 40,
+            "Sp. Defense": 50,
+            "Speed": 25
+        }
+    },
+    {
+        "id": 89,
+        "nom": "Muk",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/89.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/89.png",
+        "types": [
+            "Poison"
+        ],
+        "stats": {
+            "Hp": 105,
+            "Attack": 105,
+            "Defense": 75,
+            "Sp. Attack": 65,
+            "Sp. Defense": 100,
+            "Speed": 50
+        }
+    },
+    {
+        "id": 90,
+        "nom": "Shellder",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/90.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/90.png",
+        "types": [
+            "Water"
+        ],
+        "stats": {
+            "Hp": 30,
+            "Attack": 65,
+            "Defense": 100,
+            "Sp. Attack": 45,
+            "Sp. Defense": 25,
+            "Speed": 40
+        }
+    },
+    {
+        "id": 91,
+        "nom": "Cloyster",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/91.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/91.png",
+        "types": [
+            "Water",
+            "Ice"
+        ],
+        "stats": {
+            "Hp": 50,
+            "Attack": 95,
+            "Defense": 180,
+            "Sp. Attack": 85,
+            "Sp. Defense": 45,
+            "Speed": 70
+        }
+    },
+    {
+        "id": 92,
+        "nom": "Gastly",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/92.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/92.png",
+        "types": [
+            "Ghost",
+            "Poison"
+        ],
+        "stats": {
+            "Hp": 30,
+            "Attack": 35,
+            "Defense": 30,
+            "Sp. Attack": 100,
+            "Sp. Defense": 35,
+            "Speed": 80
+        }
+    },
+    {
+        "id": 93,
+        "nom": "Haunter",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/93.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/93.png",
+        "types": [
+            "Ghost",
+            "Poison"
+        ],
+        "stats": {
+            "Hp": 45,
+            "Attack": 50,
+            "Defense": 45,
+            "Sp. Attack": 115,
+            "Sp. Defense": 55,
+            "Speed": 95
+        }
+    },
+    {
+        "id": 94,
+        "nom": "Gengar",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/94.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/94.png",
+        "types": [
+            "Ghost",
+            "Poison"
+        ],
+        "stats": {
+            "Hp": 60,
+            "Attack": 65,
+            "Defense": 60,
+            "Sp. Attack": 130,
+            "Sp. Defense": 75,
+            "Speed": 110
+        }
+    },
+    {
+        "id": 95,
+        "nom": "Onix",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/95.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/95.png",
+        "types": [
+            "Rock",
+            "Ground"
+        ],
+        "stats": {
+            "Hp": 35,
+            "Attack": 45,
+            "Defense": 160,
+            "Sp. Attack": 30,
+            "Sp. Defense": 45,
+            "Speed": 70
+        }
+    },
+    {
+        "id": 96,
+        "nom": "Drowzee",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/96.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/96.png",
+        "types": [
+            "Psychic"
+        ],
+        "stats": {
+            "Hp": 60,
+            "Attack": 48,
+            "Defense": 45,
+            "Sp. Attack": 43,
+            "Sp. Defense": 90,
+            "Speed": 42
+        }
+    },
+    {
+        "id": 97,
+        "nom": "Hypno",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/97.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/97.png",
+        "types": [
+            "Psychic"
+        ],
+        "stats": {
+            "Hp": 85,
+            "Attack": 73,
+            "Defense": 70,
+            "Sp. Attack": 73,
+            "Sp. Defense": 115,
+            "Speed": 67
+        }
+    },
+    {
+        "id": 98,
+        "nom": "Krabby",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/98.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/98.png",
+        "types": [
+            "Water"
+        ],
+        "stats": {
+            "Hp": 30,
+            "Attack": 105,
+            "Defense": 90,
+            "Sp. Attack": 25,
+            "Sp. Defense": 25,
+            "Speed": 50
+        }
+    },
+    {
+        "id": 99,
+        "nom": "Kingler",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/99.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/99.png",
+        "types": [
+            "Water"
+        ],
+        "stats": {
+            "Hp": 55,
+            "Attack": 130,
+            "Defense": 115,
+            "Sp. Attack": 50,
+            "Sp. Defense": 50,
+            "Speed": 75
+        }
+    },
+    {
+        "id": 100,
+        "nom": "Voltorb",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/100.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/100.png",
+        "types": [
+            "Electric"
+        ],
+        "stats": {
+            "Hp": 40,
+            "Attack": 30,
+            "Defense": 50,
+            "Sp. Attack": 55,
+            "Sp. Defense": 55,
+            "Speed": 100
+        }
+    },
+    {
+        "id": 101,
+        "nom": "Electrode",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/101.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/101.png",
+        "types": [
+            "Electric"
+        ],
+        "stats": {
+            "Hp": 60,
+            "Attack": 50,
+            "Defense": 70,
+            "Sp. Attack": 80,
+            "Sp. Defense": 80,
+            "Speed": 150
+        }
+    },
+    {
+        "id": 102,
+        "nom": "Exeggcute",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/102.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/102.png",
+        "types": [
+            "Grass",
+            "Psychic"
+        ],
+        "stats": {
+            "Hp": 60,
+            "Attack": 40,
+            "Defense": 80,
+            "Sp. Attack": 60,
+            "Sp. Defense": 45,
+            "Speed": 40
+        }
+    },
+    {
+        "id": 103,
+        "nom": "Exeggutor",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/103.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/103.png",
+        "types": [
+            "Grass",
+            "Psychic"
+        ],
+        "stats": {
+            "Hp": 95,
+            "Attack": 95,
+            "Defense": 85,
+            "Sp. Attack": 125,
+            "Sp. Defense": 75,
+            "Speed": 55
+        }
+    },
+    {
+        "id": 104,
+        "nom": "Cubone",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/104.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/104.png",
+        "types": [
+            "Ground"
+        ],
+        "stats": {
+            "Hp": 50,
+            "Attack": 50,
+            "Defense": 95,
+            "Sp. Attack": 40,
+            "Sp. Defense": 50,
+            "Speed": 35
+        }
+    },
+    {
+        "id": 105,
+        "nom": "Marowak",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/105.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/105.png",
+        "types": [
+            "Ground"
+        ],
+        "stats": {
+            "Hp": 60,
+            "Attack": 80,
+            "Defense": 110,
+            "Sp. Attack": 50,
+            "Sp. Defense": 80,
+            "Speed": 45
+        }
+    },
+    {
+        "id": 106,
+        "nom": "Hitmonlee",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/106.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/106.png",
+        "types": [
+            "Fighting"
+        ],
+        "stats": {
+            "Hp": 50,
+            "Attack": 120,
+            "Defense": 53,
+            "Sp. Attack": 35,
+            "Sp. Defense": 110,
+            "Speed": 87
+        }
+    },
+    {
+        "id": 107,
+        "nom": "Hitmonchan",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/107.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/107.png",
+        "types": [
+            "Fighting"
+        ],
+        "stats": {
+            "Hp": 50,
+            "Attack": 105,
+            "Defense": 79,
+            "Sp. Attack": 35,
+            "Sp. Defense": 110,
+            "Speed": 76
+        }
+    },
+    {
+        "id": 108,
+        "nom": "Lickitung",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/108.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/108.png",
+        "types": [
+            "Normal"
+        ],
+        "stats": {
+            "Hp": 90,
+            "Attack": 55,
+            "Defense": 75,
+            "Sp. Attack": 60,
+            "Sp. Defense": 75,
+            "Speed": 30
+        }
+    },
+    {
+        "id": 109,
+        "nom": "Koffing",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/109.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/109.png",
+        "types": [
+            "Poison"
+        ],
+        "stats": {
+            "Hp": 40,
+            "Attack": 65,
+            "Defense": 95,
+            "Sp. Attack": 60,
+            "Sp. Defense": 45,
+            "Speed": 35
+        }
+    },
+    {
+        "id": 110,
+        "nom": "Weezing",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/110.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/110.png",
+        "types": [
+            "Poison"
+        ],
+        "stats": {
+            "Hp": 65,
+            "Attack": 90,
+            "Defense": 120,
+            "Sp. Attack": 85,
+            "Sp. Defense": 70,
+            "Speed": 60
+        }
+    },
+    {
+        "id": 111,
+        "nom": "Rhyhorn",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/111.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/111.png",
+        "types": [
+            "Ground",
+            "Rock"
+        ],
+        "stats": {
+            "Hp": 80,
+            "Attack": 85,
+            "Defense": 95,
+            "Sp. Attack": 30,
+            "Sp. Defense": 30,
+            "Speed": 25
+        }
+    },
+    {
+        "id": 112,
+        "nom": "Rhydon",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/112.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/112.png",
+        "types": [
+            "Ground",
+            "Rock"
+        ],
+        "stats": {
+            "Hp": 105,
+            "Attack": 130,
+            "Defense": 120,
+            "Sp. Attack": 45,
+            "Sp. Defense": 45,
+            "Speed": 40
+        }
+    },
+    {
+        "id": 113,
+        "nom": "Chansey",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/113.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/113.png",
+        "types": [
+            "Normal"
+        ],
+        "stats": {
+            "Hp": 250,
+            "Attack": 5,
+            "Defense": 5,
+            "Sp. Attack": 35,
+            "Sp. Defense": 105,
+            "Speed": 50
+        }
+    },
+    {
+        "id": 114,
+        "nom": "Tangela",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/114.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/114.png",
+        "types": [
+            "Grass"
+        ],
+        "stats": {
+            "Hp": 65,
+            "Attack": 55,
+            "Defense": 115,
+            "Sp. Attack": 100,
+            "Sp. Defense": 40,
+            "Speed": 60
+        }
+    },
+    {
+        "id": 115,
+        "nom": "Kangaskhan",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/115.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/115.png",
+        "types": [
+            "Normal"
+        ],
+        "stats": {
+            "Hp": 105,
+            "Attack": 95,
+            "Defense": 80,
+            "Sp. Attack": 40,
+            "Sp. Defense": 80,
+            "Speed": 90
+        }
+    },
+    {
+        "id": 116,
+        "nom": "Horsea",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/116.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/116.png",
+        "types": [
+            "Water"
+        ],
+        "stats": {
+            "Hp": 30,
+            "Attack": 40,
+            "Defense": 70,
+            "Sp. Attack": 70,
+            "Sp. Defense": 25,
+            "Speed": 60
+        }
+    },
+    {
+        "id": 117,
+        "nom": "Seadra",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/117.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/117.png",
+        "types": [
+            "Water"
+        ],
+        "stats": {
+            "Hp": 55,
+            "Attack": 65,
+            "Defense": 95,
+            "Sp. Attack": 95,
+            "Sp. Defense": 45,
+            "Speed": 85
+        }
+    },
+    {
+        "id": 118,
+        "nom": "Goldeen",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/118.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/118.png",
+        "types": [
+            "Water"
+        ],
+        "stats": {
+            "Hp": 45,
+            "Attack": 67,
+            "Defense": 60,
+            "Sp. Attack": 35,
+            "Sp. Defense": 50,
+            "Speed": 63
+        }
+    },
+    {
+        "id": 119,
+        "nom": "Seaking",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/119.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/119.png",
+        "types": [
+            "Water"
+        ],
+        "stats": {
+            "Hp": 80,
+            "Attack": 92,
+            "Defense": 65,
+            "Sp. Attack": 65,
+            "Sp. Defense": 80,
+            "Speed": 68
+        }
+    },
+    {
+        "id": 120,
+        "nom": "Staryu",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/120.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/120.png",
+        "types": [
+            "Water"
+        ],
+        "stats": {
+            "Hp": 30,
+            "Attack": 45,
+            "Defense": 55,
+            "Sp. Attack": 70,
+            "Sp. Defense": 55,
+            "Speed": 85
+        }
+    },
+    {
+        "id": 121,
+        "nom": "Starmie",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/121.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/121.png",
+        "types": [
+            "Water",
+            "Psychic"
+        ],
+        "stats": {
+            "Hp": 60,
+            "Attack": 75,
+            "Defense": 85,
+            "Sp. Attack": 100,
+            "Sp. Defense": 85,
+            "Speed": 115
+        }
+    },
+    {
+        "id": 122,
+        "nom": "Mr-mime",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/122.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/122.png",
+        "types": [
+            "Psychic",
+            "Fairy"
+        ],
+        "stats": {
+            "Hp": 40,
+            "Attack": 45,
+            "Defense": 65,
+            "Sp. Attack": 100,
+            "Sp. Defense": 120,
+            "Speed": 90
+        }
+    },
+    {
+        "id": 123,
+        "nom": "Scyther",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/123.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/123.png",
+        "types": [
+            "Bug",
+            "Flying"
+        ],
+        "stats": {
+            "Hp": 70,
+            "Attack": 110,
+            "Defense": 80,
+            "Sp. Attack": 55,
+            "Sp. Defense": 80,
+            "Speed": 105
+        }
+    },
+    {
+        "id": 124,
+        "nom": "Jynx",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/124.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/124.png",
+        "types": [
+            "Ice",
+            "Psychic"
+        ],
+        "stats": {
+            "Hp": 65,
+            "Attack": 50,
+            "Defense": 35,
+            "Sp. Attack": 115,
+            "Sp. Defense": 95,
+            "Speed": 95
+        }
+    },
+    {
+        "id": 125,
+        "nom": "Electabuzz",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/125.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/125.png",
+        "types": [
+            "Electric"
+        ],
+        "stats": {
+            "Hp": 65,
+            "Attack": 83,
+            "Defense": 57,
+            "Sp. Attack": 95,
+            "Sp. Defense": 85,
+            "Speed": 105
+        }
+    },
+    {
+        "id": 126,
+        "nom": "Magmar",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/126.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/126.png",
+        "types": [
+            "Fire"
+        ],
+        "stats": {
+            "Hp": 65,
+            "Attack": 95,
+            "Defense": 57,
+            "Sp. Attack": 100,
+            "Sp. Defense": 85,
+            "Speed": 93
+        }
+    },
+    {
+        "id": 127,
+        "nom": "Pinsir",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/127.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/127.png",
+        "types": [
+            "Bug"
+        ],
+        "stats": {
+            "Hp": 65,
+            "Attack": 125,
+            "Defense": 100,
+            "Sp. Attack": 55,
+            "Sp. Defense": 70,
+            "Speed": 85
+        }
+    },
+    {
+        "id": 128,
+        "nom": "Tauros",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/128.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/128.png",
+        "types": [
+            "Normal"
+        ],
+        "stats": {
+            "Hp": 75,
+            "Attack": 100,
+            "Defense": 95,
+            "Sp. Attack": 40,
+            "Sp. Defense": 70,
+            "Speed": 110
+        }
+    },
+    {
+        "id": 129,
+        "nom": "Magikarp",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/129.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/129.png",
+        "types": [
+            "Water"
+        ],
+        "stats": {
+            "Hp": 20,
+            "Attack": 10,
+            "Defense": 55,
+            "Sp. Attack": 15,
+            "Sp. Defense": 20,
+            "Speed": 80
+        }
+    },
+    {
+        "id": 130,
+        "nom": "Gyarados",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/130.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/130.png",
+        "types": [
+            "Water",
+            "Flying"
+        ],
+        "stats": {
+            "Hp": 95,
+            "Attack": 125,
+            "Defense": 79,
+            "Sp. Attack": 60,
+            "Sp. Defense": 100,
+            "Speed": 81
+        }
+    },
+    {
+        "id": 131,
+        "nom": "Lapras",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/131.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/131.png",
+        "types": [
+            "Water",
+            "Ice"
+        ],
+        "stats": {
+            "Hp": 130,
+            "Attack": 85,
+            "Defense": 80,
+            "Sp. Attack": 85,
+            "Sp. Defense": 95,
+            "Speed": 60
+        }
+    },
+    {
+        "id": 132,
+        "nom": "Ditto",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/132.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/132.png",
+        "types": [
+            "Normal"
+        ],
+        "stats": {
+            "Hp": 48,
+            "Attack": 48,
+            "Defense": 48,
+            "Sp. Attack": 48,
+            "Sp. Defense": 48,
+            "Speed": 48
+        }
+    },
+    {
+        "id": 133,
+        "nom": "Eevee",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/133.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/133.png",
+        "types": [
+            "Normal"
+        ],
+        "stats": {
+            "Hp": 55,
+            "Attack": 55,
+            "Defense": 50,
+            "Sp. Attack": 45,
+            "Sp. Defense": 65,
+            "Speed": 55
+        }
+    },
+    {
+        "id": 134,
+        "nom": "Vaporeon",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/134.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/134.png",
+        "types": [
+            "Water"
+        ],
+        "stats": {
+            "Hp": 130,
+            "Attack": 65,
+            "Defense": 60,
+            "Sp. Attack": 110,
+            "Sp. Defense": 95,
+            "Speed": 65
+        }
+    },
+    {
+        "id": 135,
+        "nom": "Jolteon",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/135.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/135.png",
+        "types": [
+            "Electric"
+        ],
+        "stats": {
+            "Hp": 65,
+            "Attack": 65,
+            "Defense": 60,
+            "Sp. Attack": 110,
+            "Sp. Defense": 95,
+            "Speed": 130
+        }
+    },
+    {
+        "id": 136,
+        "nom": "Flareon",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/136.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/136.png",
+        "types": [
+            "Fire"
+        ],
+        "stats": {
+            "Hp": 65,
+            "Attack": 130,
+            "Defense": 60,
+            "Sp. Attack": 95,
+            "Sp. Defense": 110,
+            "Speed": 65
+        }
+    },
+    {
+        "id": 137,
+        "nom": "Porygon",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/137.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/137.png",
+        "types": [
+            "Normal"
+        ],
+        "stats": {
+            "Hp": 65,
+            "Attack": 60,
+            "Defense": 70,
+            "Sp. Attack": 85,
+            "Sp. Defense": 75,
+            "Speed": 40
+        }
+    },
+    {
+        "id": 138,
+        "nom": "Omanyte",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/138.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/138.png",
+        "types": [
+            "Rock",
+            "Water"
+        ],
+        "stats": {
+            "Hp": 35,
+            "Attack": 40,
+            "Defense": 100,
+            "Sp. Attack": 90,
+            "Sp. Defense": 55,
+            "Speed": 35
+        }
+    },
+    {
+        "id": 139,
+        "nom": "Omastar",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/139.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/139.png",
+        "types": [
+            "Rock",
+            "Water"
+        ],
+        "stats": {
+            "Hp": 70,
+            "Attack": 60,
+            "Defense": 125,
+            "Sp. Attack": 115,
+            "Sp. Defense": 70,
+            "Speed": 55
+        }
+    },
+    {
+        "id": 140,
+        "nom": "Kabuto",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/140.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/140.png",
+        "types": [
+            "Rock",
+            "Water"
+        ],
+        "stats": {
+            "Hp": 30,
+            "Attack": 80,
+            "Defense": 90,
+            "Sp. Attack": 55,
+            "Sp. Defense": 45,
+            "Speed": 55
+        }
+    },
+    {
+        "id": 141,
+        "nom": "Kabutops",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/141.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/141.png",
+        "types": [
+            "Rock",
+            "Water"
+        ],
+        "stats": {
+            "Hp": 60,
+            "Attack": 115,
+            "Defense": 105,
+            "Sp. Attack": 65,
+            "Sp. Defense": 70,
+            "Speed": 80
+        }
+    },
+    {
+        "id": 142,
+        "nom": "Aerodactyl",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/142.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/142.png",
+        "types": [
+            "Rock",
+            "Flying"
+        ],
+        "stats": {
+            "Hp": 80,
+            "Attack": 105,
+            "Defense": 65,
+            "Sp. Attack": 60,
+            "Sp. Defense": 75,
+            "Speed": 130
+        }
+    },
+    {
+        "id": 143,
+        "nom": "Snorlax",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/143.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/143.png",
+        "types": [
+            "Normal"
+        ],
+        "stats": {
+            "Hp": 160,
+            "Attack": 110,
+            "Defense": 65,
+            "Sp. Attack": 65,
+            "Sp. Defense": 110,
+            "Speed": 30
+        }
+    },
+    {
+        "id": 144,
+        "nom": "Articuno",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/144.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/144.png",
+        "types": [
+            "Ice",
+            "Flying"
+        ],
+        "stats": {
+            "Hp": 90,
+            "Attack": 85,
+            "Defense": 100,
+            "Sp. Attack": 95,
+            "Sp. Defense": 125,
+            "Speed": 85
+        }
+    },
+    {
+        "id": 145,
+        "nom": "Zapdos",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/145.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/145.png",
+        "types": [
+            "Electric",
+            "Flying"
+        ],
+        "stats": {
+            "Hp": 90,
+            "Attack": 90,
+            "Defense": 85,
+            "Sp. Attack": 125,
+            "Sp. Defense": 90,
+            "Speed": 100
+        }
+    },
+    {
+        "id": 146,
+        "nom": "Moltres",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/146.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/146.png",
+        "types": [
+            "Fire",
+            "Flying"
+        ],
+        "stats": {
+            "Hp": 90,
+            "Attack": 100,
+            "Defense": 90,
+            "Sp. Attack": 125,
+            "Sp. Defense": 85,
+            "Speed": 90
+        }
+    },
+    {
+        "id": 147,
+        "nom": "Dratini",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/147.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/147.png",
+        "types": [
+            "Dragon"
+        ],
+        "stats": {
+            "Hp": 41,
+            "Attack": 64,
+            "Defense": 45,
+            "Sp. Attack": 50,
+            "Sp. Defense": 50,
+            "Speed": 50
+        }
+    },
+    {
+        "id": 148,
+        "nom": "Dragonair",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/148.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/148.png",
+        "types": [
+            "Dragon"
+        ],
+        "stats": {
+            "Hp": 61,
+            "Attack": 84,
+            "Defense": 65,
+            "Sp. Attack": 70,
+            "Sp. Defense": 70,
+            "Speed": 70
+        }
+    },
+    {
+        "id": 149,
+        "nom": "Dragonite",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/149.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/149.png",
+        "types": [
+            "Dragon",
+            "Flying"
+        ],
+        "stats": {
+            "Hp": 91,
+            "Attack": 134,
+            "Defense": 95,
+            "Sp. Attack": 100,
+            "Sp. Defense": 100,
+            "Speed": 80
+        }
+    },
+    {
+        "id": 150,
+        "nom": "Mewtwo",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/150.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/150.png",
+        "types": [
+            "Psychic"
+        ],
+        "stats": {
+            "Hp": 106,
+            "Attack": 110,
+            "Defense": 90,
+            "Sp. Attack": 154,
+            "Sp. Defense": 90,
+            "Speed": 130
+        }
+    },
+    {
+        "id": 151,
+        "nom": "Mew",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/151.png",
+        "thumbnail": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/151.png",
+        "types": [
+            "Psychic"
+        ],
+        "stats": {
+            "Hp": 100,
+            "Attack": 100,
+            "Defense": 100,
+            "Sp. Attack": 100,
+            "Sp. Defense": 100,
+            "Speed": 100
+        }
+    }
+]
