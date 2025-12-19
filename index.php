@@ -122,4 +122,49 @@ function getTypeColor($type_slug) {
         .brand { display: flex; align-items: center; gap: 10px; flex-shrink: 0; }
         .brand img { height: 35px; }
         .brand h1 { margin: 0; font-size: 1.4em; letter-spacing: 0.5px; color: white; }
-        .brand:hover { opacity: 0.
+        .brand:hover { opacity: 0.9; }
+
+        /* OUTILS (Recherche + Filtres) */
+        .header-tools { 
+            display: flex; gap: 10px; flex-grow: 1; justify-content: center;
+            width: 100%; order: 3; 
+        }
+        
+        /* INPUTS HEADER STYLE */
+        .header-input { 
+            background: #444; border: 1px solid #555; color: white; 
+            padding: 8px 15px; border-radius: 20px; outline: none; font-size: 0.9em;
+        }
+        .header-input:focus { background: #555; border-color: #777; }
+        .search-bar { flex-grow: 1; max-width: 400px; } 
+        .filter-select { cursor: pointer; max-width: 120px;}
+
+        /* BOUTON LANGUE */
+        .lang-btn { 
+            background: #444; color: white; padding: 6px 12px; border-radius: 15px; 
+            font-size: 0.8em; font-weight: bold; border: 1px solid #555; flex-shrink: 0;
+            order: 2; 
+        }
+        .lang-btn:hover { background: #666; }
+
+        /* RESPONSIVE HEADER (PC) */
+        @media (min-width: 900px) {
+            .header-tools { 
+                width: auto; order: 2; 
+                justify-content: flex-end; 
+            }
+            .lang-btn { order: 3; }
+        }
+
+        /* GRID */
+        .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 15px; margin-top: 20px; }
+        .card { background: white; padding: 15px; border-radius: 16px; text-align: center; box-shadow: 0 2px 10px rgba(0,0,0,0.03); transition: transform 0.2s; border: 1px solid white; display: block; position: relative;}
+        .card:hover { transform: translateY(-5px); box-shadow: 0 8px 20px rgba(0,0,0,0.08); }
+        .card img { width: 100px; height: 100px; object-fit: contain; margin-bottom: 10px; }
+        .card-id { color: #ccc; font-weight: bold; font-size: 0.8em; position: absolute; top: 10px; right: 15px; }
+        .type-pill { color: white; padding: 3px 8px; border-radius: 10px; font-size: 0.7em; margin: 2px; display: inline-block; font-weight: 600; }
+        .card.hidden { display: none !important; }
+
+        /* DETAIL CARD */
+        .detail-card { background: white; border-radius: 24px; padding: 30px; box-shadow: 0 15px 40px rgba(0,0,0,0.08); max-width: 800px; margin: 20px auto; position: relative;}
+        .detail-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 20px;
