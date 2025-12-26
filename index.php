@@ -12,29 +12,31 @@ $filter_type = isset($_GET['type']) ? $_GET['type'] : null;
 $tr = [
     'fr' => [
         'title' => 'Pokédex',
-        'search_placeholder' => 'Rechercher...',
+        'subtitle' => 'Encyclopédie Complète',
+        'search_placeholder' => 'Rechercher un Pokémon...',
         'stats' => 'Statistiques',
         'weight' => 'Poids', 'height' => 'Taille',
-        'back' => 'Retour',
+        'back' => 'Retour à la liste',
         'family' => 'Famille d\'évolution',
-        'switch_lang' => 'EN', 'switch_link' => 'en', // Version courte pour le header
+        'switch_lang' => 'English', 'switch_link' => 'en',
         'hp' => 'PV', 'attack' => 'Attaque', 'defense' => 'Défense', 
         'special-attack' => 'Atq. Spé', 'special-defense' => 'Déf. Spé', 'speed' => 'Vitesse',
-        'sort_label' => 'Trier', 'sort_id' => '#', 'sort_name' => 'A-Z',
-        'type_label' => 'Type', 'all_types' => 'Tous'
+        'sort_label' => 'Trier :', 'sort_id' => 'Numéro', 'sort_name' => 'Nom (A-Z)',
+        'type_label' => 'Type :', 'all_types' => 'Tous les types'
     ],
     'en' => [
         'title' => 'Pokedex',
-        'search_placeholder' => 'Search...',
+        'subtitle' => 'The Complete Encyclopedia',
+        'search_placeholder' => 'Search a Pokemon...',
         'stats' => 'Base Stats',
         'weight' => 'Weight', 'height' => 'Height',
-        'back' => 'Back',
+        'back' => 'Back to list',
         'family' => 'Evolution Chain',
-        'switch_lang' => 'FR', 'switch_link' => 'fr', // Version courte pour le header
+        'switch_lang' => 'Français', 'switch_link' => 'fr',
         'hp' => 'HP', 'attack' => 'Attack', 'defense' => 'Defense', 
         'special-attack' => 'Sp. Atk', 'special-defense' => 'Sp. Def', 'speed' => 'Speed',
-        'sort_label' => 'Sort', 'sort_id' => '#', 'sort_name' => 'A-Z',
-        'type_label' => 'Type', 'all_types' => 'All'
+        'sort_label' => 'Sort:', 'sort_id' => 'Number', 'sort_name' => 'Name (A-Z)',
+        'type_label' => 'Type:', 'all_types' => 'All Types'
     ]
 ];
 $t = $tr[$lang]; 
@@ -105,60 +107,43 @@ function getTypeColor($type_slug) {
     <title><?php echo $pokemon_actuel ? $pokemon_actuel['noms'][$lang] : $t['title']; ?></title>
     
     <style>
-        /* RESET & BASE */
-        body { font-family: 'Segoe UI', sans-serif; background: #f0f2f5; color: #333; margin: 0; padding: 0; }
-        .container { max-width: 1200px; margin: 0 auto; padding: 20px; }
+        /* BASE & RESET */
+        body { font-family: 'Segoe UI', sans-serif; background: #f0f2f5; color: #333; margin: 0; padding: 0; } /* Padding 0 pour que le header colle au bord */
+        .container { max-width: 1100px; margin: 0 auto; padding: 20px; }
         a { text-decoration: none; color: inherit; }
         
-        /* === HEADER COMPLEXE === */
-        header { background-color: #222; color: white; padding: 10px 0; box-shadow: 0 4px 10px rgba(0,0,0,0.2); position: sticky; top: 0; z-index: 1000; }
+        /* HEADER PRO */
+        header { background-color: #333; color: white; padding: 15px 0; box-shadow: 0 4px 10px rgba(0,0,0,0.1); position: sticky; top: 0; z-index: 1000; }
+        .header-content { max-width: 1100px; margin: 0 auto; padding: 0 20px; display: flex; justify-content: space-between; align-items: center; }
         
-        .header-content { 
-            max-width: 1200px; margin: 0 auto; padding: 0 20px; 
-            display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 15px;
+        .brand { display: flex; align-items: center; gap: 15px; }
+        .brand img { height: 40px; }
+        .brand h1 { margin: 0; font-size: 1.5em; letter-spacing: 1px; }
+        .brand small { opacity: 0.7; font-size: 0.6em; font-weight: normal; margin-left: 10px; display: none; }
+        @media (min-width: 768px) { .brand small { display: inline; } } /* Sous-titre visible seulement sur ordi */
+
+        .lang-btn { background: rgba(255,255,255,0.1); color: white; padding: 8px 15px; border-radius: 20px; font-size: 0.85em; font-weight: bold; transition: 0.2s; border: 1px solid rgba(255,255,255,0.2); }
+        .lang-btn:hover { background: rgba(255,255,255,0.3); }
+
+        /* --- CONTROLS BAR --- */
+        .controls-bar { 
+            background: white; padding: 15px 20px; border-radius: 25px; box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+            display: flex; flex-direction: column; gap: 15px; margin-bottom: 30px; margin-top: 10px;
+        }
+        @media (min-width: 768px) {
+            .controls-bar { flex-direction: row; align-items: center; justify-content: space-between; }
+            .search-group { flex: 3; } 
+            .filters-group { flex: 2; }
         }
 
-        /* LOGO */
-        .brand { display: flex; align-items: center; gap: 10px; flex-shrink: 0; }
-        .brand img { height: 35px; }
-        .brand h1 { margin: 0; font-size: 1.4em; letter-spacing: 0.5px; color: white; }
-        .brand:hover { opacity: 0.9; }
+        .search-input { width: 100%; padding: 12px 15px; border: 1px solid #eee; border-radius: 20px; font-size: 1em; outline: none; background: #f9f9f9; box-sizing: border-box; }
+        .search-input:focus { border-color: #ccc; background: white; }
 
-        /* OUTILS (Recherche + Filtres) */
-        .header-tools { 
-            display: flex; gap: 10px; flex-grow: 1; justify-content: center;
-            /* Mobile par défaut : prend 100% de la largeur sur une nouvelle ligne */
-            width: 100%; order: 3; 
-        }
+        .filters-group { display: flex; gap: 10px; width: 100%; }
+        .custom-select { flex: 1; padding: 12px 15px; border-radius: 20px; border: 1px solid #eee; background: #f9f9f9; cursor: pointer; font-size: 0.9em; outline: none; min-width: 0;}
         
-        /* INPUTS HEADER STYLE */
-        .header-input { 
-            background: #444; border: 1px solid #555; color: white; 
-            padding: 8px 15px; border-radius: 20px; outline: none; font-size: 0.9em;
-        }
-        .header-input:focus { background: #555; border-color: #777; }
-        .search-bar { flex-grow: 1; max-width: 400px; } /* Barre de recherche extensible */
-        .filter-select { cursor: pointer; max-width: 120px;}
-
-        /* BOUTON LANGUE */
-        .lang-btn { 
-            background: #444; color: white; padding: 6px 12px; border-radius: 15px; 
-            font-size: 0.8em; font-weight: bold; border: 1px solid #555; flex-shrink: 0;
-            order: 2; /* Sur mobile, reste à droite du logo */
-        }
-        .lang-btn:hover { background: #666; }
-
-        /* RESPONSIVE HEADER (PC) */
-        @media (min-width: 900px) {
-            .header-tools { 
-                width: auto; order: 2; /* Repasse au milieu */
-                justify-content: flex-end; /* Colle vers la droite mais laisse la place au bouton lang */
-            }
-            .lang-btn { order: 3; }
-        }
-
         /* GRID */
-        .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 15px; margin-top: 20px; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 15px; }
         .card { background: white; padding: 15px; border-radius: 16px; text-align: center; box-shadow: 0 2px 10px rgba(0,0,0,0.03); transition: transform 0.2s; border: 1px solid white; display: block; position: relative;}
         .card:hover { transform: translateY(-5px); box-shadow: 0 8px 20px rgba(0,0,0,0.08); }
         .card img { width: 100px; height: 100px; object-fit: contain; margin-bottom: 10px; }
@@ -181,43 +166,29 @@ function getTypeColor($type_slug) {
 <body>
 
 <?php 
-// LIENS ET VARS
+// LIENS HEADER
 $home_url = "/?lang=" . $lang . "&type=" . $filter_type . "&sort=" . $sort_order;
-$lang_switch_url = "?lang=" . $t['switch_link'] . ($filter_type ? "&type=$filter_type" : "") . "&sort=$sort_order;
+$lang_switch_url = "?lang=" . $t['switch_link'] . ($filter_type ? "&type=$filter_type" : "") . "&sort=$sort_order";
+if ($pokemon_actuel) {
+    // Si on est sur une fiche, on reste sur la fiche en changeant de langue
+    $current_slug = ($lang == 'fr') ? strtolower($pokemon_actuel['noms']['en']) : strtolower($pokemon_actuel['noms']['fr']);
+    // (Note: l'URL rewriting de base peut rendre ça complexe, on reste simple ici : retour accueil avec switch langue si trop complexe)
+}
 ?>
 
 <header>
     <div class="header-content">
         <a href="<?php echo $home_url; ?>" class="brand">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/poke-ball.png" alt="Logo">
-            <h1><?php echo $t['title']; ?></h1>
+            <div>
+                <h1><?php echo $t['title']; ?></h1>
+            </div>
+            <small><?php echo $t['subtitle']; ?></small>
         </a>
 
         <a href="<?php echo $lang_switch_url; ?>" class="lang-btn">
             <?php echo $t['switch_lang']; ?>
         </a>
-
-        <?php if (!$pokemon_actuel): ?>
-            <form method="GET" action="/" class="header-tools">
-                <input type="hidden" name="lang" value="<?php echo $lang; ?>">
-                
-                <input type="text" id="searchInput" class="header-input search-bar" placeholder="<?php echo $t['search_placeholder']; ?>">
-                
-                <select name="type" class="header-input filter-select" onchange="this.form.submit()">
-                    <option value=""><?php echo $t['all_types']; ?></option>
-                    <?php foreach($type_names as $slug => $names): ?>
-                        <option value="<?php echo $slug; ?>" <?php echo $filter_type == $slug ? 'selected' : ''; ?>>
-                            <?php echo $names[$lang]; ?>
-                        </option>
-                    <?php endforeach; ?>
-                </select>
-
-                <select name="sort" class="header-input filter-select" onchange="this.form.submit()">
-                    <option value="id" <?php echo $sort_order == 'id' ? 'selected' : ''; ?>><?php echo $t['sort_id']; ?></option>
-                    <option value="name" <?php echo $sort_order == 'name' ? 'selected' : ''; ?>><?php echo $t['sort_name']; ?></option>
-                </select>
-            </form>
-        <?php endif; ?>
     </div>
 </header>
 
@@ -225,6 +196,7 @@ $lang_switch_url = "?lang=" . $t['switch_link'] . ($filter_type ? "&type=$filter
 
     <?php if ($pokemon_actuel): ?>
         <div class="detail-card">
+            
             <a href="<?php echo $home_url; ?>" class="btn-retour">← <?php echo $t['back']; ?></a>
             <br><br>
 
@@ -281,6 +253,30 @@ $lang_switch_url = "?lang=" . $t['switch_link'] . ($filter_type ? "&type=$filter
         </div>
 
     <?php else: ?>
+        <div class="controls-bar">
+            <div class="search-group">
+                <input type="text" id="searchInput" class="search-input" placeholder="<?php echo $t['search_placeholder']; ?>">
+            </div>
+            
+            <form method="GET" action="/" class="filters-group">
+                <input type="hidden" name="lang" value="<?php echo $lang; ?>">
+                
+                <select name="type" class="custom-select" onchange="this.form.submit()">
+                    <option value=""><?php echo $t['all_types']; ?></option>
+                    <?php foreach($type_names as $slug => $names): ?>
+                        <option value="<?php echo $slug; ?>" <?php echo $filter_type == $slug ? 'selected' : ''; ?>>
+                            <?php echo $names[$lang]; ?>
+                        </option>
+                    <?php endforeach; ?>
+                </select>
+
+                <select name="sort" class="custom-select" onchange="this.form.submit()">
+                    <option value="id" <?php echo $sort_order == 'id' ? 'selected' : ''; ?>><?php echo $t['sort_id']; ?></option>
+                    <option value="name" <?php echo $sort_order == 'name' ? 'selected' : ''; ?>><?php echo $t['sort_name']; ?></option>
+                </select>
+            </form>
+        </div>
+
         <div class="grid" id="pokeGrid">
             <?php foreach ($pokedex as $pokemon): ?>
                 <?php 
